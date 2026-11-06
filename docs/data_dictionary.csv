@@ -1,0 +1,189 @@
+table_name,table_category,field_name,field_type,sql_type,is_required,is_pk,fk_reference,allowed_values,units,is_unique,validation_rule,description
+cost_center,Core,cost_center_id,string,VARCHAR(32),True,True,,,,True,"Regex ^CC-\d{3,6}$",Unique cost center identifier.
+cost_center,Core,code,string,VARCHAR(32),True,False,,ENG;SALES;MKT;GNA;PROD;HR;FIN;OPS,,True,Upper alphanumeric code,Cost center functional code.
+cost_center,Core,name,string,VARCHAR(128),True,False,,,,False,Non-empty string,Human readable cost center department name.
+cost_center,Core,department,string,VARCHAR(64),True,False,,,,False,Non-empty string,Department grouping.
+cost_center,Core,manager_id,string,VARCHAR(32),True,False,employee.employee_id,,,False,FK to Employee,Cost center owner/approver employee ID.
+cost_center,Core,budget_currency,string,VARCHAR(3),True,False,,USD,ISO 4217,False,Currency code USD,Budget currency denomination.
+cost_center,Core,annual_budget,float,"NUMERIC(14,2)",True,False,,,USD,False,Value >= 0.0,Approved annual budget allocation.
+cost_center,Core,status,string,VARCHAR(16),True,False,,ACTIVE;INACTIVE,,False,"Enum ACTIVE, INACTIVE",Operational status.
+employee,Core,employee_id,string,VARCHAR(32),True,True,,,,True,Regex ^EMP-\d{6}$,Unique employee identifier.
+employee,Core,first_name,string,VARCHAR(64),True,False,,,,False,Non-empty string,Synthetic first name.
+employee,Core,last_name,string,VARCHAR(64),True,False,,,,False,Non-empty string,Synthetic last name.
+employee,Core,email,string,VARCHAR(128),True,False,,,,True,Ends with @example.com,Synthetic corporate email address.
+employee,Core,country,string,VARCHAR(2),True,False,,IN;US;UK;DE;SG,ISO 3166-1,False,"Enum IN, US, UK, DE, SG",Primary country of employment.
+employee,Core,city,string,VARCHAR(64),True,False,,,,False,Non-empty string,Work location city.
+employee,Core,hire_date,date,DATE,True,False,,,YYYY-MM-DD,False,Date <= as_of_date,Official date of hire.
+employee,Core,termination_date,date,DATE,False,False,,,YYYY-MM-DD,False,Date >= hire_date or empty,Termination date if separated.
+employee,Core,status,string,VARCHAR(16),True,False,,ACTIVE;TERMINATED;ON_LEAVE,,False,Enum status,Employment status.
+employee,Core,employee_type,string,VARCHAR(16),True,False,,FULL_TIME;CONTRACT,,False,Enum employee_type,Worker classification.
+employee,Core,job_level,integer,INTEGER,True,False,,1;2;3;4;5;6,Level 1-6,False,Integer 1 to 6,"Hierarchy level (1=IC, 6=CEO)."
+employee,Core,job_title,string,VARCHAR(128),True,False,,,,False,Non-empty string,Role title.
+employee,Core,grade,string,VARCHAR(8),True,False,,L1;L2;L3;L4;L5;L6,,False,Enum L1-L6,Compensation/authority grade.
+employee,Core,manager_id,string,VARCHAR(32),False,False,employee.employee_id,,,False,FK to Employee self or empty for CEO,Direct manager employee ID.
+employee,Core,cost_center_id,string,VARCHAR(32),True,False,cost_center.cost_center_id,,,False,FK to CostCenter,Primary allocated cost center.
+employee,Core,is_finance_approver,boolean,BOOLEAN,True,False,,0;1;true;false,Boolean,False,0 or 1,Whether employee has Finance sign-off authority.
+employee,Core,is_hr_approver,boolean,BOOLEAN,True,False,,0;1;true;false,Boolean,False,0 or 1,Whether employee has HR sign-off authority.
+employee,Core,role,string,VARCHAR(32),True,False,,REQUESTER;APPROVER;PROCESS_OWNER;OPS_ANALYST;SYSTEM_ADMIN,,False,Enum role,Primary persona/responsibility.
+holiday_calendar,Supporting,holiday_id,string,VARCHAR(32),True,True,,,,True,Regex ^HOL-\d{6}$,Unique holiday calendar entry ID.
+holiday_calendar,Supporting,country,string,VARCHAR(2),True,False,,IN;US;UK;DE;SG,ISO 3166-1,False,Enum country,Country code.
+holiday_calendar,Supporting,holiday_date,date,DATE,True,False,,,YYYY-MM-DD,False,Valid date,Calendar date of the holiday.
+holiday_calendar,Supporting,holiday_name,string,VARCHAR(128),True,False,,,,False,Non-empty string,Official holiday name.
+holiday_calendar,Supporting,is_half_day,boolean,BOOLEAN,True,False,,0;1;true;false,Boolean,False,0 or 1,Whether the holiday counts as a half working day.
+leave_policy,Core,policy_id,string,VARCHAR(16),True,True,,,,True,Regex ^LPOL-\d{2}$,Unique leave policy identifier.
+leave_policy,Core,policy_name,string,VARCHAR(64),True,False,,Annual;Sick;Casual;Parental;Unpaid;Comp-Off,,True,Enum policy_name,Name of leave category.
+leave_policy,Core,description,string,VARCHAR(255),True,False,,,,False,Non-empty string,Summary of policy terms.
+leave_policy,Core,country_scope,string,VARCHAR(8),True,False,,ALL;IN;US;UK;DE;SG,,False,Country scope or ALL,Jurisdiction applicability.
+leave_policy,Core,accrual_days_per_month,float,"NUMERIC(5,2)",True,False,,,days/month,False,Value >= 0.0,Monthly earned leave rate.
+leave_policy,Core,annual_cap,float,"NUMERIC(5,2)",True,False,,,days/year,False,Value >= 0.0,Maximum annual accrual entitlement.
+leave_policy,Core,carry_forward_max,float,"NUMERIC(5,2)",True,False,,,days,False,Value >= 0.0,Maximum days carried into subsequent calendar year.
+leave_policy,Core,min_notice_days,integer,INTEGER,True,False,,,days,False,Value >= 0,Lead time required before leave commences.
+leave_policy,Core,max_consecutive_days,integer,INTEGER,True,False,,,days,False,Value > 0,Maximum contiguous calendar/business span allowed.
+leave_policy,Core,requires_doc_after_days,integer,INTEGER,True,False,,,days,False,Value >= 0,Consecutive days after which medical certificate is mandatory.
+leave_policy,Core,allows_negative_balance,boolean,BOOLEAN,True,False,,0;1;true;false,Boolean,False,0 or 1,Whether deficit balance is permitted.
+leave_policy,Core,approval_levels_by_duration,integer,INTEGER,True,False,,1;2;3,Levels,False,"1, 2, or 3",Default required approval depth.
+leave_policy,Core,effective_from,date,DATE,True,False,,,YYYY-MM-DD,False,Date format,Policy inception date.
+leave_policy,Core,effective_to,date,DATE,True,False,,,YYYY-MM-DD,False,Date >= effective_from,Policy sunset/expiration date.
+leave_balance_ledger,Supporting,ledger_id,string,VARCHAR(32),True,True,,,,True,Regex ^LBLED-\d{6}$,Unique ledger entry identifier.
+leave_balance_ledger,Supporting,employee_id,string,VARCHAR(32),True,False,employee.employee_id,,,False,FK to Employee,Impacted employee.
+leave_balance_ledger,Supporting,policy_id,string,VARCHAR(16),True,False,leave_policy.policy_id,,,False,FK to LeavePolicy,Governing leave policy.
+leave_balance_ledger,Supporting,entry_type,string,VARCHAR(32),True,False,,ACCRUAL;USAGE;ADJUSTMENT;CARRY_FORWARD;FORFEIT,,False,Enum entry_type,Ledger posting type.
+leave_balance_ledger,Supporting,days,float,"NUMERIC(6,2)",True,False,,,days,False,Signed float,"Day delta (+ for credit, - for debit)."
+leave_balance_ledger,Supporting,effective_date,date,DATE,True,False,,,YYYY-MM-DD,False,Date format,Posting valuation date.
+leave_balance_ledger,Supporting,reference_id,string,VARCHAR(64),True,False,,,,False,Non-empty string,Source request ID or SYSTEM.
+leave_balance_ledger,Supporting,created_at,timestamp,TIMESTAMP,True,False,,,ISO 8601,False,Timestamp,Audit creation timestamp.
+leave_balance_ledger,Supporting,notes,string,VARCHAR(255),False,False,,,,False,String,Ledger narrative.
+leave_balance,Core,balance_id,string,VARCHAR(32),True,True,,,,True,Regex ^LBAL-\d{6}$,Unique balance snapshot identifier.
+leave_balance,Core,employee_id,string,VARCHAR(32),True,False,employee.employee_id,,,False,FK to Employee,Employee ID.
+leave_balance,Core,policy_id,string,VARCHAR(16),True,False,leave_policy.policy_id,,,False,FK to LeavePolicy,Policy ID.
+leave_balance,Core,as_of_date,date,DATE,True,False,,,YYYY-MM-DD,False,Reference date,Valuation date of the balance calculation.
+leave_balance,Core,opening_balance,float,"NUMERIC(6,2)",True,False,,,days,False,Float >= 0.0,Starting balance at period start.
+leave_balance,Core,accrued_days,float,"NUMERIC(6,2)",True,False,,,days,False,Float >= 0.0,Cumulative accrued days.
+leave_balance,Core,used_days,float,"NUMERIC(6,2)",True,False,,,days,False,Float >= 0.0,Total APPROVED leave days consumed.
+leave_balance,Core,adjusted_days,float,"NUMERIC(6,2)",True,False,,,days,False,Signed float,Manual/statutory ledger adjustments.
+leave_balance,Core,pending_days,float,"NUMERIC(6,2)",True,False,,,days,False,Float >= 0.0,Days currently tied in pending requests.
+leave_balance,Core,closing_balance,float,"NUMERIC(6,2)",True,False,,,days,False,closing = opening + accrued + adjusted - used,Net available leave balance.
+leave_request,Core,request_id,string,VARCHAR(32),True,True,,,,True,Regex ^LVE-2026-\d{6}$,Unique leave request identifier.
+leave_request,Core,employee_id,string,VARCHAR(32),True,False,employee.employee_id,,,False,FK to Employee,Applicant employee ID.
+leave_request,Core,policy_id,string,VARCHAR(16),True,False,leave_policy.policy_id,,,False,FK to LeavePolicy,Requested policy ID.
+leave_request,Core,start_date,date,DATE,True,False,,,YYYY-MM-DD,False,start_date <= end_date,First day of requested leave.
+leave_request,Core,end_date,date,DATE,True,False,,,YYYY-MM-DD,False,end_date >= start_date,Last day of requested leave.
+leave_request,Core,calendar_days,integer,INTEGER,True,False,,,days,False,end - start + 1,Total elapsed calendar days.
+leave_request,Core,business_days,integer,INTEGER,True,False,,,days,False,Excludes weekends and holidays,Net chargeable working days.
+leave_request,Core,weekend_days_in_span,integer,INTEGER,True,False,,,days,False,Weekend count,Count of Saturdays and Sundays in interval.
+leave_request,Core,holiday_days_in_span,integer,INTEGER,True,False,,,days,False,Holiday count,Count of official holidays in interval.
+leave_request,Core,submit_date,date,DATE,True,False,,,YYYY-MM-DD,False,submit_date <= start_date,Submission date.
+leave_request,Core,status,string,VARCHAR(32),True,False,,DRAFT;SUBMITTED;PENDING_APPROVAL;APPROVED;REJECTED;CANCELLED;CONSUMED,,False,Enum status,Current lifecycle status.
+leave_request,Core,reason_code,string,VARCHAR(32),True,False,,VACATION;ILLNESS;FAMILY;MATERNITY_PATERNITY;PERSONAL;EMERGENCY,,False,Enum reason_code,Applicant stated rationale.
+leave_request,Core,comments,string,VARCHAR(255),False,False,,,,False,Text,Applicant comments.
+leave_request_event,Event,event_id,string,VARCHAR(32),True,True,,,,True,Regex ^LVEV-\d{6}$,Unique leave transition event identifier.
+leave_request_event,Event,request_id,string,VARCHAR(32),True,False,leave_request.request_id,,,False,FK to LeaveRequest,Subject leave request.
+leave_request_event,Event,from_status,string,VARCHAR(32),True,False,,,,False,Valid status,Pre-transition status.
+leave_request_event,Event,to_status,string,VARCHAR(32),True,False,,,,False,Valid status,Post-transition status.
+leave_request_event,Event,actor_id,string,VARCHAR(32),True,False,employee.employee_id,,,False,FK to Employee,Employee ID executing action.
+leave_request_event,Event,timestamp,timestamp,TIMESTAMP,True,False,,,ISO 8601,False,Timestamp format,Time transition occurred.
+leave_request_event,Event,reason_code,string,VARCHAR(64),True,False,,,,False,Non-empty code,Audit reason code.
+leave_request_event,Event,comment,string,VARCHAR(255),False,False,,,,False,Text,Actor comment.
+expense_policy,Core,policy_id,string,VARCHAR(16),True,True,,,,True,Regex ^EPOL-\d{2}$,Unique expense policy identifier.
+expense_policy,Core,policy_name,string,VARCHAR(64),True,False,,,,True,Non-empty string,Policy title.
+expense_policy,Core,currency,string,VARCHAR(3),True,False,,USD,ISO 4217,False,USD,Reference currency.
+expense_policy,Core,daily_meal_limit,float,"NUMERIC(10,2)",True,False,,,USD,False,Value > 0.0,Per-diem meal cap per traveler.
+expense_policy,Core,receipt_required_threshold,float,"NUMERIC(10,2)",True,False,,,USD,False,Value >= 0.0,Threshold above which receipt is mandatory (e.g. 25.00).
+expense_policy,Core,max_claim_amount,float,"NUMERIC(12,2)",True,False,,,USD,False,Value > 0.0,Absolute ceiling per claim before special board escalation.
+expense_policy,Core,entertainment_per_person_limit,float,"NUMERIC(10,2)",True,False,,,USD,False,Value > 0.0,Client entertainment per-head limit.
+expense_policy,Core,equipment_auto_approval_limit,float,"NUMERIC(10,2)",True,False,,,USD,False,Value >= 0.0,IT equipment limit requiring department head signoff.
+expense_policy,Core,lodging_daily_limit_in,float,"NUMERIC(10,2)",True,False,,,USD,False,Value > 0.0,Daily lodging cap for India.
+expense_policy,Core,lodging_daily_limit_de,float,"NUMERIC(10,2)",True,False,,,USD,False,Value > 0.0,Daily lodging cap for Germany.
+expense_policy,Core,effective_from,date,DATE,True,False,,,YYYY-MM-DD,False,Date format,Policy inception date.
+expense_policy,Core,effective_to,date,DATE,True,False,,,YYYY-MM-DD,False,Date >= effective_from,Policy sunset date.
+expense_claim,Core,claim_id,string,VARCHAR(32),True,True,,,,True,Regex ^EXP-2026-\d{6}$,Unique expense claim header identifier.
+expense_claim,Core,employee_id,string,VARCHAR(32),True,False,employee.employee_id,,,False,FK to Employee,Claimant employee ID.
+expense_claim,Core,cost_center_id,string,VARCHAR(32),True,False,cost_center.cost_center_id,,,False,FK to CostCenter,Chargeable cost center.
+expense_claim,Core,policy_id,string,VARCHAR(16),True,False,expense_policy.policy_id,,,False,FK to ExpensePolicy,Governing expense policy.
+expense_claim,Core,claim_date,date,DATE,True,False,,,YYYY-MM-DD,False,claim_date <= submit_date,Date claim was assembled.
+expense_claim,Core,submit_date,date,DATE,True,False,,,YYYY-MM-DD,False,submit_date <= as_of_date,Submission date for approval.
+expense_claim,Core,purpose,string,VARCHAR(255),True,False,,,,False,Non-empty string,Business justification.
+expense_claim,Core,currency,string,VARCHAR(3),True,False,,USD;INR;GBP;EUR;SGD,ISO 4217,False,Local currency code,Claim primary local currency.
+expense_claim,Core,total_amount_local,float,"NUMERIC(12,2)",True,False,,,local currency,False,Sum of line amount_local,Total claim amount in local currency.
+expense_claim,Core,total_amount_base,float,"NUMERIC(12,2)",True,False,,,USD,False,Sum of line amount_base,Total claim amount normalized to base USD.
+expense_claim,Core,status,string,VARCHAR(32),True,False,,DRAFT;SUBMITTED;PENDING_APPROVAL;APPROVED;REJECTED;RETURNED_FOR_INFO;REIMBURSED,,False,Enum status,Lifecycle status.
+expense_claim,Core,line_count,integer,INTEGER,True,False,,,count,False,Integer 1-10,Number of constituent expense line items.
+expense_line,Core,line_id,string,VARCHAR(64),True,True,,,,True,Regex ^EXPL-EXP-2026-\d{6}-\d{2}$,Unique line item identifier.
+expense_line,Core,claim_id,string,VARCHAR(32),True,False,expense_claim.claim_id,,,False,FK to ExpenseClaim,Parent expense claim ID.
+expense_line,Core,line_number,integer,INTEGER,True,False,,,index,False,1 to 10,Sequential line number within claim.
+expense_line,Core,expense_date,date,DATE,True,False,,,YYYY-MM-DD,False,expense_date <= claim submit_date,Date expense was incurred.
+expense_line,Core,category,string,VARCHAR(32),True,False,,TRAVEL;LODGING;MEALS;CLIENT_ENTERTAINMENT;SOFTWARE;EQUIPMENT;TRAINING;MISC,,False,Enum category,Expense category.
+expense_line,Core,description,string,VARCHAR(255),True,False,,,,False,Non-empty string,Itemized purchase narrative.
+expense_line,Core,amount_local,float,"NUMERIC(10,2)",True,False,,,local currency,False,amount_local > 0.0,Incurred amount in vendor currency.
+expense_line,Core,currency,string,VARCHAR(3),True,False,,USD;INR;GBP;EUR;SGD,ISO 4217,False,Currency enum,Transaction currency.
+expense_line,Core,exchange_rate_to_base,float,"NUMERIC(8,4)",True,False,,,rate,False,rate > 0.0,Fixed currency conversion rate to USD.
+expense_line,Core,amount_base,float,"NUMERIC(10,2)",True,False,,,USD,False,amount_local * exchange_rate,Converted value in USD.
+expense_line,Core,merchant_name,string,VARCHAR(128),True,False,,,,False,Non-empty string,Vendor / merchant name.
+expense_line,Core,receipt_id,string,VARCHAR(32),False,False,,,,False,Regex ^RCP-\d{6}$ or empty,Embedded receipt identifier.
+expense_line,Core,receipt_hash,string,VARCHAR(64),False,False,,,SHA-256 hex,False,64 hex chars or empty,Deterministic SHA-256 hash of receipt metadata.
+expense_line,Core,receipt_date,date,DATE,False,False,,,YYYY-MM-DD,False,Valid date or empty,Date stamped on physical receipt.
+expense_line,Core,has_receipt,boolean,BOOLEAN,True,False,,0;1;true;false,Boolean,False,0 or 1,Receipt presence flag.
+expense_line,Core,file_name,string,VARCHAR(128),False,False,,,,False,Filename or empty,Synthetic receipt scan filename.
+expense_line,Core,is_disallowed,boolean,BOOLEAN,True,False,,0;1;true;false,Boolean,False,0 or 1,Flag if disallowed by auditor/approver.
+expense_claim_event,Event,event_id,string,VARCHAR(32),True,True,,,,True,Regex ^EXPV-\d{6}$,Unique expense transition event identifier.
+expense_claim_event,Event,claim_id,string,VARCHAR(32),True,False,expense_claim.claim_id,,,False,FK to ExpenseClaim,Subject claim.
+expense_claim_event,Event,from_status,string,VARCHAR(32),True,False,,,,False,Valid status,Previous claim status.
+expense_claim_event,Event,to_status,string,VARCHAR(32),True,False,,,,False,Valid status,New claim status.
+expense_claim_event,Event,actor_id,string,VARCHAR(32),True,False,employee.employee_id,,,False,FK to Employee,Acting employee/system ID.
+expense_claim_event,Event,timestamp,timestamp,TIMESTAMP,True,False,,,ISO 8601,False,Timestamp,Transition timestamp.
+expense_claim_event,Event,reason_code,string,VARCHAR(64),True,False,,,,False,Non-empty code,Lifecycle reason code.
+expense_claim_event,Event,comment,string,VARCHAR(255),False,False,,,,False,Text,Reviewer/system remarks.
+approval_rule,Core,rule_id,string,VARCHAR(16),True,True,,,,True,Regex ^ARUL-\d{2}$,Unique approval rule identifier.
+approval_rule,Core,rule_code,string,VARCHAR(32),True,False,,,,True,Unique rule code,Standard mnemonic rule code.
+approval_rule,Core,name,string,VARCHAR(128),True,False,,,,False,Non-empty string,Rule title.
+approval_rule,Core,entity_type,string,VARCHAR(16),True,False,,LEAVE;EXPENSE,,False,LEAVE or EXPENSE,Target business domain.
+approval_rule,Core,min_amount,float,"NUMERIC(12,2)",True,False,,,USD,False,min_amount >= 0.0,Minimum threshold in USD.
+approval_rule,Core,max_amount,float,"NUMERIC(12,2)",True,False,,,USD,False,max_amount >= min_amount,Upper threshold ceiling in USD.
+approval_rule,Core,min_duration_days,integer,INTEGER,True,False,,,days,False,days >= 0,Minimum leave duration for rule applicability.
+approval_rule,Core,max_duration_days,integer,INTEGER,True,False,,,days,False,days >= min_duration_days,Maximum leave duration.
+approval_rule,Core,required_role,string,VARCHAR(32),True,False,,MANAGER;DIRECTOR;VP;FINANCE;HR;CFO,,False,Enum role,Organizational role required to approve.
+approval_rule,Core,min_approver_level,integer,INTEGER,True,False,,1;2;3;4;5;6,Level,False,Integer 1-6,Minimum job level required.
+approval_rule,Core,step_number,integer,INTEGER,True,False,,1;2;3;4,Step,False,Integer 1-4,Sequential step index in multi-level workflow.
+approval_rule,Core,description,string,VARCHAR(255),True,False,,,,False,Text,Rule explanation.
+approval_rule_category,Bridge,rule_category_id,string,VARCHAR(32),True,True,,,,True,Regex ^ARC-\d{6}$,Bridge record ID.
+approval_rule_category,Bridge,rule_id,string,VARCHAR(16),True,False,approval_rule.rule_id,,,False,FK to ApprovalRule,Target approval rule.
+approval_rule_category,Bridge,category,string,VARCHAR(32),True,False,,ALL;TRAVEL;LODGING;MEALS;CLIENT_ENTERTAINMENT;SOFTWARE;EQUIPMENT;TRAINING;MISC,,False,Expense category or ALL,Scoped expense category.
+approval_rule_country,Bridge,rule_country_id,string,VARCHAR(32),True,True,,,,True,Regex ^ARCTRY-\d{6}$,Bridge record ID.
+approval_rule_country,Bridge,rule_id,string,VARCHAR(16),True,False,approval_rule.rule_id,,,False,FK to ApprovalRule,Target approval rule.
+approval_rule_country,Bridge,country,string,VARCHAR(8),True,False,,ALL;IN;US;UK;DE;SG,,False,Country code or ALL,Scoped country jurisdiction.
+approval_step,Core,step_id,string,VARCHAR(64),True,True,,,,True,Regex ^APR-(LVE|EXP)...-\d{2}$,Unique approval step identifier.
+approval_step,Core,request_id,string,VARCHAR(32),True,False,,,,False,FK to LeaveRequest or ExpenseClaim,Subject request or claim identifier.
+approval_step,Core,step_number,integer,INTEGER,True,False,,1;2;3;4,Step,False,Integer 1-4,Sequential sequence number.
+approval_step,Core,rule_id,string,VARCHAR(16),True,False,approval_rule.rule_id,,,False,FK to ApprovalRule,Enforced rule.
+approval_step,Core,approver_id,string,VARCHAR(32),True,False,employee.employee_id,,,False,FK to Employee,Assigned approver employee ID.
+approval_step,Core,level,integer,INTEGER,True,False,,1;2;3;4;5;6,Level,False,Integer 1-6,Approver hierarchy level.
+approval_step,Core,due_date,date,DATE,True,False,,,YYYY-MM-DD,False,Valid date,Target completion deadline.
+approval_step,Core,status,string,VARCHAR(16),True,False,,PENDING;APPROVED;REJECTED;SKIPPED;ESCALATED,,False,Enum status,Step lifecycle status.
+approval_step,Core,decided_at,timestamp,TIMESTAMP,False,False,,,ISO 8601,False,Timestamp or empty,Decision execution timestamp.
+approval_step,Core,decision,string,VARCHAR(16),True,False,,APPROVE;REJECT;ESCALATE;SKIP;PENDING,,False,Enum decision,Action rendered.
+approval_step,Core,reason_code,string,VARCHAR(64),True,False,,,,False,Non-empty code,Structured decision reason code.
+approval_step,Core,comment,string,VARCHAR(255),False,False,,,,False,Text,Approver rationale comment.
+employee_cost_center_assignment,Bridge,assignment_id,string,VARCHAR(32),True,True,,,,True,Regex ^ECCA-\d{6}$,Unique assignment identifier.
+employee_cost_center_assignment,Bridge,employee_id,string,VARCHAR(32),True,False,employee.employee_id,,,False,FK to Employee,Assigned employee.
+employee_cost_center_assignment,Bridge,cost_center_id,string,VARCHAR(32),True,False,cost_center.cost_center_id,,,False,FK to CostCenter,Assigned cost center.
+employee_cost_center_assignment,Bridge,allocation_percentage,float,"NUMERIC(5,2)",True,False,,,percentage,False,Between 1.0 and 100.0,Budget allocation weight.
+employee_cost_center_assignment,Bridge,effective_from,date,DATE,True,False,,,YYYY-MM-DD,False,Date format,Start of assignment window.
+employee_cost_center_assignment,Bridge,effective_to,date,DATE,True,False,,,YYYY-MM-DD,False,effective_to >= effective_from,End of assignment window.
+employee_cost_center_assignment,Bridge,is_primary,boolean,BOOLEAN,True,False,,0;1;true;false,Boolean,False,0 or 1,Primary cost center flag.
+decision_log,Audit,decision_id,string,VARCHAR(32),True,True,,,,True,Regex ^DEC-\d{6}$,Unique decision audit identifier.
+decision_log,Audit,subject_id,string,VARCHAR(32),True,False,,,,False,LVE or EXP ID,Target leave request or expense claim ID.
+decision_log,Audit,decision,string,VARCHAR(32),True,False,,APPROVE;REJECT;ESCALATE;RETURN_FOR_INFO;AUTO_APPROVED,,False,Enum decision,Final rendered verdict.
+decision_log,Audit,reason_code,string,VARCHAR(64),True,False,,,,False,Structured code,Standardized decision reason code.
+decision_log,Audit,reason_text,string,VARCHAR(255),True,False,,,,False,Human readable explanation,Explanatory decision narrative.
+decision_log,Audit,rule_id,string,VARCHAR(32),True,False,,,,False,Rule identifier,Triggering policy or approval rule ID.
+decision_log,Audit,inputs_snapshot_json,json,TEXT,True,False,,,JSON,False,Valid JSON string,Serialized snapshot of input parameters evaluated.
+decision_log,Audit,timestamp,timestamp,TIMESTAMP,True,False,,,ISO 8601,False,Timestamp,Audit logging timestamp.
+reimbursement,Core,reimbursement_id,string,VARCHAR(32),True,True,,,,True,Regex ^RMB-2026-\d{6}$,Unique reimbursement payment identifier.
+reimbursement,Core,claim_id,string,VARCHAR(32),True,False,expense_claim.claim_id,,,False,FK to ExpenseClaim,Parent approved expense claim ID.
+reimbursement,Core,employee_id,string,VARCHAR(32),True,False,employee.employee_id,,,False,FK to Employee,Payee employee ID.
+reimbursement,Core,payment_method,string,VARCHAR(32),True,False,,DIRECT_DEPOSIT;WIRE_TRANSFER;PAYROLL,,False,Enum payment_method,Treasury disbursement channel.
+reimbursement,Core,currency,string,VARCHAR(3),True,False,,USD;INR;GBP;EUR;SGD,ISO 4217,False,Currency enum,Disbursement currency.
+reimbursement,Core,amount,float,"NUMERIC(12,2)",True,False,,,Currency,False,amount > 0.0,Total disbursed amount (sum of approved lines).
+reimbursement,Core,payment_date,date,DATE,True,False,,,YYYY-MM-DD,False,payment_date >= approval date,Date payment was executed.
+reimbursement,Core,transaction_reference,string,VARCHAR(64),True,False,,,,True,Regex ^TXN-\d{8}$,Bank transaction reference number.
+reimbursement,Core,status,string,VARCHAR(16),True,False,,PROCESSED;PENDING;FAILED,,False,Enum status,Disbursement processing status.

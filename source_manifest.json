@@ -1,0 +1,13 @@
+{
+  "provenance": "100% Synthetic",
+  "external_data_used": false,
+  "paid_services_used": false,
+  "network_calls_used": false,
+  "public_references": [
+    "General corporate leave and expense policy structures (for schema inspiration only, e.g., FMLA, statutory leaves in IN/US/UK/DE/SG, IRS travel & expense substantiation guidelines)"
+  ],
+  "as_of_date": "2026-10-22",
+  "generator": "yottagen",
+  "license": "MIT",
+  "statement": "No external dataset, customer data, proprietary database, or personally identifiable information was collected, extracted, scraped, or ingested. All names, emails, amounts, transaction hashes, dates, and organizational hierarchies are generated strictly deterministically via random.Random seeded pseudorandom algorithms."
+}
