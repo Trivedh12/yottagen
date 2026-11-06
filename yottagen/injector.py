@@ -483,7 +483,7 @@ def inject_anomalies(
             gt_idx += 1
 
     # Natural: WEEKEND_HOLIDAY_SPAN (informational ground-truth label for multi-day spans)
-    weekend_spans = [r for r in lb.requests if r["weekend_days_in_span"] > 0 or r["holiday_days_in_span"] > 0][:target_count]
+    weekend_spans = [r for r in lb.requests if r["weekend_days_in_span"] > 0 or r["holiday_days_in_span"] > 0]
     for req in weekend_spans:
         ground_truth.append(
             GroundTruthRecord(
