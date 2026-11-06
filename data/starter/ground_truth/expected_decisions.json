@@ -1,0 +1,1304 @@
+[
+  {
+    "subject_id": "EXP-2026-000001",
+    "entity_type": "EXPENSE",
+    "expected_decision": "REJECT",
+    "expected_reason_code": "EX-004_DATE_OUTSIDE_EMPLOYMENT",
+    "business_metric": 506.42
+  },
+  {
+    "subject_id": "EXP-2026-000002",
+    "entity_type": "EXPENSE",
+    "expected_decision": "REJECT",
+    "expected_reason_code": "EX-004_DATE_OUTSIDE_EMPLOYMENT",
+    "business_metric": 119.16
+  },
+  {
+    "subject_id": "EXP-2026-000003",
+    "entity_type": "EXPENSE",
+    "expected_decision": "REJECT",
+    "expected_reason_code": "EX-001_MISSING_RECEIPT",
+    "business_metric": 2850.28
+  },
+  {
+    "subject_id": "EXP-2026-000004",
+    "entity_type": "EXPENSE",
+    "expected_decision": "REJECT",
+    "expected_reason_code": "CC-001_MISSING_COST_CENTER",
+    "business_metric": 1345.23
+  },
+  {
+    "subject_id": "EXP-2026-000005",
+    "entity_type": "EXPENSE",
+    "expected_decision": "REJECT",
+    "expected_reason_code": "CC-001_MISSING_COST_CENTER",
+    "business_metric": 371.51
+  },
+  {
+    "subject_id": "EXP-2026-000006",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 866.63
+  },
+  {
+    "subject_id": "EXP-2026-000007",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 640.4
+  },
+  {
+    "subject_id": "EXP-2026-000008",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 498.6
+  },
+  {
+    "subject_id": "EXP-2026-000009",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 188.6
+  },
+  {
+    "subject_id": "EXP-2026-000010",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 436.69
+  },
+  {
+    "subject_id": "EXP-2026-000011",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 356.99
+  },
+  {
+    "subject_id": "EXP-2026-000012",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 692.44
+  },
+  {
+    "subject_id": "EXP-2026-000013",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 552.42
+  },
+  {
+    "subject_id": "EXP-2026-000014",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 612.48
+  },
+  {
+    "subject_id": "EXP-2026-000015",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 250.0
+  },
+  {
+    "subject_id": "EXP-2026-000016",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 536.66
+  },
+  {
+    "subject_id": "EXP-2026-000017",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1252.23
+  },
+  {
+    "subject_id": "EXP-2026-000018",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1144.67
+  },
+  {
+    "subject_id": "EXP-2026-000019",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 520.22
+  },
+  {
+    "subject_id": "EXP-2026-000020",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 351.09
+  },
+  {
+    "subject_id": "EXP-2026-000021",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 870.86
+  },
+  {
+    "subject_id": "EXP-2026-000022",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 509.72
+  },
+  {
+    "subject_id": "EXP-2026-000023",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1252.76
+  },
+  {
+    "subject_id": "EXP-2026-000024",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 725.03
+  },
+  {
+    "subject_id": "EXP-2026-000025",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 156.97
+  },
+  {
+    "subject_id": "EXP-2026-000026",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1431.58
+  },
+  {
+    "subject_id": "EXP-2026-000027",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 136.39
+  },
+  {
+    "subject_id": "EXP-2026-000028",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1088.39
+  },
+  {
+    "subject_id": "EXP-2026-000029",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 232.14
+  },
+  {
+    "subject_id": "EXP-2026-000030",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 245.72
+  },
+  {
+    "subject_id": "EXP-2026-000031",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1951.98
+  },
+  {
+    "subject_id": "EXP-2026-000032",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1776.13
+  },
+  {
+    "subject_id": "EXP-2026-000033",
+    "entity_type": "EXPENSE",
+    "expected_decision": "REJECT",
+    "expected_reason_code": "EX-001_MISSING_RECEIPT",
+    "business_metric": 339.06
+  },
+  {
+    "subject_id": "EXP-2026-000034",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 767.23
+  },
+  {
+    "subject_id": "EXP-2026-000035",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 35.56
+  },
+  {
+    "subject_id": "EXP-2026-000036",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 605.15
+  },
+  {
+    "subject_id": "EXP-2026-000037",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 848.17
+  },
+  {
+    "subject_id": "EXP-2026-000038",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 2049.53
+  },
+  {
+    "subject_id": "EXP-2026-000039",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 6895.49
+  },
+  {
+    "subject_id": "EXP-2026-000040",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 373.31
+  },
+  {
+    "subject_id": "EXP-2026-000041",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 456.31
+  },
+  {
+    "subject_id": "EXP-2026-000042",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 846.93
+  },
+  {
+    "subject_id": "EXP-2026-000043",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1161.0
+  },
+  {
+    "subject_id": "EXP-2026-000044",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 437.43
+  },
+  {
+    "subject_id": "EXP-2026-000045",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 999.57
+  },
+  {
+    "subject_id": "EXP-2026-000046",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 748.73
+  },
+  {
+    "subject_id": "EXP-2026-000047",
+    "entity_type": "EXPENSE",
+    "expected_decision": "REJECT",
+    "expected_reason_code": "EX-001_MISSING_RECEIPT",
+    "business_metric": 685.22
+  },
+  {
+    "subject_id": "EXP-2026-000048",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 500.49
+  },
+  {
+    "subject_id": "EXP-2026-000049",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 372.16
+  },
+  {
+    "subject_id": "EXP-2026-000050",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 59.63
+  },
+  {
+    "subject_id": "EXP-2026-000051",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 460.72
+  },
+  {
+    "subject_id": "EXP-2026-000052",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 2133.27
+  },
+  {
+    "subject_id": "EXP-2026-000053",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1718.62
+  },
+  {
+    "subject_id": "EXP-2026-000054",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 206.33
+  },
+  {
+    "subject_id": "EXP-2026-000055",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 771.08
+  },
+  {
+    "subject_id": "EXP-2026-000056",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1654.2
+  },
+  {
+    "subject_id": "EXP-2026-000057",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 42.68
+  },
+  {
+    "subject_id": "EXP-2026-000058",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1170.91
+  },
+  {
+    "subject_id": "EXP-2026-000059",
+    "entity_type": "EXPENSE",
+    "expected_decision": "REJECT",
+    "expected_reason_code": "EX-001_MISSING_RECEIPT",
+    "business_metric": 442.42
+  },
+  {
+    "subject_id": "EXP-2026-000060",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 180.0
+  },
+  {
+    "subject_id": "EXP-2026-000061",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 781.39
+  },
+  {
+    "subject_id": "EXP-2026-000062",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 32.06
+  },
+  {
+    "subject_id": "EXP-2026-000063",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 594.27
+  },
+  {
+    "subject_id": "EXP-2026-000064",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 760.03
+  },
+  {
+    "subject_id": "EXP-2026-000065",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1020.45
+  },
+  {
+    "subject_id": "EXP-2026-000066",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 440.11
+  },
+  {
+    "subject_id": "EXP-2026-000067",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 500.0
+  },
+  {
+    "subject_id": "EXP-2026-000068",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 801.19
+  },
+  {
+    "subject_id": "EXP-2026-000069",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1925.31
+  },
+  {
+    "subject_id": "EXP-2026-000070",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 224.1
+  },
+  {
+    "subject_id": "EXP-2026-000071",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 658.02
+  },
+  {
+    "subject_id": "EXP-2026-000072",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1146.92
+  },
+  {
+    "subject_id": "EXP-2026-000073",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 182.63
+  },
+  {
+    "subject_id": "EXP-2026-000074",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 349.67
+  },
+  {
+    "subject_id": "EXP-2026-000075",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 956.18
+  },
+  {
+    "subject_id": "EXP-2026-000076",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 235.65
+  },
+  {
+    "subject_id": "EXP-2026-000077",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 791.28
+  },
+  {
+    "subject_id": "EXP-2026-000078",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 24.38
+  },
+  {
+    "subject_id": "EXP-2026-000079",
+    "entity_type": "EXPENSE",
+    "expected_decision": "REJECT",
+    "expected_reason_code": "EX-001_MISSING_RECEIPT",
+    "business_metric": 5306.02
+  },
+  {
+    "subject_id": "EXP-2026-000080",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 87.16
+  },
+  {
+    "subject_id": "EXP-2026-000081",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 885.3
+  },
+  {
+    "subject_id": "EXP-2026-000082",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 481.38
+  },
+  {
+    "subject_id": "EXP-2026-000083",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 18.03
+  },
+  {
+    "subject_id": "EXP-2026-000084",
+    "entity_type": "EXPENSE",
+    "expected_decision": "REJECT",
+    "expected_reason_code": "EX-001_MISSING_RECEIPT",
+    "business_metric": 580.78
+  },
+  {
+    "subject_id": "EXP-2026-000085",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 116.5
+  },
+  {
+    "subject_id": "EXP-2026-000086",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 180.0
+  },
+  {
+    "subject_id": "EXP-2026-000087",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 510.86
+  },
+  {
+    "subject_id": "EXP-2026-000088",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 585.21
+  },
+  {
+    "subject_id": "EXP-2026-000089",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 458.22
+  },
+  {
+    "subject_id": "EXP-2026-000090",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 2377.74
+  },
+  {
+    "subject_id": "EXP-2026-000091",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 856.88
+  },
+  {
+    "subject_id": "EXP-2026-000092",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 121.13
+  },
+  {
+    "subject_id": "EXP-2026-000093",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 207.12
+  },
+  {
+    "subject_id": "EXP-2026-000094",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 59.96
+  },
+  {
+    "subject_id": "EXP-2026-000095",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1649.66
+  },
+  {
+    "subject_id": "EXP-2026-000096",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 101.57
+  },
+  {
+    "subject_id": "EXP-2026-000097",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 266.27
+  },
+  {
+    "subject_id": "EXP-2026-000098",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 150.0
+  },
+  {
+    "subject_id": "EXP-2026-000099",
+    "entity_type": "EXPENSE",
+    "expected_decision": "REJECT",
+    "expected_reason_code": "EX-001_MISSING_RECEIPT",
+    "business_metric": 1596.8
+  },
+  {
+    "subject_id": "EXP-2026-000100",
+    "entity_type": "EXPENSE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 282.31
+  },
+  {
+    "subject_id": "EXP-2026-000101",
+    "entity_type": "EXPENSE",
+    "expected_decision": "ESCALATE",
+    "expected_reason_code": "EX-005_SPLIT_CLAIM_EVASION",
+    "business_metric": 92.0
+  },
+  {
+    "subject_id": "EXP-2026-000102",
+    "entity_type": "EXPENSE",
+    "expected_decision": "ESCALATE",
+    "expected_reason_code": "EX-005_SPLIT_CLAIM_EVASION",
+    "business_metric": 92.0
+  },
+  {
+    "subject_id": "EXP-2026-000103",
+    "entity_type": "EXPENSE",
+    "expected_decision": "ESCALATE",
+    "expected_reason_code": "EX-005_SPLIT_CLAIM_EVASION",
+    "business_metric": 92.0
+  },
+  {
+    "subject_id": "EXP-2026-000104",
+    "entity_type": "EXPENSE",
+    "expected_decision": "ESCALATE",
+    "expected_reason_code": "EX-005_SPLIT_CLAIM_EVASION",
+    "business_metric": 92.0
+  },
+  {
+    "subject_id": "LVE-2026-000001",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000002",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000003",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000004",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000005",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 11
+  },
+  {
+    "subject_id": "LVE-2026-000006",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000007",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 10
+  },
+  {
+    "subject_id": "LVE-2026-000008",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000009",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000010",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 4
+  },
+  {
+    "subject_id": "LVE-2026-000011",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000012",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000013",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 22
+  },
+  {
+    "subject_id": "LVE-2026-000014",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000015",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 6
+  },
+  {
+    "subject_id": "LVE-2026-000016",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000017",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 3
+  },
+  {
+    "subject_id": "LVE-2026-000018",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000019",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 5
+  },
+  {
+    "subject_id": "LVE-2026-000020",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 3
+  },
+  {
+    "subject_id": "LVE-2026-000021",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000022",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000023",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000024",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000025",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000026",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 11
+  },
+  {
+    "subject_id": "LVE-2026-000027",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 5
+  },
+  {
+    "subject_id": "LVE-2026-000028",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 32
+  },
+  {
+    "subject_id": "LVE-2026-000029",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000030",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000031",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 3
+  },
+  {
+    "subject_id": "LVE-2026-000032",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 5
+  },
+  {
+    "subject_id": "LVE-2026-000033",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 5
+  },
+  {
+    "subject_id": "LVE-2026-000034",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 6
+  },
+  {
+    "subject_id": "LVE-2026-000035",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 42
+  },
+  {
+    "subject_id": "LVE-2026-000036",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000037",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000038",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 4
+  },
+  {
+    "subject_id": "LVE-2026-000039",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 7
+  },
+  {
+    "subject_id": "LVE-2026-000040",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 4
+  },
+  {
+    "subject_id": "LVE-2026-000041",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 3
+  },
+  {
+    "subject_id": "LVE-2026-000042",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000043",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 5
+  },
+  {
+    "subject_id": "LVE-2026-000044",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 4
+  },
+  {
+    "subject_id": "LVE-2026-000045",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000046",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000047",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000048",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000049",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 3
+  },
+  {
+    "subject_id": "LVE-2026-000050",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 8
+  },
+  {
+    "subject_id": "LVE-2026-000051",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000052",
+    "entity_type": "LEAVE",
+    "expected_decision": "REJECT",
+    "expected_reason_code": "LV-001_INSUFFICIENT_BALANCE",
+    "business_metric": 8
+  },
+  {
+    "subject_id": "LVE-2026-000053",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 4
+  },
+  {
+    "subject_id": "LVE-2026-000054",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 4
+  },
+  {
+    "subject_id": "LVE-2026-000055",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000056",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 5
+  },
+  {
+    "subject_id": "LVE-2026-000057",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000058",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 3
+  },
+  {
+    "subject_id": "LVE-2026-000059",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000060",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 5
+  },
+  {
+    "subject_id": "LVE-2026-000061",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000062",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000063",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000064",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 5
+  },
+  {
+    "subject_id": "LVE-2026-000065",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000066",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000067",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000068",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000069",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000070",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000071",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 4
+  },
+  {
+    "subject_id": "LVE-2026-000072",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000073",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000074",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 3
+  },
+  {
+    "subject_id": "LVE-2026-000075",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 6
+  },
+  {
+    "subject_id": "LVE-2026-000076",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 6
+  },
+  {
+    "subject_id": "LVE-2026-000077",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 5
+  },
+  {
+    "subject_id": "LVE-2026-000078",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000079",
+    "entity_type": "LEAVE",
+    "expected_decision": "APPROVE",
+    "expected_reason_code": "POLICY_COMPLIANT_APPROVED",
+    "business_metric": 4
+  },
+  {
+    "subject_id": "LVE-2026-000080",
+    "entity_type": "LEAVE",
+    "expected_decision": "FLAG",
+    "expected_reason_code": "CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS",
+    "business_metric": 1
+  },
+  {
+    "subject_id": "LVE-2026-000081",
+    "entity_type": "LEAVE",
+    "expected_decision": "REJECT",
+    "expected_reason_code": "LV-002_OVERLAPPING_LEAVE",
+    "business_metric": 2
+  },
+  {
+    "subject_id": "LVE-2026-000082",
+    "entity_type": "LEAVE",
+    "expected_decision": "REJECT",
+    "expected_reason_code": "LV-002_OVERLAPPING_LEAVE",
+    "business_metric": 1
+  }
+]

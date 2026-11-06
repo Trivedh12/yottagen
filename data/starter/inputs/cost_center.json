@@ -1,0 +1,82 @@
+[
+  {
+    "cost_center_id": "CC-100",
+    "code": "ENG",
+    "name": "Engineering",
+    "department": "Technology",
+    "manager_id": "EMP-000005",
+    "budget_currency": "USD",
+    "annual_budget": 5000000.0,
+    "status": "ACTIVE"
+  },
+  {
+    "cost_center_id": "CC-101",
+    "code": "SALES",
+    "name": "Sales & Business Dev",
+    "department": "Commercial",
+    "manager_id": "EMP-000003",
+    "budget_currency": "USD",
+    "annual_budget": 3000000.0,
+    "status": "ACTIVE"
+  },
+  {
+    "cost_center_id": "CC-102",
+    "code": "MKT",
+    "name": "Marketing & Growth",
+    "department": "Commercial",
+    "manager_id": "EMP-000001",
+    "budget_currency": "USD",
+    "annual_budget": 1500000.0,
+    "status": "ACTIVE"
+  },
+  {
+    "cost_center_id": "CC-103",
+    "code": "GNA",
+    "name": "General & Administrative",
+    "department": "Operations",
+    "manager_id": "EMP-000001",
+    "budget_currency": "USD",
+    "annual_budget": 1000000.0,
+    "status": "ACTIVE"
+  },
+  {
+    "cost_center_id": "CC-104",
+    "code": "PROD",
+    "name": "Product Management",
+    "department": "Technology",
+    "manager_id": "EMP-000006",
+    "budget_currency": "USD",
+    "annual_budget": 2000000.0,
+    "status": "ACTIVE"
+  },
+  {
+    "cost_center_id": "CC-105",
+    "code": "HR",
+    "name": "People Operations",
+    "department": "Human Resources",
+    "manager_id": "EMP-000004",
+    "budget_currency": "USD",
+    "annual_budget": 800000.0,
+    "status": "ACTIVE"
+  },
+  {
+    "cost_center_id": "CC-106",
+    "code": "FIN",
+    "name": "Finance & Accounting",
+    "department": "Finance",
+    "manager_id": "EMP-000001",
+    "budget_currency": "USD",
+    "annual_budget": 900000.0,
+    "status": "ACTIVE"
+  },
+  {
+    "cost_center_id": "CC-107",
+    "code": "OPS",
+    "name": "Operations & IT Infrastructure",
+    "department": "Operations",
+    "manager_id": "EMP-000002",
+    "budget_currency": "USD",
+    "annual_budget": 1200000.0,
+    "status": "ACTIVE"
+  }
+]

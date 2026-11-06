@@ -1,0 +1,2 @@
+policy_id,policy_name,currency,daily_meal_limit,receipt_required_threshold,max_claim_amount,entertainment_per_person_limit,equipment_auto_approval_limit,lodging_daily_limit_in,lodging_daily_limit_de,effective_from,effective_to
+EPOL-01,Standard Travel & Expense Policy 2026,USD,75.0,25.0,10000.0,100.0,250.0,150.0,180.0,2020-01-01,2030-12-31

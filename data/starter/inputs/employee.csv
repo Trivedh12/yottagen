@@ -1,0 +1,41 @@
+employee_id,first_name,last_name,email,country,city,hire_date,termination_date,status,employee_type,job_level,job_title,grade,manager_id,cost_center_id,is_finance_approver,is_hr_approver,role
+EMP-000001,Charlotte,Jones,charlotte.jones000001@example.com,US,San Francisco,2015-01-27,,ACTIVE,FULL_TIME,6,Chief Executive Officer,L6,,CC-103,0,0,APPROVER
+EMP-000002,Aarav,Bhat,aarav.bhat000002@example.com,IN,Delhi,2015-08-01,,ACTIVE,FULL_TIME,5,Vice President Operations,L5,EMP-000001,CC-107,0,0,PROCESS_OWNER
+EMP-000003,Harper,Thomas,harper.thomas000003@example.com,US,Chicago,2017-06-28,,ACTIVE,FULL_TIME,5,Vice President Sales,L5,EMP-000001,CC-101,0,0,PROCESS_OWNER
+EMP-000004,Olivia,Taylor,olivia.taylor000004@example.com,US,Seattle,2017-08-24,,ACTIVE,FULL_TIME,4,HR Director,L4,EMP-000002,CC-105,0,1,PROCESS_OWNER
+EMP-000005,Pooja,Sharma,pooja.sharma000005@example.com,IN,Mumbai,2019-07-26,,ACTIVE,FULL_TIME,4,Engineering Director,L4,EMP-000002,CC-100,0,0,APPROVER
+EMP-000006,Ethan,Anderson,ethan.anderson000006@example.com,US,Austin,2017-12-30,,ACTIVE,FULL_TIME,4,Product Director,L4,EMP-000002,CC-104,0,0,APPROVER
+EMP-000007,Vikram,Choudhury,vikram.choudhury000007@example.com,IN,Pune,2017-09-16,,ACTIVE,FULL_TIME,4,HR Director,L4,EMP-000002,CC-105,0,1,PROCESS_OWNER
+EMP-000008,Pooja,Menon,pooja.menon000008@example.com,IN,Bengaluru,2019-07-16,,ACTIVE,FULL_TIME,3,Sales Manager,L3,EMP-000006,CC-101,0,0,APPROVER
+EMP-000009,Vikram,Choudhury,vikram.choudhury000009@example.com,IN,Mumbai,2021-09-09,,ACTIVE,FULL_TIME,3,DevOps Manager,L3,EMP-000007,CC-100,0,0,APPROVER
+EMP-000010,David,Smith,david.smith000010@example.com,US,Austin,2022-04-29,,ACTIVE,FULL_TIME,3,Finance Manager,L3,EMP-000004,CC-106,1,0,PROCESS_OWNER
+EMP-000011,Kavya,Sharma,kavya.sharma000011@example.com,IN,Mumbai,2022-12-23,,ACTIVE,FULL_TIME,3,Support Manager,L3,EMP-000004,CC-107,0,0,REQUESTER
+EMP-000012,Leo,Robinson,leo.robinson000012@example.com,UK,London,2021-08-16,2021-12-15,TERMINATED,FULL_TIME,3,Engineering Manager,L3,EMP-000006,CC-100,0,0,APPROVER
+EMP-000013,Lena,Hoffmann,lena.hoffmann000013@example.com,DE,Berlin,2021-10-30,,ACTIVE,FULL_TIME,3,Finance Manager,L3,EMP-000004,CC-106,1,0,PROCESS_OWNER
+EMP-000014,Alexander,Smith,alexander.smith000014@example.com,US,Seattle,2022-09-26,,ACTIVE,FULL_TIME,3,Marketing Manager,L3,EMP-000006,CC-102,0,0,APPROVER
+EMP-000015,Charlotte,Anderson,charlotte.anderson000015@example.com,US,Boston,2020-07-27,,ACTIVE,FULL_TIME,3,Support Manager,L3,EMP-000007,CC-107,0,0,REQUESTER
+EMP-000016,Alexander,Martin,alexander.martin000016@example.com,US,Chicago,2023-11-02,,ACTIVE,FULL_TIME,2,Senior Financial Analyst,L2,EMP-000013,CC-106,0,0,REQUESTER
+EMP-000017,Isabella,Williams,isabella.williams000017@example.com,US,Boston,2021-03-20,,ACTIVE,FULL_TIME,2,Senior Financial Analyst,L2,EMP-000008,CC-106,0,0,REQUESTER
+EMP-000018,William,Thomas,william.thomas000018@example.com,US,Chicago,2024-12-13,,ACTIVE,FULL_TIME,2,Senior Financial Analyst,L2,EMP-000011,CC-106,0,0,REQUESTER
+EMP-000019,Rohan,Patel,rohan.patel000019@example.com,IN,Pune,2024-07-26,,ACTIVE,FULL_TIME,2,HR Specialist,L2,EMP-000011,CC-105,0,0,REQUESTER
+EMP-000020,Emma,Williams,emma.williams000020@example.com,US,Seattle,2022-02-23,,ACTIVE,FULL_TIME,2,HR Specialist,L2,EMP-000013,CC-105,0,0,REQUESTER
+EMP-000021,James,Moore,james.moore000021@example.com,US,Austin,2023-12-17,,ACTIVE,FULL_TIME,2,HR Specialist,L2,EMP-000013,CC-105,0,0,REQUESTER
+EMP-000022,Michael,Brown,michael.brown000022@example.com,US,Seattle,2024-02-10,,ACTIVE,CONTRACT,2,Senior Account Executive,L2,EMP-000011,CC-101,0,0,REQUESTER
+EMP-000023,David,Williams,david.williams000023@example.com,US,Seattle,2023-10-10,,ACTIVE,FULL_TIME,2,Senior Product Designer,L2,EMP-000014,CC-104,0,0,REQUESTER
+EMP-000024,William,Jackson,william.jackson000024@example.com,US,New York,2021-07-17,,ACTIVE,FULL_TIME,2,Senior Account Executive,L2,EMP-000008,CC-101,0,0,REQUESTER
+EMP-000025,James,Jones,james.jones000025@example.com,US,San Francisco,2023-09-06,,ACTIVE,FULL_TIME,2,Senior Software Engineer,L2,EMP-000015,CC-100,0,0,REQUESTER
+EMP-000026,Ethan,Williams,ethan.williams000026@example.com,US,Chicago,2024-01-26,,ACTIVE,FULL_TIME,2,Senior Software Engineer,L2,EMP-000011,CC-100,0,0,REQUESTER
+EMP-000027,Vikram,Singh,vikram.singh000027@example.com,IN,Mumbai,2022-02-12,,ACTIVE,FULL_TIME,2,Senior Financial Analyst,L2,EMP-000009,CC-106,0,0,REQUESTER
+EMP-000028,Neha,Mehta,neha.mehta000028@example.com,IN,Chennai,2024-10-01,,ACTIVE,FULL_TIME,1,Sales Associate,L1,EMP-000024,CC-101,0,0,REQUESTER
+EMP-000029,Daniel,Taylor,daniel.taylor000029@example.com,US,Austin,2024-02-23,,ACTIVE,FULL_TIME,1,Marketing Specialist,L1,EMP-000016,CC-102,0,0,REQUESTER
+EMP-000030,Divya,Iyer,divya.iyer000030@example.com,IN,Chennai,2023-09-29,,ACTIVE,FULL_TIME,1,Junior Financial Analyst,L1,EMP-000017,CC-106,0,0,REQUESTER
+EMP-000031,William,Wilson,william.wilson000031@example.com,US,Boston,2025-01-18,,ACTIVE,FULL_TIME,1,Sales Associate,L1,EMP-000021,CC-101,0,0,REQUESTER
+EMP-000032,Ananya,Rao,ananya.rao000032@example.com,IN,Hyderabad,2025-02-06,,ACTIVE,FULL_TIME,1,Sales Associate,L1,EMP-000022,CC-101,0,0,REQUESTER
+EMP-000033,Aditya,Nair,aditya.nair000033@example.com,IN,Pune,2026-03-13,,ACTIVE,FULL_TIME,1,Marketing Specialist,L1,EMP-000017,CC-102,0,0,REQUESTER
+EMP-000034,Kavya,Deshmukh,kavya.deshmukh000034@example.com,IN,Pune,2025-06-21,,ACTIVE,FULL_TIME,1,Marketing Specialist,L1,EMP-000016,CC-102,0,0,REQUESTER
+EMP-000035,James,Davis,james.davis000035@example.com,US,Boston,2025-02-18,,ACTIVE,FULL_TIME,1,Sales Associate,L1,EMP-000027,CC-101,0,0,REQUESTER
+EMP-000036,Daniel,Taylor,daniel.taylor000036@example.com,US,San Francisco,2025-03-20,,ACTIVE,FULL_TIME,1,Marketing Specialist,L1,EMP-000018,CC-102,0,0,REQUESTER
+EMP-000037,Priya,Bhat,priya.bhat000037@example.com,IN,Delhi,2026-04-22,,ACTIVE,FULL_TIME,1,Junior Financial Analyst,L1,EMP-000024,CC-106,0,0,REQUESTER
+EMP-000038,Oliver,Robinson,oliver.robinson000038@example.com,UK,London,2024-12-25,2025-10-13,TERMINATED,FULL_TIME,1,Marketing Specialist,L1,EMP-000027,CC-102,0,0,REQUESTER
+EMP-000039,Pooja,Iyer,pooja.iyer000039@example.com,IN,Hyderabad,2024-01-21,,ACTIVE,FULL_TIME,1,Marketing Specialist,L1,EMP-000023,CC-102,0,0,REQUESTER
+EMP-000040,Sophia,Brown,sophia.brown000040@example.com,US,Boston,2025-12-18,,ON_LEAVE,FULL_TIME,1,Marketing Specialist,L1,EMP-000021,CC-102,0,0,REQUESTER

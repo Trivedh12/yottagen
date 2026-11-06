@@ -1,0 +1,362 @@
+[
+  {
+    "assignment_id": "ECCA-000001",
+    "employee_id": "EMP-000001",
+    "cost_center_id": "CC-103",
+    "allocation_percentage": 100.0,
+    "effective_from": "2015-01-27",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000002",
+    "employee_id": "EMP-000002",
+    "cost_center_id": "CC-107",
+    "allocation_percentage": 100.0,
+    "effective_from": "2015-08-01",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000003",
+    "employee_id": "EMP-000003",
+    "cost_center_id": "CC-101",
+    "allocation_percentage": 100.0,
+    "effective_from": "2017-06-28",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000004",
+    "employee_id": "EMP-000004",
+    "cost_center_id": "CC-105",
+    "allocation_percentage": 100.0,
+    "effective_from": "2017-08-24",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000005",
+    "employee_id": "EMP-000005",
+    "cost_center_id": "CC-100",
+    "allocation_percentage": 100.0,
+    "effective_from": "2019-07-26",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000006",
+    "employee_id": "EMP-000006",
+    "cost_center_id": "CC-104",
+    "allocation_percentage": 100.0,
+    "effective_from": "2017-12-30",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000007",
+    "employee_id": "EMP-000007",
+    "cost_center_id": "CC-105",
+    "allocation_percentage": 100.0,
+    "effective_from": "2017-09-16",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000008",
+    "employee_id": "EMP-000008",
+    "cost_center_id": "CC-101",
+    "allocation_percentage": 100.0,
+    "effective_from": "2019-07-16",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000009",
+    "employee_id": "EMP-000009",
+    "cost_center_id": "CC-100",
+    "allocation_percentage": 100.0,
+    "effective_from": "2021-09-09",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000010",
+    "employee_id": "EMP-000010",
+    "cost_center_id": "CC-106",
+    "allocation_percentage": 100.0,
+    "effective_from": "2022-04-29",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000011",
+    "employee_id": "EMP-000011",
+    "cost_center_id": "CC-107",
+    "allocation_percentage": 100.0,
+    "effective_from": "2022-12-23",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000012",
+    "employee_id": "EMP-000012",
+    "cost_center_id": "CC-100",
+    "allocation_percentage": 100.0,
+    "effective_from": "2021-08-16",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000013",
+    "employee_id": "EMP-000013",
+    "cost_center_id": "CC-106",
+    "allocation_percentage": 100.0,
+    "effective_from": "2021-10-30",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000014",
+    "employee_id": "EMP-000014",
+    "cost_center_id": "CC-102",
+    "allocation_percentage": 100.0,
+    "effective_from": "2022-09-26",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000015",
+    "employee_id": "EMP-000015",
+    "cost_center_id": "CC-107",
+    "allocation_percentage": 100.0,
+    "effective_from": "2020-07-27",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000016",
+    "employee_id": "EMP-000016",
+    "cost_center_id": "CC-106",
+    "allocation_percentage": 100.0,
+    "effective_from": "2023-11-02",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000017",
+    "employee_id": "EMP-000017",
+    "cost_center_id": "CC-106",
+    "allocation_percentage": 100.0,
+    "effective_from": "2021-03-20",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000018",
+    "employee_id": "EMP-000018",
+    "cost_center_id": "CC-106",
+    "allocation_percentage": 100.0,
+    "effective_from": "2024-12-13",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000019",
+    "employee_id": "EMP-000019",
+    "cost_center_id": "CC-105",
+    "allocation_percentage": 100.0,
+    "effective_from": "2024-07-26",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000020",
+    "employee_id": "EMP-000020",
+    "cost_center_id": "CC-105",
+    "allocation_percentage": 100.0,
+    "effective_from": "2022-02-23",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000021",
+    "employee_id": "EMP-000021",
+    "cost_center_id": "CC-105",
+    "allocation_percentage": 100.0,
+    "effective_from": "2023-12-17",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000022",
+    "employee_id": "EMP-000022",
+    "cost_center_id": "CC-101",
+    "allocation_percentage": 100.0,
+    "effective_from": "2024-02-10",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000023",
+    "employee_id": "EMP-000023",
+    "cost_center_id": "CC-104",
+    "allocation_percentage": 100.0,
+    "effective_from": "2023-10-10",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000024",
+    "employee_id": "EMP-000024",
+    "cost_center_id": "CC-101",
+    "allocation_percentage": 100.0,
+    "effective_from": "2021-07-17",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000025",
+    "employee_id": "EMP-000025",
+    "cost_center_id": "CC-100",
+    "allocation_percentage": 100.0,
+    "effective_from": "2023-09-06",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000026",
+    "employee_id": "EMP-000026",
+    "cost_center_id": "CC-100",
+    "allocation_percentage": 100.0,
+    "effective_from": "2024-01-26",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000027",
+    "employee_id": "EMP-000027",
+    "cost_center_id": "CC-106",
+    "allocation_percentage": 100.0,
+    "effective_from": "2022-02-12",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000028",
+    "employee_id": "EMP-000028",
+    "cost_center_id": "CC-101",
+    "allocation_percentage": 100.0,
+    "effective_from": "2024-10-01",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000029",
+    "employee_id": "EMP-000029",
+    "cost_center_id": "CC-102",
+    "allocation_percentage": 100.0,
+    "effective_from": "2024-02-23",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000030",
+    "employee_id": "EMP-000030",
+    "cost_center_id": "CC-106",
+    "allocation_percentage": 100.0,
+    "effective_from": "2023-09-29",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000031",
+    "employee_id": "EMP-000031",
+    "cost_center_id": "CC-101",
+    "allocation_percentage": 100.0,
+    "effective_from": "2025-01-18",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000032",
+    "employee_id": "EMP-000032",
+    "cost_center_id": "CC-101",
+    "allocation_percentage": 100.0,
+    "effective_from": "2025-02-06",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000033",
+    "employee_id": "EMP-000033",
+    "cost_center_id": "CC-102",
+    "allocation_percentage": 100.0,
+    "effective_from": "2026-03-13",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000034",
+    "employee_id": "EMP-000034",
+    "cost_center_id": "CC-102",
+    "allocation_percentage": 100.0,
+    "effective_from": "2025-06-21",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000035",
+    "employee_id": "EMP-000035",
+    "cost_center_id": "CC-101",
+    "allocation_percentage": 100.0,
+    "effective_from": "2025-02-18",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000036",
+    "employee_id": "EMP-000036",
+    "cost_center_id": "CC-102",
+    "allocation_percentage": 100.0,
+    "effective_from": "2025-03-20",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000037",
+    "employee_id": "EMP-000037",
+    "cost_center_id": "CC-106",
+    "allocation_percentage": 100.0,
+    "effective_from": "2026-04-22",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000038",
+    "employee_id": "EMP-000038",
+    "cost_center_id": "CC-102",
+    "allocation_percentage": 100.0,
+    "effective_from": "2024-12-25",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000039",
+    "employee_id": "EMP-000039",
+    "cost_center_id": "CC-102",
+    "allocation_percentage": 100.0,
+    "effective_from": "2024-01-21",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  },
+  {
+    "assignment_id": "ECCA-000040",
+    "employee_id": "EMP-000040",
+    "cost_center_id": "CC-102",
+    "allocation_percentage": 100.0,
+    "effective_from": "2025-12-18",
+    "effective_to": "2099-12-31",
+    "is_primary": 1
+  }
+]

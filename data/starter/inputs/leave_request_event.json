@@ -1,0 +1,2992 @@
+[
+  {
+    "event_id": "LVEV-000001",
+    "request_id": "LVE-2026-000001",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000015",
+    "timestamp": "2026-07-13T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000002",
+    "request_id": "LVE-2026-000001",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-13T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000003",
+    "request_id": "LVE-2026-000001",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000007",
+    "timestamp": "2026-07-13T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000004",
+    "request_id": "LVE-2026-000001",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-20T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000005",
+    "request_id": "LVE-2026-000002",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000023",
+    "timestamp": "2026-04-30T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000006",
+    "request_id": "LVE-2026-000002",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-04-30T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000007",
+    "request_id": "LVE-2026-000002",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000014",
+    "timestamp": "2026-04-30T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000008",
+    "request_id": "LVE-2026-000002",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-04T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000009",
+    "request_id": "LVE-2026-000003",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000028",
+    "timestamp": "2026-01-06T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000010",
+    "request_id": "LVE-2026-000003",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-01-06T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000011",
+    "request_id": "LVE-2026-000003",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000024",
+    "timestamp": "2026-01-06T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000012",
+    "request_id": "LVE-2026-000003",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-01-19T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000013",
+    "request_id": "LVE-2026-000004",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-07-07T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000014",
+    "request_id": "LVE-2026-000004",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-07T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000015",
+    "request_id": "LVE-2026-000004",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-07-07T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000016",
+    "request_id": "LVE-2026-000004",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-15T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000017",
+    "request_id": "LVE-2026-000005",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000016",
+    "timestamp": "2026-08-09T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000018",
+    "request_id": "LVE-2026-000005",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-09T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000019",
+    "request_id": "LVE-2026-000005",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000007",
+    "timestamp": "2026-08-09T14:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000020",
+    "request_id": "LVE-2026-000005",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-03T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000021",
+    "request_id": "LVE-2026-000006",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000036",
+    "timestamp": "2026-08-09T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000022",
+    "request_id": "LVE-2026-000006",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-09T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000023",
+    "request_id": "LVE-2026-000006",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000018",
+    "timestamp": "2026-08-09T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000024",
+    "request_id": "LVE-2026-000006",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-25T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000025",
+    "request_id": "LVE-2026-000007",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000008",
+    "timestamp": "2026-04-16T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000026",
+    "request_id": "LVE-2026-000007",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-04-16T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000027",
+    "request_id": "LVE-2026-000007",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-04-16T14:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000028",
+    "request_id": "LVE-2026-000007",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-15T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000029",
+    "request_id": "LVE-2026-000008",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-08-20T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000030",
+    "request_id": "LVE-2026-000008",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-20T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000031",
+    "request_id": "LVE-2026-000008",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-08-20T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000032",
+    "request_id": "LVE-2026-000008",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-02T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000033",
+    "request_id": "LVE-2026-000009",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-06-10T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000034",
+    "request_id": "LVE-2026-000009",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-10T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000035",
+    "request_id": "LVE-2026-000009",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-10T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000036",
+    "request_id": "LVE-2026-000009",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-26T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000037",
+    "request_id": "LVE-2026-000010",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000013",
+    "timestamp": "2026-07-27T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000038",
+    "request_id": "LVE-2026-000010",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-27T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000039",
+    "request_id": "LVE-2026-000010",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-07-27T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000040",
+    "request_id": "LVE-2026-000010",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-10T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000041",
+    "request_id": "LVE-2026-000011",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000009",
+    "timestamp": "2026-10-19T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000042",
+    "request_id": "LVE-2026-000011",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-10-19T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000043",
+    "request_id": "LVE-2026-000011",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000007",
+    "timestamp": "2026-10-19T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000044",
+    "request_id": "LVE-2026-000012",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000027",
+    "timestamp": "2026-05-19T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000045",
+    "request_id": "LVE-2026-000012",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-19T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000046",
+    "request_id": "LVE-2026-000012",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000009",
+    "timestamp": "2026-05-19T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000047",
+    "request_id": "LVE-2026-000012",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-23T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000048",
+    "request_id": "LVE-2026-000013",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000017",
+    "timestamp": "2026-08-02T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000049",
+    "request_id": "LVE-2026-000013",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-02T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000050",
+    "request_id": "LVE-2026-000013",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-08-02T16:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000051",
+    "request_id": "LVE-2026-000013",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-10-04T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000052",
+    "request_id": "LVE-2026-000014",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000018",
+    "timestamp": "2026-08-07T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000053",
+    "request_id": "LVE-2026-000014",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-07T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000054",
+    "request_id": "LVE-2026-000014",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000011",
+    "timestamp": "2026-08-07T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000055",
+    "request_id": "LVE-2026-000014",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-07T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000056",
+    "request_id": "LVE-2026-000015",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000013",
+    "timestamp": "2025-12-19T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000057",
+    "request_id": "LVE-2026-000015",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2025-12-19T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000058",
+    "request_id": "LVE-2026-000015",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2025-12-19T14:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000059",
+    "request_id": "LVE-2026-000015",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-01-09T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000060",
+    "request_id": "LVE-2026-000016",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000031",
+    "timestamp": "2026-06-16T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000061",
+    "request_id": "LVE-2026-000016",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-16T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000062",
+    "request_id": "LVE-2026-000016",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000021",
+    "timestamp": "2026-06-16T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000063",
+    "request_id": "LVE-2026-000016",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-22T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000064",
+    "request_id": "LVE-2026-000017",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000011",
+    "timestamp": "2026-10-28T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000065",
+    "request_id": "LVE-2026-000017",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-10-28T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000066",
+    "request_id": "LVE-2026-000017",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-10-28T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000067",
+    "request_id": "LVE-2026-000018",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000040",
+    "timestamp": "2026-08-23T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000068",
+    "request_id": "LVE-2026-000018",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-23T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000069",
+    "request_id": "LVE-2026-000018",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000021",
+    "timestamp": "2026-08-23T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000070",
+    "request_id": "LVE-2026-000018",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-24T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000071",
+    "request_id": "LVE-2026-000019",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000021",
+    "timestamp": "2026-08-24T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000072",
+    "request_id": "LVE-2026-000019",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-24T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000073",
+    "request_id": "LVE-2026-000019",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000013",
+    "timestamp": "2026-08-24T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000074",
+    "request_id": "LVE-2026-000019",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-09T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000075",
+    "request_id": "LVE-2026-000020",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000028",
+    "timestamp": "2026-12-17T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000076",
+    "request_id": "LVE-2026-000020",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-12-17T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000077",
+    "request_id": "LVE-2026-000020",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000024",
+    "timestamp": "2026-12-17T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000078",
+    "request_id": "LVE-2026-000021",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000039",
+    "timestamp": "2026-11-04T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000079",
+    "request_id": "LVE-2026-000021",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-11-04T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000080",
+    "request_id": "LVE-2026-000021",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000023",
+    "timestamp": "2026-11-04T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000081",
+    "request_id": "LVE-2026-000022",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000008",
+    "timestamp": "2026-07-17T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000082",
+    "request_id": "LVE-2026-000022",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-17T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000083",
+    "request_id": "LVE-2026-000022",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-07-17T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000084",
+    "request_id": "LVE-2026-000022",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-19T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000085",
+    "request_id": "LVE-2026-000023",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-11-01T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000086",
+    "request_id": "LVE-2026-000023",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-11-01T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000087",
+    "request_id": "LVE-2026-000023",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-11-01T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000088",
+    "request_id": "LVE-2026-000024",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000003",
+    "timestamp": "2026-12-13T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000089",
+    "request_id": "LVE-2026-000024",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-12-13T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000090",
+    "request_id": "LVE-2026-000024",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-12-13T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000091",
+    "request_id": "LVE-2026-000025",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000019",
+    "timestamp": "2026-10-02T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000092",
+    "request_id": "LVE-2026-000025",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-10-02T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000093",
+    "request_id": "LVE-2026-000025",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000011",
+    "timestamp": "2026-10-02T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000094",
+    "request_id": "LVE-2026-000025",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-10-16T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000095",
+    "request_id": "LVE-2026-000026",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000011",
+    "timestamp": "2026-11-25T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000096",
+    "request_id": "LVE-2026-000026",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-11-25T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000097",
+    "request_id": "LVE-2026-000026",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000007",
+    "timestamp": "2026-11-25T14:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000098",
+    "request_id": "LVE-2026-000027",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000024",
+    "timestamp": "2026-02-02T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000099",
+    "request_id": "LVE-2026-000027",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-02T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000100",
+    "request_id": "LVE-2026-000027",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000008",
+    "timestamp": "2026-02-02T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000101",
+    "request_id": "LVE-2026-000027",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-15T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000102",
+    "request_id": "LVE-2026-000028",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000011",
+    "timestamp": "2026-10-14T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000103",
+    "request_id": "LVE-2026-000028",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-10-14T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000104",
+    "request_id": "LVE-2026-000028",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "REJECTED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-10-14T16:05:00Z",
+    "reason_code": "OVERLAPPING_LEAVE_REQUEST",
+    "comment": "Leave request intersects with an existing scheduled leave period."
+  },
+  {
+    "event_id": "LVEV-000105",
+    "request_id": "LVE-2026-000029",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000026",
+    "timestamp": "2026-07-29T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000106",
+    "request_id": "LVE-2026-000029",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-29T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000107",
+    "request_id": "LVE-2026-000029",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000011",
+    "timestamp": "2026-07-29T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000108",
+    "request_id": "LVE-2026-000029",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-16T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000109",
+    "request_id": "LVE-2026-000030",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000008",
+    "timestamp": "2026-02-01T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000110",
+    "request_id": "LVE-2026-000030",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-01T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000111",
+    "request_id": "LVE-2026-000030",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-02-01T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000112",
+    "request_id": "LVE-2026-000030",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-09T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000113",
+    "request_id": "LVE-2026-000031",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000033",
+    "timestamp": "2026-06-07T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000114",
+    "request_id": "LVE-2026-000031",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-07T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000115",
+    "request_id": "LVE-2026-000031",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000017",
+    "timestamp": "2026-06-07T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000116",
+    "request_id": "LVE-2026-000031",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-17T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000117",
+    "request_id": "LVE-2026-000032",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000025",
+    "timestamp": "2026-09-27T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000118",
+    "request_id": "LVE-2026-000032",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-27T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000119",
+    "request_id": "LVE-2026-000032",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000015",
+    "timestamp": "2026-09-27T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000120",
+    "request_id": "LVE-2026-000032",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-10-13T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000121",
+    "request_id": "LVE-2026-000033",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000033",
+    "timestamp": "2026-05-01T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000122",
+    "request_id": "LVE-2026-000033",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-01T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000123",
+    "request_id": "LVE-2026-000033",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000017",
+    "timestamp": "2026-05-01T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000124",
+    "request_id": "LVE-2026-000033",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-20T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000125",
+    "request_id": "LVE-2026-000034",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000011",
+    "timestamp": "2026-11-29T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000126",
+    "request_id": "LVE-2026-000034",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-11-29T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000127",
+    "request_id": "LVE-2026-000034",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "REJECTED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-11-29T14:05:00Z",
+    "reason_code": "OVERLAPPING_LEAVE_REQUEST",
+    "comment": "Leave request intersects with an existing scheduled leave period."
+  },
+  {
+    "event_id": "LVEV-000128",
+    "request_id": "LVE-2026-000035",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000007",
+    "timestamp": "2026-05-07T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000129",
+    "request_id": "LVE-2026-000035",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-07T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000130",
+    "request_id": "LVE-2026-000035",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-07T16:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000131",
+    "request_id": "LVE-2026-000035",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-17T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000132",
+    "request_id": "LVE-2026-000036",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000008",
+    "timestamp": "2026-06-06T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000133",
+    "request_id": "LVE-2026-000036",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-06T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000134",
+    "request_id": "LVE-2026-000036",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-06-06T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000135",
+    "request_id": "LVE-2026-000036",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-09T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000136",
+    "request_id": "LVE-2026-000037",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000033",
+    "timestamp": "2026-12-17T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000137",
+    "request_id": "LVE-2026-000037",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-12-17T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000138",
+    "request_id": "LVE-2026-000037",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000017",
+    "timestamp": "2026-12-17T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000139",
+    "request_id": "LVE-2026-000038",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000040",
+    "timestamp": "2026-06-13T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000140",
+    "request_id": "LVE-2026-000038",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-13T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000141",
+    "request_id": "LVE-2026-000038",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000021",
+    "timestamp": "2026-06-13T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000142",
+    "request_id": "LVE-2026-000038",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-24T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000143",
+    "request_id": "LVE-2026-000039",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000015",
+    "timestamp": "2026-05-21T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000144",
+    "request_id": "LVE-2026-000039",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-21T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000145",
+    "request_id": "LVE-2026-000039",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-05-21T14:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000146",
+    "request_id": "LVE-2026-000039",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-11T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000147",
+    "request_id": "LVE-2026-000040",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000020",
+    "timestamp": "2026-03-03T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000148",
+    "request_id": "LVE-2026-000040",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-03T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000149",
+    "request_id": "LVE-2026-000040",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000013",
+    "timestamp": "2026-03-03T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000150",
+    "request_id": "LVE-2026-000040",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-24T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000151",
+    "request_id": "LVE-2026-000041",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000039",
+    "timestamp": "2026-07-19T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000152",
+    "request_id": "LVE-2026-000041",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-19T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000153",
+    "request_id": "LVE-2026-000041",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000023",
+    "timestamp": "2026-07-19T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000154",
+    "request_id": "LVE-2026-000041",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-06T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000155",
+    "request_id": "LVE-2026-000042",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000003",
+    "timestamp": "2026-02-12T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000156",
+    "request_id": "LVE-2026-000042",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-12T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000157",
+    "request_id": "LVE-2026-000042",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-12T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000158",
+    "request_id": "LVE-2026-000042",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-25T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000159",
+    "request_id": "LVE-2026-000043",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-05-11T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000160",
+    "request_id": "LVE-2026-000043",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-11T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000161",
+    "request_id": "LVE-2026-000043",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-05-11T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000162",
+    "request_id": "LVE-2026-000043",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-31T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000163",
+    "request_id": "LVE-2026-000044",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000040",
+    "timestamp": "2026-02-26T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000164",
+    "request_id": "LVE-2026-000044",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-26T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000165",
+    "request_id": "LVE-2026-000044",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000021",
+    "timestamp": "2026-02-26T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000166",
+    "request_id": "LVE-2026-000044",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-12T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000167",
+    "request_id": "LVE-2026-000045",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000030",
+    "timestamp": "2026-07-22T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000168",
+    "request_id": "LVE-2026-000045",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-22T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000169",
+    "request_id": "LVE-2026-000045",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000017",
+    "timestamp": "2026-07-22T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000170",
+    "request_id": "LVE-2026-000045",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-05T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000171",
+    "request_id": "LVE-2026-000046",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000027",
+    "timestamp": "2026-05-01T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000172",
+    "request_id": "LVE-2026-000046",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-01T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000173",
+    "request_id": "LVE-2026-000046",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000009",
+    "timestamp": "2026-05-01T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000174",
+    "request_id": "LVE-2026-000046",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-11T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000175",
+    "request_id": "LVE-2026-000047",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000016",
+    "timestamp": "2026-05-29T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000176",
+    "request_id": "LVE-2026-000047",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-29T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000177",
+    "request_id": "LVE-2026-000047",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000013",
+    "timestamp": "2026-05-29T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000178",
+    "request_id": "LVE-2026-000047",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-08T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000179",
+    "request_id": "LVE-2026-000048",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000026",
+    "timestamp": "2026-11-29T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000180",
+    "request_id": "LVE-2026-000048",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-11-29T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000181",
+    "request_id": "LVE-2026-000048",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000011",
+    "timestamp": "2026-11-29T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000182",
+    "request_id": "LVE-2026-000049",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-02-12T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000183",
+    "request_id": "LVE-2026-000049",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-12T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000184",
+    "request_id": "LVE-2026-000049",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-12T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000185",
+    "request_id": "LVE-2026-000049",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-18T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000186",
+    "request_id": "LVE-2026-000050",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000040",
+    "timestamp": "2026-11-08T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000187",
+    "request_id": "LVE-2026-000050",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-11-08T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000188",
+    "request_id": "LVE-2026-000050",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-11-08T14:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000189",
+    "request_id": "LVE-2026-000051",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000014",
+    "timestamp": "2026-11-05T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000190",
+    "request_id": "LVE-2026-000051",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-11-05T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000191",
+    "request_id": "LVE-2026-000051",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-11-05T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000192",
+    "request_id": "LVE-2026-000052",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000033",
+    "timestamp": "2026-11-10T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000193",
+    "request_id": "LVE-2026-000052",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-11-10T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000194",
+    "request_id": "LVE-2026-000052",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "REJECTED",
+    "actor_id": "EMP-000007",
+    "timestamp": "2026-11-10T14:05:00Z",
+    "reason_code": "INSUFFICIENT_BALANCE",
+    "comment": "Requested duration (8 days) exceeds available balance (6.00 days)."
+  },
+  {
+    "event_id": "LVEV-000195",
+    "request_id": "LVE-2026-000053",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-11T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000196",
+    "request_id": "LVE-2026-000053",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-11T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000197",
+    "request_id": "LVE-2026-000053",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-11T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000198",
+    "request_id": "LVE-2026-000053",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-19T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000199",
+    "request_id": "LVE-2026-000054",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-02-06T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000200",
+    "request_id": "LVE-2026-000054",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-06T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000201",
+    "request_id": "LVE-2026-000054",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-02-06T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000202",
+    "request_id": "LVE-2026-000054",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-14T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000203",
+    "request_id": "LVE-2026-000055",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-05-20T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000204",
+    "request_id": "LVE-2026-000055",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-20T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000205",
+    "request_id": "LVE-2026-000055",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-05-20T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000206",
+    "request_id": "LVE-2026-000055",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-05T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000207",
+    "request_id": "LVE-2026-000056",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000039",
+    "timestamp": "2026-03-20T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000208",
+    "request_id": "LVE-2026-000056",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-20T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000209",
+    "request_id": "LVE-2026-000056",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000023",
+    "timestamp": "2026-03-20T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000210",
+    "request_id": "LVE-2026-000056",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-31T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000211",
+    "request_id": "LVE-2026-000057",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-15T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000212",
+    "request_id": "LVE-2026-000057",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-15T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000213",
+    "request_id": "LVE-2026-000057",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-15T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000214",
+    "request_id": "LVE-2026-000057",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-16T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000215",
+    "request_id": "LVE-2026-000058",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000019",
+    "timestamp": "2026-06-22T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000216",
+    "request_id": "LVE-2026-000058",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-22T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000217",
+    "request_id": "LVE-2026-000058",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000011",
+    "timestamp": "2026-06-22T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000218",
+    "request_id": "LVE-2026-000058",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-08T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000219",
+    "request_id": "LVE-2026-000059",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000030",
+    "timestamp": "2026-06-05T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000220",
+    "request_id": "LVE-2026-000059",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-05T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000221",
+    "request_id": "LVE-2026-000059",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000017",
+    "timestamp": "2026-06-05T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000222",
+    "request_id": "LVE-2026-000059",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-10T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000223",
+    "request_id": "LVE-2026-000060",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000015",
+    "timestamp": "2026-04-29T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000224",
+    "request_id": "LVE-2026-000060",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-04-29T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000225",
+    "request_id": "LVE-2026-000060",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000007",
+    "timestamp": "2026-04-29T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000226",
+    "request_id": "LVE-2026-000060",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-08T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000227",
+    "request_id": "LVE-2026-000061",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000026",
+    "timestamp": "2026-05-07T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000228",
+    "request_id": "LVE-2026-000061",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-07T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000229",
+    "request_id": "LVE-2026-000061",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000011",
+    "timestamp": "2026-05-07T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000230",
+    "request_id": "LVE-2026-000061",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-08T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000231",
+    "request_id": "LVE-2026-000062",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000024",
+    "timestamp": "2026-10-23T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000232",
+    "request_id": "LVE-2026-000062",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-10-23T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000233",
+    "request_id": "LVE-2026-000062",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000008",
+    "timestamp": "2026-10-23T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000234",
+    "request_id": "LVE-2026-000063",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000019",
+    "timestamp": "2026-11-13T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000235",
+    "request_id": "LVE-2026-000063",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-11-13T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000236",
+    "request_id": "LVE-2026-000063",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000011",
+    "timestamp": "2026-11-13T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000237",
+    "request_id": "LVE-2026-000064",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-03-30T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000238",
+    "request_id": "LVE-2026-000064",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-30T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000239",
+    "request_id": "LVE-2026-000064",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-30T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000240",
+    "request_id": "LVE-2026-000064",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-04-10T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000241",
+    "request_id": "LVE-2026-000065",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-22T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000242",
+    "request_id": "LVE-2026-000065",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-22T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000243",
+    "request_id": "LVE-2026-000065",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-22T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000244",
+    "request_id": "LVE-2026-000065",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-25T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000245",
+    "request_id": "LVE-2026-000066",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000018",
+    "timestamp": "2026-09-03T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000246",
+    "request_id": "LVE-2026-000066",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-03T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000247",
+    "request_id": "LVE-2026-000066",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000011",
+    "timestamp": "2026-09-03T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000248",
+    "request_id": "LVE-2026-000066",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-04T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000249",
+    "request_id": "LVE-2026-000067",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000039",
+    "timestamp": "2026-08-22T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000250",
+    "request_id": "LVE-2026-000067",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-22T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000251",
+    "request_id": "LVE-2026-000067",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000023",
+    "timestamp": "2026-08-22T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000252",
+    "request_id": "LVE-2026-000067",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-24T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000253",
+    "request_id": "LVE-2026-000068",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000018",
+    "timestamp": "2026-08-31T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000254",
+    "request_id": "LVE-2026-000068",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-31T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000255",
+    "request_id": "LVE-2026-000068",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000011",
+    "timestamp": "2026-08-31T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000256",
+    "request_id": "LVE-2026-000068",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-08T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000257",
+    "request_id": "LVE-2026-000069",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000027",
+    "timestamp": "2026-08-13T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000258",
+    "request_id": "LVE-2026-000069",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-13T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000259",
+    "request_id": "LVE-2026-000069",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000009",
+    "timestamp": "2026-08-13T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000260",
+    "request_id": "LVE-2026-000069",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-16T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000261",
+    "request_id": "LVE-2026-000070",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000035",
+    "timestamp": "2026-06-06T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000262",
+    "request_id": "LVE-2026-000070",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-06T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000263",
+    "request_id": "LVE-2026-000070",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000027",
+    "timestamp": "2026-06-06T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000264",
+    "request_id": "LVE-2026-000070",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-08T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000265",
+    "request_id": "LVE-2026-000071",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000013",
+    "timestamp": "2026-11-18T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000266",
+    "request_id": "LVE-2026-000071",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-11-18T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000267",
+    "request_id": "LVE-2026-000071",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-11-18T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000268",
+    "request_id": "LVE-2026-000072",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000005",
+    "timestamp": "2026-10-24T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000269",
+    "request_id": "LVE-2026-000072",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-10-24T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000270",
+    "request_id": "LVE-2026-000072",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-10-24T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000271",
+    "request_id": "LVE-2026-000073",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000034",
+    "timestamp": "2026-11-10T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000272",
+    "request_id": "LVE-2026-000073",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-11-10T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000273",
+    "request_id": "LVE-2026-000073",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000016",
+    "timestamp": "2026-11-10T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000274",
+    "request_id": "LVE-2026-000074",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-17T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000275",
+    "request_id": "LVE-2026-000074",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-17T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000276",
+    "request_id": "LVE-2026-000074",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "REJECTED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-17T12:05:00Z",
+    "reason_code": "OVERLAPPING_LEAVE_REQUEST",
+    "comment": "Leave request intersects with an existing scheduled leave period."
+  },
+  {
+    "event_id": "LVEV-000277",
+    "request_id": "LVE-2026-000075",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000026",
+    "timestamp": "2026-07-28T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000278",
+    "request_id": "LVE-2026-000075",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-28T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000279",
+    "request_id": "LVE-2026-000075",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-07-28T14:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000280",
+    "request_id": "LVE-2026-000075",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-12T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000281",
+    "request_id": "LVE-2026-000076",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000007",
+    "timestamp": "2026-07-14T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000282",
+    "request_id": "LVE-2026-000076",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-14T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000283",
+    "request_id": "LVE-2026-000076",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "REJECTED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-07-14T14:05:00Z",
+    "reason_code": "OVERLAPPING_LEAVE_REQUEST",
+    "comment": "Leave request intersects with an existing scheduled leave period."
+  },
+  {
+    "event_id": "LVEV-000284",
+    "request_id": "LVE-2026-000077",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000014",
+    "timestamp": "2026-06-05T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000285",
+    "request_id": "LVE-2026-000077",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-05T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000286",
+    "request_id": "LVE-2026-000077",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-06-05T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000287",
+    "request_id": "LVE-2026-000077",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-19T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000288",
+    "request_id": "LVE-2026-000078",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-04-23T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000289",
+    "request_id": "LVE-2026-000078",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-04-23T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000290",
+    "request_id": "LVE-2026-000078",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-04-23T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000291",
+    "request_id": "LVE-2026-000078",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-04-25T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000292",
+    "request_id": "LVE-2026-000079",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000030",
+    "timestamp": "2026-06-06T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000293",
+    "request_id": "LVE-2026-000079",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-06T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000294",
+    "request_id": "LVE-2026-000079",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000017",
+    "timestamp": "2026-06-06T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000295",
+    "request_id": "LVE-2026-000079",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-19T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  },
+  {
+    "event_id": "LVEV-000296",
+    "request_id": "LVE-2026-000080",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000036",
+    "timestamp": "2026-08-10T09:00:00Z",
+    "reason_code": "REQUEST_SUBMITTED",
+    "comment": "Initial submission by requester."
+  },
+  {
+    "event_id": "LVEV-000297",
+    "request_id": "LVE-2026-000080",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-10T09:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "System automated routing to approvers."
+  },
+  {
+    "event_id": "LVEV-000298",
+    "request_id": "LVE-2026-000080",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000018",
+    "timestamp": "2026-08-10T12:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Request satisfies balance, notice, and policy constraints."
+  },
+  {
+    "event_id": "LVEV-000299",
+    "request_id": "LVE-2026-000080",
+    "from_status": "APPROVED",
+    "to_status": "CONSUMED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-17T23:59:59Z",
+    "reason_code": "LEAVE_PERIOD_COMPLETED",
+    "comment": "Automated system update: leave interval concluded."
+  }
+]

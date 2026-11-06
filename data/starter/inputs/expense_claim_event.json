@@ -1,0 +1,3932 @@
+[
+  {
+    "event_id": "EXPV-000001",
+    "claim_id": "EXP-2026-000001",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000008",
+    "timestamp": "2026-08-12T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000002",
+    "claim_id": "EXP-2026-000001",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-12T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000003",
+    "claim_id": "EXP-2026-000001",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-08-12T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000004",
+    "claim_id": "EXP-2026-000001",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-08-16T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000001"
+  },
+  {
+    "event_id": "EXPV-000005",
+    "claim_id": "EXP-2026-000002",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000019",
+    "timestamp": "2026-04-22T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000006",
+    "claim_id": "EXP-2026-000002",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-04-22T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000007",
+    "claim_id": "EXP-2026-000002",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-04-22T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000008",
+    "claim_id": "EXP-2026-000002",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-04-27T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000002"
+  },
+  {
+    "event_id": "EXPV-000009",
+    "claim_id": "EXP-2026-000003",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000024",
+    "timestamp": "2026-10-16T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000010",
+    "claim_id": "EXP-2026-000003",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-10-16T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000011",
+    "claim_id": "EXP-2026-000003",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "REJECTED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-10-17T00:05:00Z",
+    "reason_code": "RECEIPT_MANDATORY_BREACH",
+    "comment": "Claim contains line items exceeding threshold without valid receipt substantiation."
+  },
+  {
+    "event_id": "EXPV-000012",
+    "claim_id": "EXP-2026-000004",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000007",
+    "timestamp": "2026-03-19T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000013",
+    "claim_id": "EXP-2026-000004",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-19T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000014",
+    "claim_id": "EXP-2026-000004",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-03-20T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000015",
+    "claim_id": "EXP-2026-000004",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-03-24T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000003"
+  },
+  {
+    "event_id": "EXPV-000016",
+    "claim_id": "EXP-2026-000005",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000013",
+    "timestamp": "2026-09-14T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000017",
+    "claim_id": "EXP-2026-000005",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-14T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000018",
+    "claim_id": "EXP-2026-000005",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-09-14T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000019",
+    "claim_id": "EXP-2026-000005",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-09-18T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000004"
+  },
+  {
+    "event_id": "EXPV-000020",
+    "claim_id": "EXP-2026-000006",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000011",
+    "timestamp": "2026-03-24T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000021",
+    "claim_id": "EXP-2026-000006",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-24T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000022",
+    "claim_id": "EXP-2026-000006",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-03-25T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000023",
+    "claim_id": "EXP-2026-000006",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-03-28T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000005"
+  },
+  {
+    "event_id": "EXPV-000024",
+    "claim_id": "EXP-2026-000007",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000036",
+    "timestamp": "2026-08-21T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000025",
+    "claim_id": "EXP-2026-000007",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-21T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000026",
+    "claim_id": "EXP-2026-000007",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-08-21T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000027",
+    "claim_id": "EXP-2026-000007",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-08-27T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000006"
+  },
+  {
+    "event_id": "EXPV-000028",
+    "claim_id": "EXP-2026-000008",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000024",
+    "timestamp": "2026-02-26T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000029",
+    "claim_id": "EXP-2026-000008",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-26T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000030",
+    "claim_id": "EXP-2026-000008",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-02-26T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000031",
+    "claim_id": "EXP-2026-000008",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-03-03T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000007"
+  },
+  {
+    "event_id": "EXPV-000032",
+    "claim_id": "EXP-2026-000009",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000025",
+    "timestamp": "2026-04-11T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000033",
+    "claim_id": "EXP-2026-000009",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-04-11T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000034",
+    "claim_id": "EXP-2026-000009",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-04-12T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000035",
+    "claim_id": "EXP-2026-000009",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-04-17T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000008"
+  },
+  {
+    "event_id": "EXPV-000036",
+    "claim_id": "EXP-2026-000010",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000014",
+    "timestamp": "2026-07-07T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000037",
+    "claim_id": "EXP-2026-000010",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-07T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000038",
+    "claim_id": "EXP-2026-000010",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-07-07T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000039",
+    "claim_id": "EXP-2026-000010",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-07-11T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000009"
+  },
+  {
+    "event_id": "EXPV-000040",
+    "claim_id": "EXP-2026-000011",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000009",
+    "timestamp": "2026-08-04T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000041",
+    "claim_id": "EXP-2026-000011",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-04T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000042",
+    "claim_id": "EXP-2026-000011",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-08-05T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000043",
+    "claim_id": "EXP-2026-000011",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-08-11T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000010"
+  },
+  {
+    "event_id": "EXPV-000044",
+    "claim_id": "EXP-2026-000012",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000009",
+    "timestamp": "2026-06-24T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000045",
+    "claim_id": "EXP-2026-000012",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-24T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000046",
+    "claim_id": "EXP-2026-000012",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-06-25T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000047",
+    "claim_id": "EXP-2026-000012",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-06-29T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000011"
+  },
+  {
+    "event_id": "EXPV-000048",
+    "claim_id": "EXP-2026-000013",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000034",
+    "timestamp": "2026-02-05T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000049",
+    "claim_id": "EXP-2026-000013",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-05T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000050",
+    "claim_id": "EXP-2026-000013",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-02-05T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000051",
+    "claim_id": "EXP-2026-000013",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-02-12T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000012"
+  },
+  {
+    "event_id": "EXPV-000052",
+    "claim_id": "EXP-2026-000014",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000035",
+    "timestamp": "2026-10-10T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000053",
+    "claim_id": "EXP-2026-000014",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-10-10T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000054",
+    "claim_id": "EXP-2026-000014",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000007",
+    "timestamp": "2026-10-10T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000055",
+    "claim_id": "EXP-2026-000014",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-10-15T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000013"
+  },
+  {
+    "event_id": "EXPV-000056",
+    "claim_id": "EXP-2026-000015",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000023",
+    "timestamp": "2026-05-03T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000057",
+    "claim_id": "EXP-2026-000015",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-03T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000058",
+    "claim_id": "EXP-2026-000015",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-05-04T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000059",
+    "claim_id": "EXP-2026-000015",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-05-10T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000014"
+  },
+  {
+    "event_id": "EXPV-000060",
+    "claim_id": "EXP-2026-000016",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000029",
+    "timestamp": "2026-03-11T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000061",
+    "claim_id": "EXP-2026-000016",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-11T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000062",
+    "claim_id": "EXP-2026-000016",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-03-11T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000063",
+    "claim_id": "EXP-2026-000016",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-03-16T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000015"
+  },
+  {
+    "event_id": "EXPV-000064",
+    "claim_id": "EXP-2026-000017",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000009",
+    "timestamp": "2026-10-21T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000065",
+    "claim_id": "EXP-2026-000017",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-10-21T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000066",
+    "claim_id": "EXP-2026-000017",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-10-22T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000067",
+    "claim_id": "EXP-2026-000017",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-10-26T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000016"
+  },
+  {
+    "event_id": "EXPV-000068",
+    "claim_id": "EXP-2026-000018",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000036",
+    "timestamp": "2026-01-10T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000069",
+    "claim_id": "EXP-2026-000018",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-01-10T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000070",
+    "claim_id": "EXP-2026-000018",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-01-11T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000071",
+    "claim_id": "EXP-2026-000018",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-01-14T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000017"
+  },
+  {
+    "event_id": "EXPV-000072",
+    "claim_id": "EXP-2026-000019",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000018",
+    "timestamp": "2026-01-04T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000073",
+    "claim_id": "EXP-2026-000019",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-01-04T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000074",
+    "claim_id": "EXP-2026-000019",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-01-04T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000075",
+    "claim_id": "EXP-2026-000019",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-01-10T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000018"
+  },
+  {
+    "event_id": "EXPV-000076",
+    "claim_id": "EXP-2026-000020",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000032",
+    "timestamp": "2026-05-29T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000077",
+    "claim_id": "EXP-2026-000020",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-29T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000078",
+    "claim_id": "EXP-2026-000020",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-05-30T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000079",
+    "claim_id": "EXP-2026-000020",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-06-03T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000019"
+  },
+  {
+    "event_id": "EXPV-000080",
+    "claim_id": "EXP-2026-000021",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-01-16T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000081",
+    "claim_id": "EXP-2026-000021",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-01-16T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000082",
+    "claim_id": "EXP-2026-000021",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-01-16T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000083",
+    "claim_id": "EXP-2026-000021",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-01-23T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000020"
+  },
+  {
+    "event_id": "EXPV-000084",
+    "claim_id": "EXP-2026-000022",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000027",
+    "timestamp": "2026-02-25T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000085",
+    "claim_id": "EXP-2026-000022",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-25T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000086",
+    "claim_id": "EXP-2026-000022",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000007",
+    "timestamp": "2026-02-25T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000087",
+    "claim_id": "EXP-2026-000022",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-03-04T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000021"
+  },
+  {
+    "event_id": "EXPV-000088",
+    "claim_id": "EXP-2026-000023",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000037",
+    "timestamp": "2026-06-05T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000089",
+    "claim_id": "EXP-2026-000023",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-05T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000090",
+    "claim_id": "EXP-2026-000023",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-06-06T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000091",
+    "claim_id": "EXP-2026-000023",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-06-10T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000022"
+  },
+  {
+    "event_id": "EXPV-000092",
+    "claim_id": "EXP-2026-000024",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000007",
+    "timestamp": "2026-03-07T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000093",
+    "claim_id": "EXP-2026-000024",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-07T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000094",
+    "claim_id": "EXP-2026-000024",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-03-08T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000095",
+    "claim_id": "EXP-2026-000024",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-03-11T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000023"
+  },
+  {
+    "event_id": "EXPV-000096",
+    "claim_id": "EXP-2026-000025",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000039",
+    "timestamp": "2026-01-20T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000097",
+    "claim_id": "EXP-2026-000025",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-01-20T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000098",
+    "claim_id": "EXP-2026-000025",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-01-21T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000099",
+    "claim_id": "EXP-2026-000025",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-01-25T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000024"
+  },
+  {
+    "event_id": "EXPV-000100",
+    "claim_id": "EXP-2026-000026",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000037",
+    "timestamp": "2026-05-16T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000101",
+    "claim_id": "EXP-2026-000026",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-16T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000102",
+    "claim_id": "EXP-2026-000026",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-05-17T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000103",
+    "claim_id": "EXP-2026-000026",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-05-20T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000025"
+  },
+  {
+    "event_id": "EXPV-000104",
+    "claim_id": "EXP-2026-000027",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000008",
+    "timestamp": "2026-01-27T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000105",
+    "claim_id": "EXP-2026-000027",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-01-27T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000106",
+    "claim_id": "EXP-2026-000027",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-01-27T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000107",
+    "claim_id": "EXP-2026-000027",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-01-30T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000026"
+  },
+  {
+    "event_id": "EXPV-000108",
+    "claim_id": "EXP-2026-000028",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000023",
+    "timestamp": "2026-01-01T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000109",
+    "claim_id": "EXP-2026-000028",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-01-01T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000110",
+    "claim_id": "EXP-2026-000028",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-01-02T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000111",
+    "claim_id": "EXP-2026-000028",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-01-05T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000027"
+  },
+  {
+    "event_id": "EXPV-000112",
+    "claim_id": "EXP-2026-000029",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000014",
+    "timestamp": "2026-06-09T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000113",
+    "claim_id": "EXP-2026-000029",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-09T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000114",
+    "claim_id": "EXP-2026-000029",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-06-10T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000115",
+    "claim_id": "EXP-2026-000029",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-06-16T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000028"
+  },
+  {
+    "event_id": "EXPV-000116",
+    "claim_id": "EXP-2026-000030",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000029",
+    "timestamp": "2026-05-16T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000117",
+    "claim_id": "EXP-2026-000030",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-16T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000118",
+    "claim_id": "EXP-2026-000030",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-05-16T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000119",
+    "claim_id": "EXP-2026-000030",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-05-22T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000029"
+  },
+  {
+    "event_id": "EXPV-000120",
+    "claim_id": "EXP-2026-000031",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000035",
+    "timestamp": "2026-07-25T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000121",
+    "claim_id": "EXP-2026-000031",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-25T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000122",
+    "claim_id": "EXP-2026-000031",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-07-26T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000123",
+    "claim_id": "EXP-2026-000031",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-07-31T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000030"
+  },
+  {
+    "event_id": "EXPV-000124",
+    "claim_id": "EXP-2026-000032",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000035",
+    "timestamp": "2026-05-02T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000125",
+    "claim_id": "EXP-2026-000032",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-02T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000126",
+    "claim_id": "EXP-2026-000032",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-05-03T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000127",
+    "claim_id": "EXP-2026-000032",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-05-06T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000031"
+  },
+  {
+    "event_id": "EXPV-000128",
+    "claim_id": "EXP-2026-000033",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000009",
+    "timestamp": "2026-05-19T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000129",
+    "claim_id": "EXP-2026-000033",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-19T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000130",
+    "claim_id": "EXP-2026-000033",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "REJECTED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-05-19T20:05:00Z",
+    "reason_code": "RECEIPT_MANDATORY_BREACH",
+    "comment": "Claim contains line items exceeding threshold without valid receipt substantiation."
+  },
+  {
+    "event_id": "EXPV-000131",
+    "claim_id": "EXP-2026-000034",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000040",
+    "timestamp": "2026-08-30T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000132",
+    "claim_id": "EXP-2026-000034",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-30T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000133",
+    "claim_id": "EXP-2026-000034",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-08-30T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000134",
+    "claim_id": "EXP-2026-000034",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-09-04T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000032"
+  },
+  {
+    "event_id": "EXPV-000135",
+    "claim_id": "EXP-2026-000035",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000014",
+    "timestamp": "2026-04-25T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000136",
+    "claim_id": "EXP-2026-000035",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-04-25T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000137",
+    "claim_id": "EXP-2026-000035",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-04-25T16:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000138",
+    "claim_id": "EXP-2026-000035",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-05-02T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000033"
+  },
+  {
+    "event_id": "EXPV-000139",
+    "claim_id": "EXP-2026-000036",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000014",
+    "timestamp": "2026-03-26T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000140",
+    "claim_id": "EXP-2026-000036",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-26T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000141",
+    "claim_id": "EXP-2026-000036",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-03-26T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000142",
+    "claim_id": "EXP-2026-000036",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-04-01T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000034"
+  },
+  {
+    "event_id": "EXPV-000143",
+    "claim_id": "EXP-2026-000037",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000011",
+    "timestamp": "2026-06-13T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000144",
+    "claim_id": "EXP-2026-000037",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-13T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000145",
+    "claim_id": "EXP-2026-000037",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-06-14T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000146",
+    "claim_id": "EXP-2026-000037",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-06-19T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000035"
+  },
+  {
+    "event_id": "EXPV-000147",
+    "claim_id": "EXP-2026-000038",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000021",
+    "timestamp": "2026-07-10T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000148",
+    "claim_id": "EXP-2026-000038",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-10T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000149",
+    "claim_id": "EXP-2026-000038",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-07-11T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000150",
+    "claim_id": "EXP-2026-000038",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-07-14T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000036"
+  },
+  {
+    "event_id": "EXPV-000151",
+    "claim_id": "EXP-2026-000039",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-09-12T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000152",
+    "claim_id": "EXP-2026-000039",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-12T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000153",
+    "claim_id": "EXP-2026-000039",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-09-13T04:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000154",
+    "claim_id": "EXP-2026-000039",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-09-18T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000037"
+  },
+  {
+    "event_id": "EXPV-000155",
+    "claim_id": "EXP-2026-000040",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000033",
+    "timestamp": "2026-05-16T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000156",
+    "claim_id": "EXP-2026-000040",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-16T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000157",
+    "claim_id": "EXP-2026-000040",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-05-16T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000158",
+    "claim_id": "EXP-2026-000040",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-05-19T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000038"
+  },
+  {
+    "event_id": "EXPV-000159",
+    "claim_id": "EXP-2026-000041",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000036",
+    "timestamp": "2026-05-30T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000160",
+    "claim_id": "EXP-2026-000041",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-30T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000161",
+    "claim_id": "EXP-2026-000041",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-05-31T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000162",
+    "claim_id": "EXP-2026-000041",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-06-06T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000039"
+  },
+  {
+    "event_id": "EXPV-000163",
+    "claim_id": "EXP-2026-000042",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000028",
+    "timestamp": "2026-01-24T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000164",
+    "claim_id": "EXP-2026-000042",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-01-24T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000165",
+    "claim_id": "EXP-2026-000042",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-01-24T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000166",
+    "claim_id": "EXP-2026-000042",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-01-27T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000040"
+  },
+  {
+    "event_id": "EXPV-000167",
+    "claim_id": "EXP-2026-000043",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000039",
+    "timestamp": "2026-07-22T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000168",
+    "claim_id": "EXP-2026-000043",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-22T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000169",
+    "claim_id": "EXP-2026-000043",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-07-23T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000170",
+    "claim_id": "EXP-2026-000043",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-07-25T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000041"
+  },
+  {
+    "event_id": "EXPV-000171",
+    "claim_id": "EXP-2026-000044",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000031",
+    "timestamp": "2026-08-11T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000172",
+    "claim_id": "EXP-2026-000044",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-11T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000173",
+    "claim_id": "EXP-2026-000044",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-08-12T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000174",
+    "claim_id": "EXP-2026-000044",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-08-15T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000042"
+  },
+  {
+    "event_id": "EXPV-000175",
+    "claim_id": "EXP-2026-000045",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-09-11T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000176",
+    "claim_id": "EXP-2026-000045",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-11T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000177",
+    "claim_id": "EXP-2026-000045",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-11T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000178",
+    "claim_id": "EXP-2026-000045",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-09-16T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000043"
+  },
+  {
+    "event_id": "EXPV-000179",
+    "claim_id": "EXP-2026-000046",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000023",
+    "timestamp": "2026-09-06T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000180",
+    "claim_id": "EXP-2026-000046",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-06T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000181",
+    "claim_id": "EXP-2026-000046",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-09-07T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000182",
+    "claim_id": "EXP-2026-000046",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-09-11T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000044"
+  },
+  {
+    "event_id": "EXPV-000183",
+    "claim_id": "EXP-2026-000047",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000021",
+    "timestamp": "2026-10-11T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000184",
+    "claim_id": "EXP-2026-000047",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-10-11T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000185",
+    "claim_id": "EXP-2026-000047",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "REJECTED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-10-11T20:05:00Z",
+    "reason_code": "RECEIPT_MANDATORY_BREACH",
+    "comment": "Claim contains line items exceeding threshold without valid receipt substantiation."
+  },
+  {
+    "event_id": "EXPV-000186",
+    "claim_id": "EXP-2026-000048",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000035",
+    "timestamp": "2026-06-16T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000187",
+    "claim_id": "EXP-2026-000048",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-16T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000188",
+    "claim_id": "EXP-2026-000048",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000007",
+    "timestamp": "2026-06-16T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000189",
+    "claim_id": "EXP-2026-000048",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-06-23T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000045"
+  },
+  {
+    "event_id": "EXPV-000190",
+    "claim_id": "EXP-2026-000049",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-14T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000191",
+    "claim_id": "EXP-2026-000049",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-14T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000192",
+    "claim_id": "EXP-2026-000049",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000003",
+    "timestamp": "2026-08-14T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000193",
+    "claim_id": "EXP-2026-000049",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-08-20T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000046"
+  },
+  {
+    "event_id": "EXPV-000194",
+    "claim_id": "EXP-2026-000050",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000018",
+    "timestamp": "2026-04-07T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000195",
+    "claim_id": "EXP-2026-000050",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-04-07T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000196",
+    "claim_id": "EXP-2026-000050",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000011",
+    "timestamp": "2026-04-07T16:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000197",
+    "claim_id": "EXP-2026-000050",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-04-14T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000047"
+  },
+  {
+    "event_id": "EXPV-000198",
+    "claim_id": "EXP-2026-000051",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000027",
+    "timestamp": "2026-04-16T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000199",
+    "claim_id": "EXP-2026-000051",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-04-16T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000200",
+    "claim_id": "EXP-2026-000051",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-04-17T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000201",
+    "claim_id": "EXP-2026-000051",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-04-22T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000048"
+  },
+  {
+    "event_id": "EXPV-000202",
+    "claim_id": "EXP-2026-000052",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000021",
+    "timestamp": "2026-09-15T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000203",
+    "claim_id": "EXP-2026-000052",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-15T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000204",
+    "claim_id": "EXP-2026-000052",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-09-16T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000205",
+    "claim_id": "EXP-2026-000052",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-09-18T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000049"
+  },
+  {
+    "event_id": "EXPV-000206",
+    "claim_id": "EXP-2026-000053",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000028",
+    "timestamp": "2026-08-27T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000207",
+    "claim_id": "EXP-2026-000053",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-27T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000208",
+    "claim_id": "EXP-2026-000053",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-08-28T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000209",
+    "claim_id": "EXP-2026-000053",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-09-01T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000050"
+  },
+  {
+    "event_id": "EXPV-000210",
+    "claim_id": "EXP-2026-000054",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000022",
+    "timestamp": "2026-09-14T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000211",
+    "claim_id": "EXP-2026-000054",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-14T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000212",
+    "claim_id": "EXP-2026-000054",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-09-14T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000213",
+    "claim_id": "EXP-2026-000054",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-09-19T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000051"
+  },
+  {
+    "event_id": "EXPV-000214",
+    "claim_id": "EXP-2026-000055",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000024",
+    "timestamp": "2026-01-03T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000215",
+    "claim_id": "EXP-2026-000055",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-01-03T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000216",
+    "claim_id": "EXP-2026-000055",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-01-03T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000217",
+    "claim_id": "EXP-2026-000055",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-01-07T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000052"
+  },
+  {
+    "event_id": "EXPV-000218",
+    "claim_id": "EXP-2026-000056",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000023",
+    "timestamp": "2026-09-14T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000219",
+    "claim_id": "EXP-2026-000056",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-14T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000220",
+    "claim_id": "EXP-2026-000056",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-09-15T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000221",
+    "claim_id": "EXP-2026-000056",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-09-17T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000053"
+  },
+  {
+    "event_id": "EXPV-000222",
+    "claim_id": "EXP-2026-000057",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000039",
+    "timestamp": "2026-09-21T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000223",
+    "claim_id": "EXP-2026-000057",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-21T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000224",
+    "claim_id": "EXP-2026-000057",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000014",
+    "timestamp": "2026-09-21T16:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000225",
+    "claim_id": "EXP-2026-000057",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-09-26T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000054"
+  },
+  {
+    "event_id": "EXPV-000226",
+    "claim_id": "EXP-2026-000058",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000032",
+    "timestamp": "2026-07-23T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000227",
+    "claim_id": "EXP-2026-000058",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-23T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000228",
+    "claim_id": "EXP-2026-000058",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-07-24T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000229",
+    "claim_id": "EXP-2026-000058",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-07-30T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000055"
+  },
+  {
+    "event_id": "EXPV-000230",
+    "claim_id": "EXP-2026-000059",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000023",
+    "timestamp": "2026-03-15T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000231",
+    "claim_id": "EXP-2026-000059",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-15T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000232",
+    "claim_id": "EXP-2026-000059",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "REJECTED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-03-15T20:05:00Z",
+    "reason_code": "RECEIPT_MANDATORY_BREACH",
+    "comment": "Claim contains line items exceeding threshold without valid receipt substantiation."
+  },
+  {
+    "event_id": "EXPV-000233",
+    "claim_id": "EXP-2026-000060",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000009",
+    "timestamp": "2026-07-26T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000234",
+    "claim_id": "EXP-2026-000060",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-26T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000235",
+    "claim_id": "EXP-2026-000060",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-07-26T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000236",
+    "claim_id": "EXP-2026-000060",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-07-31T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000056"
+  },
+  {
+    "event_id": "EXPV-000237",
+    "claim_id": "EXP-2026-000061",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-10-17T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000238",
+    "claim_id": "EXP-2026-000061",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-10-17T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000239",
+    "claim_id": "EXP-2026-000061",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-10-17T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000240",
+    "claim_id": "EXP-2026-000061",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-10-21T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000057"
+  },
+  {
+    "event_id": "EXPV-000241",
+    "claim_id": "EXP-2026-000062",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000020",
+    "timestamp": "2026-07-14T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000242",
+    "claim_id": "EXP-2026-000062",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-14T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000243",
+    "claim_id": "EXP-2026-000062",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000013",
+    "timestamp": "2026-07-14T16:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000244",
+    "claim_id": "EXP-2026-000062",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-07-18T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000058"
+  },
+  {
+    "event_id": "EXPV-000245",
+    "claim_id": "EXP-2026-000063",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000026",
+    "timestamp": "2026-08-04T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000246",
+    "claim_id": "EXP-2026-000063",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-04T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000247",
+    "claim_id": "EXP-2026-000063",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-08-04T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000248",
+    "claim_id": "EXP-2026-000063",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-08-11T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000059"
+  },
+  {
+    "event_id": "EXPV-000249",
+    "claim_id": "EXP-2026-000064",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000022",
+    "timestamp": "2026-04-25T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000250",
+    "claim_id": "EXP-2026-000064",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-04-25T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000251",
+    "claim_id": "EXP-2026-000064",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-04-26T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000252",
+    "claim_id": "EXP-2026-000064",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-04-28T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000060"
+  },
+  {
+    "event_id": "EXPV-000253",
+    "claim_id": "EXP-2026-000065",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000040",
+    "timestamp": "2026-02-28T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000254",
+    "claim_id": "EXP-2026-000065",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-28T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000255",
+    "claim_id": "EXP-2026-000065",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-03-01T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000256",
+    "claim_id": "EXP-2026-000065",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-03-03T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000061"
+  },
+  {
+    "event_id": "EXPV-000257",
+    "claim_id": "EXP-2026-000066",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000024",
+    "timestamp": "2026-06-07T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000258",
+    "claim_id": "EXP-2026-000066",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-07T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000259",
+    "claim_id": "EXP-2026-000066",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-06-07T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000260",
+    "claim_id": "EXP-2026-000066",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-06-10T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000062"
+  },
+  {
+    "event_id": "EXPV-000261",
+    "claim_id": "EXP-2026-000067",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000030",
+    "timestamp": "2026-10-18T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000262",
+    "claim_id": "EXP-2026-000067",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-10-18T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000263",
+    "claim_id": "EXP-2026-000067",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-10-18T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000264",
+    "claim_id": "EXP-2026-000067",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-10-25T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000063"
+  },
+  {
+    "event_id": "EXPV-000265",
+    "claim_id": "EXP-2026-000068",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-09-19T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000266",
+    "claim_id": "EXP-2026-000068",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-19T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000267",
+    "claim_id": "EXP-2026-000068",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-19T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000268",
+    "claim_id": "EXP-2026-000068",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-09-22T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000064"
+  },
+  {
+    "event_id": "EXPV-000269",
+    "claim_id": "EXP-2026-000069",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000014",
+    "timestamp": "2026-01-06T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000270",
+    "claim_id": "EXP-2026-000069",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-01-06T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000271",
+    "claim_id": "EXP-2026-000069",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-01-07T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000272",
+    "claim_id": "EXP-2026-000069",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-01-11T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000065"
+  },
+  {
+    "event_id": "EXPV-000273",
+    "claim_id": "EXP-2026-000070",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000013",
+    "timestamp": "2026-02-07T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000274",
+    "claim_id": "EXP-2026-000070",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-07T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000275",
+    "claim_id": "EXP-2026-000070",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-02-07T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000276",
+    "claim_id": "EXP-2026-000070",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-02-11T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000066"
+  },
+  {
+    "event_id": "EXPV-000277",
+    "claim_id": "EXP-2026-000071",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000016",
+    "timestamp": "2026-04-26T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000278",
+    "claim_id": "EXP-2026-000071",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-04-26T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000279",
+    "claim_id": "EXP-2026-000071",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-04-26T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000280",
+    "claim_id": "EXP-2026-000071",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-04-30T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000067"
+  },
+  {
+    "event_id": "EXPV-000281",
+    "claim_id": "EXP-2026-000072",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000033",
+    "timestamp": "2026-04-26T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000282",
+    "claim_id": "EXP-2026-000072",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-04-26T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000283",
+    "claim_id": "EXP-2026-000072",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-04-27T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000284",
+    "claim_id": "EXP-2026-000072",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-05-01T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000068"
+  },
+  {
+    "event_id": "EXPV-000285",
+    "claim_id": "EXP-2026-000073",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000027",
+    "timestamp": "2026-04-20T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000286",
+    "claim_id": "EXP-2026-000073",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-04-20T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000287",
+    "claim_id": "EXP-2026-000073",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-04-21T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000288",
+    "claim_id": "EXP-2026-000073",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-04-26T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000069"
+  },
+  {
+    "event_id": "EXPV-000289",
+    "claim_id": "EXP-2026-000074",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000009",
+    "timestamp": "2026-09-15T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000290",
+    "claim_id": "EXP-2026-000074",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-15T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000291",
+    "claim_id": "EXP-2026-000074",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-09-15T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000292",
+    "claim_id": "EXP-2026-000074",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-09-19T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000070"
+  },
+  {
+    "event_id": "EXPV-000293",
+    "claim_id": "EXP-2026-000075",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000024",
+    "timestamp": "2026-05-15T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000294",
+    "claim_id": "EXP-2026-000075",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-15T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000295",
+    "claim_id": "EXP-2026-000075",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-05-16T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000296",
+    "claim_id": "EXP-2026-000075",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-05-21T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000071"
+  },
+  {
+    "event_id": "EXPV-000297",
+    "claim_id": "EXP-2026-000076",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000033",
+    "timestamp": "2026-06-26T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000298",
+    "claim_id": "EXP-2026-000076",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-26T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000299",
+    "claim_id": "EXP-2026-000076",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-06-26T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000300",
+    "claim_id": "EXP-2026-000076",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-07-02T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000072"
+  },
+  {
+    "event_id": "EXPV-000301",
+    "claim_id": "EXP-2026-000077",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-22T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000302",
+    "claim_id": "EXP-2026-000077",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-22T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000303",
+    "claim_id": "EXP-2026-000077",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000003",
+    "timestamp": "2026-08-22T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000304",
+    "claim_id": "EXP-2026-000077",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-08-29T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000073"
+  },
+  {
+    "event_id": "EXPV-000305",
+    "claim_id": "EXP-2026-000078",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000019",
+    "timestamp": "2026-07-14T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000306",
+    "claim_id": "EXP-2026-000078",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-14T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000307",
+    "claim_id": "EXP-2026-000078",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000011",
+    "timestamp": "2026-07-14T16:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000308",
+    "claim_id": "EXP-2026-000078",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-07-17T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000074"
+  },
+  {
+    "event_id": "EXPV-000309",
+    "claim_id": "EXP-2026-000079",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-05-19T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000310",
+    "claim_id": "EXP-2026-000079",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-19T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000311",
+    "claim_id": "EXP-2026-000079",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "REJECTED",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-20T04:05:00Z",
+    "reason_code": "RECEIPT_MANDATORY_BREACH",
+    "comment": "Claim contains line items exceeding threshold without valid receipt substantiation."
+  },
+  {
+    "event_id": "EXPV-000312",
+    "claim_id": "EXP-2026-000080",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000033",
+    "timestamp": "2026-06-20T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000313",
+    "claim_id": "EXP-2026-000080",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-20T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000314",
+    "claim_id": "EXP-2026-000080",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000008",
+    "timestamp": "2026-06-20T16:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000315",
+    "claim_id": "EXP-2026-000080",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-06-25T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000075"
+  },
+  {
+    "event_id": "EXPV-000316",
+    "claim_id": "EXP-2026-000081",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000028",
+    "timestamp": "2026-02-27T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000317",
+    "claim_id": "EXP-2026-000081",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-27T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000318",
+    "claim_id": "EXP-2026-000081",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-02-27T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000319",
+    "claim_id": "EXP-2026-000081",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-03-03T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000076"
+  },
+  {
+    "event_id": "EXPV-000320",
+    "claim_id": "EXP-2026-000082",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000018",
+    "timestamp": "2026-01-22T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000321",
+    "claim_id": "EXP-2026-000082",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-01-22T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000322",
+    "claim_id": "EXP-2026-000082",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-01-23T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000323",
+    "claim_id": "EXP-2026-000082",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-01-25T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000077"
+  },
+  {
+    "event_id": "EXPV-000324",
+    "claim_id": "EXP-2026-000083",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-08-27T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000325",
+    "claim_id": "EXP-2026-000083",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-08-27T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000326",
+    "claim_id": "EXP-2026-000083",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-08-27T16:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000327",
+    "claim_id": "EXP-2026-000083",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-09-01T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000078"
+  },
+  {
+    "event_id": "EXPV-000328",
+    "claim_id": "EXP-2026-000084",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000011",
+    "timestamp": "2026-07-16T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000329",
+    "claim_id": "EXP-2026-000084",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-16T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000330",
+    "claim_id": "EXP-2026-000084",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "REJECTED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-07-16T20:05:00Z",
+    "reason_code": "RECEIPT_MANDATORY_BREACH",
+    "comment": "Claim contains line items exceeding threshold without valid receipt substantiation."
+  },
+  {
+    "event_id": "EXPV-000331",
+    "claim_id": "EXP-2026-000085",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000039",
+    "timestamp": "2026-03-10T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000332",
+    "claim_id": "EXP-2026-000085",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-10T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000333",
+    "claim_id": "EXP-2026-000085",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-03-10T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000334",
+    "claim_id": "EXP-2026-000085",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-03-14T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000079"
+  },
+  {
+    "event_id": "EXPV-000335",
+    "claim_id": "EXP-2026-000086",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000035",
+    "timestamp": "2026-10-08T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000336",
+    "claim_id": "EXP-2026-000086",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-10-08T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000337",
+    "claim_id": "EXP-2026-000086",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-10-09T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000338",
+    "claim_id": "EXP-2026-000086",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-10-12T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000080"
+  },
+  {
+    "event_id": "EXPV-000339",
+    "claim_id": "EXP-2026-000087",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000009",
+    "timestamp": "2026-02-19T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000340",
+    "claim_id": "EXP-2026-000087",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-19T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000341",
+    "claim_id": "EXP-2026-000087",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-02-19T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000342",
+    "claim_id": "EXP-2026-000087",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-02-25T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000081"
+  },
+  {
+    "event_id": "EXPV-000343",
+    "claim_id": "EXP-2026-000088",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000026",
+    "timestamp": "2026-03-14T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000344",
+    "claim_id": "EXP-2026-000088",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-14T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000345",
+    "claim_id": "EXP-2026-000088",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-03-14T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000346",
+    "claim_id": "EXP-2026-000088",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-03-21T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000082"
+  },
+  {
+    "event_id": "EXPV-000347",
+    "claim_id": "EXP-2026-000089",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000025",
+    "timestamp": "2026-06-07T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000348",
+    "claim_id": "EXP-2026-000089",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-07T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000349",
+    "claim_id": "EXP-2026-000089",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000007",
+    "timestamp": "2026-06-07T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000350",
+    "claim_id": "EXP-2026-000089",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-06-14T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000083"
+  },
+  {
+    "event_id": "EXPV-000351",
+    "claim_id": "EXP-2026-000090",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000016",
+    "timestamp": "2026-03-18T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000352",
+    "claim_id": "EXP-2026-000090",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-03-18T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000353",
+    "claim_id": "EXP-2026-000090",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-03-19T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000354",
+    "claim_id": "EXP-2026-000090",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-03-24T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000084"
+  },
+  {
+    "event_id": "EXPV-000355",
+    "claim_id": "EXP-2026-000091",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000034",
+    "timestamp": "2026-02-27T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000356",
+    "claim_id": "EXP-2026-000091",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-02-27T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000357",
+    "claim_id": "EXP-2026-000091",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000004",
+    "timestamp": "2026-02-27T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000358",
+    "claim_id": "EXP-2026-000091",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-03-06T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000085"
+  },
+  {
+    "event_id": "EXPV-000359",
+    "claim_id": "EXP-2026-000092",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000017",
+    "timestamp": "2026-09-05T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000360",
+    "claim_id": "EXP-2026-000092",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-05T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000361",
+    "claim_id": "EXP-2026-000092",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000006",
+    "timestamp": "2026-09-05T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000362",
+    "claim_id": "EXP-2026-000092",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-09-11T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000086"
+  },
+  {
+    "event_id": "EXPV-000363",
+    "claim_id": "EXP-2026-000093",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-01-13T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000364",
+    "claim_id": "EXP-2026-000093",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-01-13T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000365",
+    "claim_id": "EXP-2026-000093",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-01-13T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000366",
+    "claim_id": "EXP-2026-000093",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-01-16T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000087"
+  },
+  {
+    "event_id": "EXPV-000367",
+    "claim_id": "EXP-2026-000094",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000022",
+    "timestamp": "2026-01-19T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000368",
+    "claim_id": "EXP-2026-000094",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-01-19T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000369",
+    "claim_id": "EXP-2026-000094",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000011",
+    "timestamp": "2026-01-19T16:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000370",
+    "claim_id": "EXP-2026-000094",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-01-25T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000088"
+  },
+  {
+    "event_id": "EXPV-000371",
+    "claim_id": "EXP-2026-000095",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000027",
+    "timestamp": "2026-06-17T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000372",
+    "claim_id": "EXP-2026-000095",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-17T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000373",
+    "claim_id": "EXP-2026-000095",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-06-18T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000374",
+    "claim_id": "EXP-2026-000095",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-06-21T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000089"
+  },
+  {
+    "event_id": "EXPV-000375",
+    "claim_id": "EXP-2026-000096",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000040",
+    "timestamp": "2026-05-23T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000376",
+    "claim_id": "EXP-2026-000096",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-05-23T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000377",
+    "claim_id": "EXP-2026-000096",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-05-24T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000378",
+    "claim_id": "EXP-2026-000096",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-05-26T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000090"
+  },
+  {
+    "event_id": "EXPV-000379",
+    "claim_id": "EXP-2026-000097",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-06-03T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000380",
+    "claim_id": "EXP-2026-000097",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-06-03T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000381",
+    "claim_id": "EXP-2026-000097",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-06-04T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000382",
+    "claim_id": "EXP-2026-000097",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-06-08T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000091"
+  },
+  {
+    "event_id": "EXPV-000383",
+    "claim_id": "EXP-2026-000098",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000025",
+    "timestamp": "2026-09-27T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000384",
+    "claim_id": "EXP-2026-000098",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-09-27T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000385",
+    "claim_id": "EXP-2026-000098",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000007",
+    "timestamp": "2026-09-27T20:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000386",
+    "claim_id": "EXP-2026-000098",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-10-02T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000092"
+  },
+  {
+    "event_id": "EXPV-000387",
+    "claim_id": "EXP-2026-000099",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000002",
+    "timestamp": "2026-07-11T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000388",
+    "claim_id": "EXP-2026-000099",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-07-11T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000389",
+    "claim_id": "EXP-2026-000099",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "REJECTED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-07-12T00:05:00Z",
+    "reason_code": "RECEIPT_MANDATORY_BREACH",
+    "comment": "Claim contains line items exceeding threshold without valid receipt substantiation."
+  },
+  {
+    "event_id": "EXPV-000390",
+    "claim_id": "EXP-2026-000100",
+    "from_status": "DRAFT",
+    "to_status": "SUBMITTED",
+    "actor_id": "EMP-000036",
+    "timestamp": "2026-10-14T10:00:00Z",
+    "reason_code": "CLAIM_SUBMITTED",
+    "comment": "Claim submitted with itemized receipts."
+  },
+  {
+    "event_id": "EXPV-000391",
+    "claim_id": "EXP-2026-000100",
+    "from_status": "SUBMITTED",
+    "to_status": "PENDING_APPROVAL",
+    "actor_id": "EMP-000001",
+    "timestamp": "2026-10-14T10:05:00Z",
+    "reason_code": "ROUTED_FOR_APPROVAL",
+    "comment": "Automated workflow engine assigned approval authority path."
+  },
+  {
+    "event_id": "EXPV-000392",
+    "claim_id": "EXP-2026-000100",
+    "from_status": "PENDING_APPROVAL",
+    "to_status": "APPROVED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-10-15T00:05:00Z",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "comment": "Claim adheres to expense policy guidelines and receipts verified."
+  },
+  {
+    "event_id": "EXPV-000393",
+    "claim_id": "EXP-2026-000100",
+    "from_status": "APPROVED",
+    "to_status": "REIMBURSED",
+    "actor_id": "EMP-000010",
+    "timestamp": "2026-10-17T16:00:00Z",
+    "reason_code": "REIMBURSEMENT_PROCESSED",
+    "comment": "Payment executed via Direct Deposit. Ref: TXN-00000093"
+  }
+]

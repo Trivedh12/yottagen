@@ -315,7 +315,11 @@ def validate_dataset(
     # Every anomaly present in data must be documented in ground truth
     anomaly_reconciliation_violations = []
     if ground_truth_records:
-        gt_types = {gt.issue_type for gt in ground_truth_records if getattr(gt, "injected", 0) == 1}
+        gt_types = {
+            getattr(gt, "issue_type", None) or gt.get("issue_type", "")
+            for gt in ground_truth_records
+            if (getattr(gt, "injected", None) if hasattr(gt, "injected") else gt.get("injected", 0)) in (1, "1", True)
+        }
         expected_types = {
             "NEGATIVE_LEAVE_BALANCE",
             "OVERLAPPING_APPROVED_LEAVE",

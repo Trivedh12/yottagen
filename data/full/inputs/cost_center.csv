@@ -1,0 +1,9 @@
+cost_center_id,code,name,department,manager_id,budget_currency,annual_budget,status
+CC-100,ENG,Engineering,Technology,EMP-000005,USD,5000000.0,ACTIVE
+CC-101,SALES,Sales & Business Dev,Commercial,EMP-000003,USD,3000000.0,ACTIVE
+CC-102,MKT,Marketing & Growth,Commercial,EMP-000001,USD,1500000.0,ACTIVE
+CC-103,GNA,General & Administrative,Operations,EMP-000001,USD,1000000.0,ACTIVE
+CC-104,PROD,Product Management,Technology,EMP-000013,USD,2000000.0,ACTIVE
+CC-105,HR,People Operations,Human Resources,EMP-000007,USD,800000.0,ACTIVE
+CC-106,FIN,Finance & Accounting,Finance,EMP-000006,USD,900000.0,ACTIVE
+CC-107,OPS,Operations & IT Infrastructure,Operations,EMP-000002,USD,1200000.0,ACTIVE

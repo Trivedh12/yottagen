@@ -1,0 +1,1802 @@
+[
+  {
+    "decision_id": "DEC-000001",
+    "subject_id": "LVE-2026-000001",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-07-17\", \"end_date\": \"2026-07-20\", \"business_days\": 2, \"available_balance\": 22.5, \"notice_days\": 4, \"policy_cap\": 21.0}",
+    "timestamp": "2026-07-13T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000002",
+    "subject_id": "LVE-2026-000002",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-05-04\", \"end_date\": \"2026-05-04\", \"business_days\": 1, \"available_balance\": 5.0, \"notice_days\": 4, \"policy_cap\": 6.0}",
+    "timestamp": "2026-04-30T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000003",
+    "subject_id": "LVE-2026-000003",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-01-17\", \"end_date\": \"2026-01-19\", \"business_days\": 1, \"available_balance\": 5.0, \"notice_days\": 11, \"policy_cap\": 6.0}",
+    "timestamp": "2026-01-06T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000004",
+    "subject_id": "LVE-2026-000004",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-07-14\", \"end_date\": \"2026-07-15\", \"business_days\": 2, \"available_balance\": 22.5, \"notice_days\": 7, \"policy_cap\": 21.0}",
+    "timestamp": "2026-07-07T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000005",
+    "subject_id": "LVE-2026-000005",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-08-20\", \"end_date\": \"2026-09-03\", \"business_days\": 11, \"available_balance\": 22.5, \"notice_days\": 11, \"policy_cap\": 21.0}",
+    "timestamp": "2026-08-09T12:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000006",
+    "subject_id": "LVE-2026-000006",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-08-25\", \"end_date\": \"2026-08-25\", \"business_days\": 1, \"available_balance\": 22.5, \"notice_days\": 16, \"policy_cap\": 21.0}",
+    "timestamp": "2026-08-09T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000007",
+    "subject_id": "LVE-2026-000007",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-05-03\", \"end_date\": \"2026-05-15\", \"business_days\": 10, \"available_balance\": 22.5, \"notice_days\": 17, \"policy_cap\": 21.0}",
+    "timestamp": "2026-04-16T12:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000008",
+    "subject_id": "LVE-2026-000008",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-09-01\", \"end_date\": \"2026-09-02\", \"business_days\": 2, \"available_balance\": 5.0, \"notice_days\": 12, \"policy_cap\": 6.0}",
+    "timestamp": "2026-08-20T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000009",
+    "subject_id": "LVE-2026-000009",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-06-26\", \"end_date\": \"2026-06-26\", \"business_days\": 1, \"available_balance\": 22.5, \"notice_days\": 16, \"policy_cap\": 21.0}",
+    "timestamp": "2026-06-10T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000010",
+    "subject_id": "LVE-2026-000010",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-08-05\", \"end_date\": \"2026-08-10\", \"business_days\": 4, \"available_balance\": 22.5, \"notice_days\": 9, \"policy_cap\": 21.0}",
+    "timestamp": "2026-07-27T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000011",
+    "subject_id": "LVE-2026-000011",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-11-03\", \"end_date\": \"2026-11-04\", \"business_days\": 2, \"available_balance\": 22.5, \"notice_days\": 15, \"policy_cap\": 21.0}",
+    "timestamp": "2026-10-19T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000012",
+    "subject_id": "LVE-2026-000012",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-05-22\", \"end_date\": \"2026-05-23\", \"business_days\": 1, \"available_balance\": 22.5, \"notice_days\": 3, \"policy_cap\": 21.0}",
+    "timestamp": "2026-05-19T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000013",
+    "subject_id": "LVE-2026-000013",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-09-03\", \"end_date\": \"2026-10-04\", \"business_days\": 22, \"available_balance\": 90.0, \"notice_days\": 32, \"policy_cap\": 90.0}",
+    "timestamp": "2026-08-02T14:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000014",
+    "subject_id": "LVE-2026-000014",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-08-07\", \"end_date\": \"2026-08-07\", \"business_days\": 1, \"available_balance\": 10.0, \"notice_days\": 0, \"policy_cap\": 12.0}",
+    "timestamp": "2026-08-07T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000015",
+    "subject_id": "LVE-2026-000015",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-01-02\", \"end_date\": \"2026-01-09\", \"business_days\": 6, \"available_balance\": 18.5, \"notice_days\": 14, \"policy_cap\": 21.0}",
+    "timestamp": "2025-12-19T12:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000016",
+    "subject_id": "LVE-2026-000016",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-06-21\", \"end_date\": \"2026-06-22\", \"business_days\": 1, \"available_balance\": 5.0, \"notice_days\": 5, \"policy_cap\": 6.0}",
+    "timestamp": "2026-06-16T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000017",
+    "subject_id": "LVE-2026-000017",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-11-03\", \"end_date\": \"2026-11-05\", \"business_days\": 3, \"available_balance\": 22.5, \"notice_days\": 6, \"policy_cap\": 21.0}",
+    "timestamp": "2026-10-28T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000018",
+    "subject_id": "LVE-2026-000018",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-08-24\", \"end_date\": \"2026-08-24\", \"business_days\": 1, \"available_balance\": 10.0, \"notice_days\": 1, \"policy_cap\": 12.0}",
+    "timestamp": "2026-08-23T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000019",
+    "subject_id": "LVE-2026-000019",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-09-03\", \"end_date\": \"2026-09-09\", \"business_days\": 5, \"available_balance\": 22.5, \"notice_days\": 10, \"policy_cap\": 21.0}",
+    "timestamp": "2026-08-24T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000020",
+    "subject_id": "LVE-2026-000020",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-12-21\", \"end_date\": \"2026-12-23\", \"business_days\": 3, \"available_balance\": 22.5, \"notice_days\": 4, \"policy_cap\": 21.0}",
+    "timestamp": "2026-12-17T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000021",
+    "subject_id": "LVE-2026-000021",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-11-07\", \"end_date\": \"2026-11-09\", \"business_days\": 1, \"available_balance\": 22.5, \"notice_days\": 3, \"policy_cap\": 21.0}",
+    "timestamp": "2026-11-04T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000022",
+    "subject_id": "LVE-2026-000022",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-07-17\", \"end_date\": \"2026-07-19\", \"business_days\": 1, \"available_balance\": 10.0, \"notice_days\": 0, \"policy_cap\": 12.0}",
+    "timestamp": "2026-07-17T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000023",
+    "subject_id": "LVE-2026-000023",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-11-08\", \"end_date\": \"2026-11-09\", \"business_days\": 1, \"available_balance\": 22.5, \"notice_days\": 7, \"policy_cap\": 21.0}",
+    "timestamp": "2026-11-01T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000024",
+    "subject_id": "LVE-2026-000024",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-12-19\", \"end_date\": \"2026-12-22\", \"business_days\": 2, \"available_balance\": 22.5, \"notice_days\": 6, \"policy_cap\": 21.0}",
+    "timestamp": "2026-12-13T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000025",
+    "subject_id": "LVE-2026-000025",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-10-16\", \"end_date\": \"2026-10-16\", \"business_days\": 1, \"available_balance\": 22.5, \"notice_days\": 14, \"policy_cap\": 21.0}",
+    "timestamp": "2026-10-02T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000026",
+    "subject_id": "LVE-2026-000026",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-12-09\", \"end_date\": \"2026-12-23\", \"business_days\": 11, \"available_balance\": 19.5, \"notice_days\": 14, \"policy_cap\": 21.0}",
+    "timestamp": "2026-11-25T12:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000027",
+    "subject_id": "LVE-2026-000027",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-02-08\", \"end_date\": \"2026-02-15\", \"business_days\": 5, \"available_balance\": 22.5, \"notice_days\": 6, \"policy_cap\": 21.0}",
+    "timestamp": "2026-02-02T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000028",
+    "subject_id": "LVE-2026-000028",
+    "decision": "REJECT",
+    "reason_code": "OVERLAPPING_LEAVE_REQUEST",
+    "reason_text": "Leave request intersects with an existing scheduled leave period.",
+    "rule_id": "LV-002",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-11-19\", \"end_date\": \"2027-01-04\", \"business_days\": 32, \"available_balance\": 90.0, \"notice_days\": 36, \"policy_cap\": 90.0}",
+    "timestamp": "2026-10-14T14:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000029",
+    "subject_id": "LVE-2026-000029",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-08-13\", \"end_date\": \"2026-08-16\", \"business_days\": 2, \"available_balance\": 22.5, \"notice_days\": 15, \"policy_cap\": 21.0}",
+    "timestamp": "2026-07-29T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000030",
+    "subject_id": "LVE-2026-000030",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-02-07\", \"end_date\": \"2026-02-09\", \"business_days\": 1, \"available_balance\": 5.0, \"notice_days\": 6, \"policy_cap\": 6.0}",
+    "timestamp": "2026-02-01T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000031",
+    "subject_id": "LVE-2026-000031",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-06-15\", \"end_date\": \"2026-06-17\", \"business_days\": 3, \"available_balance\": 14.0, \"notice_days\": 8, \"policy_cap\": 21.0}",
+    "timestamp": "2026-06-07T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000032",
+    "subject_id": "LVE-2026-000032",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-10-07\", \"end_date\": \"2026-10-13\", \"business_days\": 5, \"available_balance\": 22.5, \"notice_days\": 10, \"policy_cap\": 21.0}",
+    "timestamp": "2026-09-27T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000033",
+    "subject_id": "LVE-2026-000033",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-05-14\", \"end_date\": \"2026-05-20\", \"business_days\": 5, \"available_balance\": 11.0, \"notice_days\": 13, \"policy_cap\": 21.0}",
+    "timestamp": "2026-05-01T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000034",
+    "subject_id": "LVE-2026-000034",
+    "decision": "REJECT",
+    "reason_code": "OVERLAPPING_LEAVE_REQUEST",
+    "reason_text": "Leave request intersects with an existing scheduled leave period.",
+    "rule_id": "LV-002",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-12-06\", \"end_date\": \"2026-12-14\", \"business_days\": 6, \"available_balance\": 8.5, \"notice_days\": 7, \"policy_cap\": 21.0}",
+    "timestamp": "2026-11-29T12:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000035",
+    "subject_id": "LVE-2026-000035",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-06-19\", \"end_date\": \"2026-08-17\", \"business_days\": 42, \"available_balance\": 90.0, \"notice_days\": 43, \"policy_cap\": 90.0}",
+    "timestamp": "2026-05-07T14:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000036",
+    "subject_id": "LVE-2026-000036",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-06-06\", \"end_date\": \"2026-06-09\", \"business_days\": 2, \"available_balance\": 9.0, \"notice_days\": 0, \"policy_cap\": 12.0}",
+    "timestamp": "2026-06-06T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000037",
+    "subject_id": "LVE-2026-000037",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-12-17\", \"end_date\": \"2026-12-18\", \"business_days\": 2, \"available_balance\": 8.0, \"notice_days\": 0, \"policy_cap\": 12.0}",
+    "timestamp": "2026-12-17T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000038",
+    "subject_id": "LVE-2026-000038",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-06-19\", \"end_date\": \"2026-06-24\", \"business_days\": 4, \"available_balance\": 19.25, \"notice_days\": 6, \"policy_cap\": 21.0}",
+    "timestamp": "2026-06-13T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000039",
+    "subject_id": "LVE-2026-000039",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-06-03\", \"end_date\": \"2026-06-11\", \"business_days\": 7, \"available_balance\": 20.5, \"notice_days\": 13, \"policy_cap\": 21.0}",
+    "timestamp": "2026-05-21T12:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000040",
+    "subject_id": "LVE-2026-000040",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-03-19\", \"end_date\": \"2026-03-24\", \"business_days\": 4, \"available_balance\": 22.5, \"notice_days\": 16, \"policy_cap\": 21.0}",
+    "timestamp": "2026-03-03T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000041",
+    "subject_id": "LVE-2026-000041",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-08-04\", \"end_date\": \"2026-08-06\", \"business_days\": 3, \"available_balance\": 21.5, \"notice_days\": 16, \"policy_cap\": 21.0}",
+    "timestamp": "2026-07-19T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000042",
+    "subject_id": "LVE-2026-000042",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-02-24\", \"end_date\": \"2026-02-25\", \"business_days\": 2, \"available_balance\": 5.0, \"notice_days\": 12, \"policy_cap\": 6.0}",
+    "timestamp": "2026-02-12T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000043",
+    "subject_id": "LVE-2026-000043",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-05-25\", \"end_date\": \"2026-05-31\", \"business_days\": 5, \"available_balance\": 20.5, \"notice_days\": 14, \"policy_cap\": 21.0}",
+    "timestamp": "2026-05-11T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000044",
+    "subject_id": "LVE-2026-000044",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-03-08\", \"end_date\": \"2026-03-12\", \"business_days\": 4, \"available_balance\": 15.25, \"notice_days\": 10, \"policy_cap\": 21.0}",
+    "timestamp": "2026-02-26T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000045",
+    "subject_id": "LVE-2026-000045",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-08-04\", \"end_date\": \"2026-08-05\", \"business_days\": 2, \"available_balance\": 5.0, \"notice_days\": 13, \"policy_cap\": 6.0}",
+    "timestamp": "2026-07-22T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000046",
+    "subject_id": "LVE-2026-000046",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-05-08\", \"end_date\": \"2026-05-11\", \"business_days\": 2, \"available_balance\": 21.5, \"notice_days\": 7, \"policy_cap\": 21.0}",
+    "timestamp": "2026-05-01T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000047",
+    "subject_id": "LVE-2026-000047",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-06-06\", \"end_date\": \"2026-06-08\", \"business_days\": 1, \"available_balance\": 11.5, \"notice_days\": 8, \"policy_cap\": 21.0}",
+    "timestamp": "2026-05-29T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000048",
+    "subject_id": "LVE-2026-000048",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-12-08\", \"end_date\": \"2026-12-08\", \"business_days\": 1, \"available_balance\": 5.0, \"notice_days\": 9, \"policy_cap\": 6.0}",
+    "timestamp": "2026-11-29T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000049",
+    "subject_id": "LVE-2026-000049",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-02-16\", \"end_date\": \"2026-02-18\", \"business_days\": 3, \"available_balance\": 5.0, \"notice_days\": 4, \"policy_cap\": 6.0}",
+    "timestamp": "2026-02-12T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000050",
+    "subject_id": "LVE-2026-000050",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-11-24\", \"end_date\": \"2026-12-05\", \"business_days\": 8, \"available_balance\": 11.25, \"notice_days\": 16, \"policy_cap\": 21.0}",
+    "timestamp": "2026-11-08T12:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000051",
+    "subject_id": "LVE-2026-000051",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-11-05\", \"end_date\": \"2026-11-05\", \"business_days\": 1, \"available_balance\": 10.0, \"notice_days\": 0, \"policy_cap\": 12.0}",
+    "timestamp": "2026-11-05T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000052",
+    "subject_id": "LVE-2026-000052",
+    "decision": "REJECT",
+    "reason_code": "INSUFFICIENT_BALANCE",
+    "reason_text": "Requested duration (8 days) exceeds available balance (6.00 days).",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-11-14\", \"end_date\": \"2026-11-25\", \"business_days\": 8, \"available_balance\": 6.0, \"notice_days\": 4, \"policy_cap\": 21.0}",
+    "timestamp": "2026-11-10T12:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000053",
+    "subject_id": "LVE-2026-000053",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-06-16\", \"end_date\": \"2026-06-19\", \"business_days\": 4, \"available_balance\": 22.5, \"notice_days\": 5, \"policy_cap\": 21.0}",
+    "timestamp": "2026-06-11T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000054",
+    "subject_id": "LVE-2026-000054",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-02-10\", \"end_date\": \"2026-02-14\", \"business_days\": 4, \"available_balance\": 21.5, \"notice_days\": 4, \"policy_cap\": 21.0}",
+    "timestamp": "2026-02-06T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000055",
+    "subject_id": "LVE-2026-000055",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-06-05\", \"end_date\": \"2026-06-05\", \"business_days\": 1, \"available_balance\": 17.5, \"notice_days\": 16, \"policy_cap\": 21.0}",
+    "timestamp": "2026-05-20T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000056",
+    "subject_id": "LVE-2026-000056",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-03-25\", \"end_date\": \"2026-03-31\", \"business_days\": 5, \"available_balance\": 18.5, \"notice_days\": 5, \"policy_cap\": 21.0}",
+    "timestamp": "2026-03-20T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000057",
+    "subject_id": "LVE-2026-000057",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-03-15\", \"end_date\": \"2026-03-16\", \"business_days\": 1, \"available_balance\": 10.0, \"notice_days\": 0, \"policy_cap\": 12.0}",
+    "timestamp": "2026-03-15T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000058",
+    "subject_id": "LVE-2026-000058",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-07-06\", \"end_date\": \"2026-07-08\", \"business_days\": 3, \"available_balance\": 21.5, \"notice_days\": 14, \"policy_cap\": 21.0}",
+    "timestamp": "2026-06-22T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000059",
+    "subject_id": "LVE-2026-000059",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-06-10\", \"end_date\": \"2026-06-10\", \"business_days\": 1, \"available_balance\": 22.5, \"notice_days\": 5, \"policy_cap\": 21.0}",
+    "timestamp": "2026-06-05T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000060",
+    "subject_id": "LVE-2026-000060",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-05-04\", \"end_date\": \"2026-05-08\", \"business_days\": 5, \"available_balance\": 13.5, \"notice_days\": 5, \"policy_cap\": 21.0}",
+    "timestamp": "2026-04-29T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000061",
+    "subject_id": "LVE-2026-000061",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-05-07\", \"end_date\": \"2026-05-08\", \"business_days\": 2, \"available_balance\": 10.0, \"notice_days\": 0, \"policy_cap\": 12.0}",
+    "timestamp": "2026-05-07T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000062",
+    "subject_id": "LVE-2026-000062",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-10-23\", \"end_date\": \"2026-10-24\", \"business_days\": 1, \"available_balance\": 10.0, \"notice_days\": 0, \"policy_cap\": 12.0}",
+    "timestamp": "2026-10-23T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000063",
+    "subject_id": "LVE-2026-000063",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-11-20\", \"end_date\": \"2026-11-23\", \"business_days\": 2, \"available_balance\": 18.5, \"notice_days\": 7, \"policy_cap\": 21.0}",
+    "timestamp": "2026-11-13T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000064",
+    "subject_id": "LVE-2026-000064",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-04-06\", \"end_date\": \"2026-04-10\", \"business_days\": 5, \"available_balance\": 21.5, \"notice_days\": 7, \"policy_cap\": 21.0}",
+    "timestamp": "2026-03-30T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000065",
+    "subject_id": "LVE-2026-000065",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-05-22\", \"end_date\": \"2026-05-25\", \"business_days\": 2, \"available_balance\": 9.0, \"notice_days\": 0, \"policy_cap\": 12.0}",
+    "timestamp": "2026-05-22T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000066",
+    "subject_id": "LVE-2026-000066",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-09-03\", \"end_date\": \"2026-09-04\", \"business_days\": 2, \"available_balance\": 9.0, \"notice_days\": 0, \"policy_cap\": 12.0}",
+    "timestamp": "2026-09-03T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000067",
+    "subject_id": "LVE-2026-000067",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-08-22\", \"end_date\": \"2026-08-24\", \"business_days\": 1, \"available_balance\": 10.0, \"notice_days\": 0, \"policy_cap\": 12.0}",
+    "timestamp": "2026-08-22T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000068",
+    "subject_id": "LVE-2026-000068",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-09-05\", \"end_date\": \"2026-09-08\", \"business_days\": 2, \"available_balance\": 22.5, \"notice_days\": 5, \"policy_cap\": 21.0}",
+    "timestamp": "2026-08-31T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000069",
+    "subject_id": "LVE-2026-000069",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-08-13\", \"end_date\": \"2026-08-16\", \"business_days\": 2, \"available_balance\": 10.0, \"notice_days\": 0, \"policy_cap\": 12.0}",
+    "timestamp": "2026-08-13T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000070",
+    "subject_id": "LVE-2026-000070",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-06-07\", \"end_date\": \"2026-06-08\", \"business_days\": 1, \"available_balance\": 10.0, \"notice_days\": 1, \"policy_cap\": 12.0}",
+    "timestamp": "2026-06-06T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000071",
+    "subject_id": "LVE-2026-000071",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-12-01\", \"end_date\": \"2026-12-04\", \"business_days\": 4, \"available_balance\": 12.5, \"notice_days\": 13, \"policy_cap\": 21.0}",
+    "timestamp": "2026-11-18T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000072",
+    "subject_id": "LVE-2026-000072",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-10-26\", \"end_date\": \"2026-10-27\", \"business_days\": 2, \"available_balance\": 5.0, \"notice_days\": 2, \"policy_cap\": 6.0}",
+    "timestamp": "2026-10-24T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000073",
+    "subject_id": "LVE-2026-000073",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-11-13\", \"end_date\": \"2026-11-16\", \"business_days\": 2, \"available_balance\": 22.5, \"notice_days\": 3, \"policy_cap\": 21.0}",
+    "timestamp": "2026-11-10T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000074",
+    "subject_id": "LVE-2026-000074",
+    "decision": "REJECT",
+    "reason_code": "OVERLAPPING_LEAVE_REQUEST",
+    "reason_text": "Leave request intersects with an existing scheduled leave period.",
+    "rule_id": "LV-002",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-06-17\", \"end_date\": \"2026-06-21\", \"business_days\": 3, \"available_balance\": 7.0, \"notice_days\": 0, \"policy_cap\": 12.0}",
+    "timestamp": "2026-06-17T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000075",
+    "subject_id": "LVE-2026-000075",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-08-05\", \"end_date\": \"2026-08-12\", \"business_days\": 6, \"available_balance\": 20.5, \"notice_days\": 8, \"policy_cap\": 21.0}",
+    "timestamp": "2026-07-28T12:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000076",
+    "subject_id": "LVE-2026-000076",
+    "decision": "REJECT",
+    "reason_code": "OVERLAPPING_LEAVE_REQUEST",
+    "reason_text": "Leave request intersects with an existing scheduled leave period.",
+    "rule_id": "LV-002",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-07-24\", \"end_date\": \"2026-08-01\", \"business_days\": 6, \"available_balance\": 22.5, \"notice_days\": 10, \"policy_cap\": 21.0}",
+    "timestamp": "2026-07-14T12:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000077",
+    "subject_id": "LVE-2026-000077",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-06-14\", \"end_date\": \"2026-06-19\", \"business_days\": 5, \"available_balance\": 22.5, \"notice_days\": 9, \"policy_cap\": 21.0}",
+    "timestamp": "2026-06-05T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000078",
+    "subject_id": "LVE-2026-000078",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-04-23\", \"end_date\": \"2026-04-25\", \"business_days\": 2, \"available_balance\": 10.0, \"notice_days\": 0, \"policy_cap\": 12.0}",
+    "timestamp": "2026-04-23T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000079",
+    "subject_id": "LVE-2026-000079",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-06-16\", \"end_date\": \"2026-06-19\", \"business_days\": 4, \"available_balance\": 21.5, \"notice_days\": 10, \"policy_cap\": 21.0}",
+    "timestamp": "2026-06-06T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-000080",
+    "subject_id": "LVE-2026-000080",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Request satisfies balance, notice, and policy constraints.",
+    "rule_id": "LV-001",
+    "inputs_snapshot_json": "{\"start_date\": \"2026-08-15\", \"end_date\": \"2026-08-17\", \"business_days\": 1, \"available_balance\": 21.5, \"notice_days\": 5, \"policy_cap\": 21.0}",
+    "timestamp": "2026-08-10T10:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001000",
+    "subject_id": "EXP-2026-000001",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 42201.67, \"total_amount_base\": 506.42, \"currency\": \"INR\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-08-12T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001001",
+    "subject_id": "EXP-2026-000002",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 9930.0, \"total_amount_base\": 119.16, \"currency\": \"INR\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-04-22T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001002",
+    "subject_id": "EXP-2026-000003",
+    "decision": "REJECT",
+    "reason_code": "RECEIPT_MANDATORY_BREACH",
+    "reason_text": "Claim contains line items exceeding threshold without valid receipt substantiation.",
+    "rule_id": "EX-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 2850.28, \"total_amount_base\": 2850.28, \"currency\": \"USD\", \"line_count\": 10, \"has_missing_receipt\": true, \"approver_depth\": 3}",
+    "timestamp": "2026-10-17T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001003",
+    "subject_id": "EXP-2026-000004",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 112102.5, \"total_amount_base\": 1345.23, \"currency\": \"INR\", \"line_count\": 6, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-03-20T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001004",
+    "subject_id": "EXP-2026-000005",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 343.99, \"total_amount_base\": 371.51, \"currency\": \"EUR\", \"line_count\": 2, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-09-14T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001005",
+    "subject_id": "EXP-2026-000006",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 72219.16, \"total_amount_base\": 866.63, \"currency\": \"INR\", \"line_count\": 4, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-03-25T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001006",
+    "subject_id": "EXP-2026-000007",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 640.4, \"total_amount_base\": 640.4, \"currency\": \"USD\", \"line_count\": 2, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-08-21T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001007",
+    "subject_id": "EXP-2026-000008",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 498.6, \"total_amount_base\": 498.6, \"currency\": \"USD\", \"line_count\": 2, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-02-26T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001008",
+    "subject_id": "EXP-2026-000009",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 188.6, \"total_amount_base\": 188.6, \"currency\": \"USD\", \"line_count\": 2, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-04-12T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001009",
+    "subject_id": "EXP-2026-000010",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 436.69, \"total_amount_base\": 436.69, \"currency\": \"USD\", \"line_count\": 2, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-07-07T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001010",
+    "subject_id": "EXP-2026-000011",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 29749.17, \"total_amount_base\": 356.99, \"currency\": \"INR\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-08-05T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001011",
+    "subject_id": "EXP-2026-000012",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 57703.33, \"total_amount_base\": 692.44, \"currency\": \"INR\", \"line_count\": 7, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-06-25T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001012",
+    "subject_id": "EXP-2026-000013",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 46035.0, \"total_amount_base\": 552.42, \"currency\": \"INR\", \"line_count\": 3, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-02-05T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001013",
+    "subject_id": "EXP-2026-000014",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 612.48, \"total_amount_base\": 612.48, \"currency\": \"USD\", \"line_count\": 2, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-10-10T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001014",
+    "subject_id": "EXP-2026-000015",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 250.0, \"total_amount_base\": 250.0, \"currency\": \"USD\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-05-04T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001015",
+    "subject_id": "EXP-2026-000016",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 536.66, \"total_amount_base\": 536.66, \"currency\": \"USD\", \"line_count\": 6, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-03-11T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001016",
+    "subject_id": "EXP-2026-000017",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 104352.5, \"total_amount_base\": 1252.23, \"currency\": \"INR\", \"line_count\": 5, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-10-22T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001017",
+    "subject_id": "EXP-2026-000018",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 1144.67, \"total_amount_base\": 1144.67, \"currency\": \"USD\", \"line_count\": 6, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-01-11T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001018",
+    "subject_id": "EXP-2026-000019",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 520.22, \"total_amount_base\": 520.22, \"currency\": \"USD\", \"line_count\": 3, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-01-04T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001019",
+    "subject_id": "EXP-2026-000020",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 29257.49, \"total_amount_base\": 351.09, \"currency\": \"INR\", \"line_count\": 3, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-05-30T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001020",
+    "subject_id": "EXP-2026-000021",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 870.86, \"total_amount_base\": 870.86, \"currency\": \"USD\", \"line_count\": 2, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-01-16T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001021",
+    "subject_id": "EXP-2026-000022",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 42476.66, \"total_amount_base\": 509.72, \"currency\": \"INR\", \"line_count\": 6, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-02-25T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001022",
+    "subject_id": "EXP-2026-000023",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 104396.66, \"total_amount_base\": 1252.76, \"currency\": \"INR\", \"line_count\": 2, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-06-06T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001023",
+    "subject_id": "EXP-2026-000024",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 60419.17, \"total_amount_base\": 725.03, \"currency\": \"INR\", \"line_count\": 5, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-03-08T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001024",
+    "subject_id": "EXP-2026-000025",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 13080.83, \"total_amount_base\": 156.97, \"currency\": \"INR\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-01-21T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001025",
+    "subject_id": "EXP-2026-000026",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 119298.33, \"total_amount_base\": 1431.58, \"currency\": \"INR\", \"line_count\": 10, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-05-17T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001026",
+    "subject_id": "EXP-2026-000027",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 11365.84, \"total_amount_base\": 136.39, \"currency\": \"INR\", \"line_count\": 2, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-01-27T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001027",
+    "subject_id": "EXP-2026-000028",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 1088.39, \"total_amount_base\": 1088.39, \"currency\": \"USD\", \"line_count\": 8, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-01-02T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001028",
+    "subject_id": "EXP-2026-000029",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 232.14, \"total_amount_base\": 232.14, \"currency\": \"USD\", \"line_count\": 4, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-06-10T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001029",
+    "subject_id": "EXP-2026-000030",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 245.72, \"total_amount_base\": 245.72, \"currency\": \"USD\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-05-16T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001030",
+    "subject_id": "EXP-2026-000031",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 1951.98, \"total_amount_base\": 1951.98, \"currency\": \"USD\", \"line_count\": 8, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-07-26T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001031",
+    "subject_id": "EXP-2026-000032",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 1776.13, \"total_amount_base\": 1776.13, \"currency\": \"USD\", \"line_count\": 10, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-05-03T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001032",
+    "subject_id": "EXP-2026-000033",
+    "decision": "REJECT",
+    "reason_code": "RECEIPT_MANDATORY_BREACH",
+    "reason_text": "Claim contains line items exceeding threshold without valid receipt substantiation.",
+    "rule_id": "EX-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 28255.0, \"total_amount_base\": 339.06, \"currency\": \"INR\", \"line_count\": 2, \"has_missing_receipt\": true, \"approver_depth\": 2}",
+    "timestamp": "2026-05-19T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001033",
+    "subject_id": "EXP-2026-000034",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 767.23, \"total_amount_base\": 767.23, \"currency\": \"USD\", \"line_count\": 4, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-08-30T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001034",
+    "subject_id": "EXP-2026-000035",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 35.56, \"total_amount_base\": 35.56, \"currency\": \"USD\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 1}",
+    "timestamp": "2026-04-25T16:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001035",
+    "subject_id": "EXP-2026-000036",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 605.15, \"total_amount_base\": 605.15, \"currency\": \"USD\", \"line_count\": 3, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-03-26T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001036",
+    "subject_id": "EXP-2026-000037",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 70680.82, \"total_amount_base\": 848.17, \"currency\": \"INR\", \"line_count\": 8, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-06-14T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001037",
+    "subject_id": "EXP-2026-000038",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 2049.53, \"total_amount_base\": 2049.53, \"currency\": \"USD\", \"line_count\": 10, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-07-11T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001038",
+    "subject_id": "EXP-2026-000039",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 574624.16, \"total_amount_base\": 6895.49, \"currency\": \"INR\", \"line_count\": 10, \"has_missing_receipt\": false, \"approver_depth\": 4}",
+    "timestamp": "2026-09-13T04:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001039",
+    "subject_id": "EXP-2026-000040",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 31109.16, \"total_amount_base\": 373.31, \"currency\": \"INR\", \"line_count\": 3, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-05-16T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001040",
+    "subject_id": "EXP-2026-000041",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 456.31, \"total_amount_base\": 456.31, \"currency\": \"USD\", \"line_count\": 4, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-05-31T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001041",
+    "subject_id": "EXP-2026-000042",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 70577.49, \"total_amount_base\": 846.93, \"currency\": \"INR\", \"line_count\": 10, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-01-24T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001042",
+    "subject_id": "EXP-2026-000043",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 96750.0, \"total_amount_base\": 1161.0, \"currency\": \"INR\", \"line_count\": 10, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-07-23T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001043",
+    "subject_id": "EXP-2026-000044",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 437.43, \"total_amount_base\": 437.43, \"currency\": \"USD\", \"line_count\": 5, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-08-12T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001044",
+    "subject_id": "EXP-2026-000045",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 999.57, \"total_amount_base\": 999.57, \"currency\": \"USD\", \"line_count\": 4, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-09-11T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001045",
+    "subject_id": "EXP-2026-000046",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 748.73, \"total_amount_base\": 748.73, \"currency\": \"USD\", \"line_count\": 5, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-09-07T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001046",
+    "subject_id": "EXP-2026-000047",
+    "decision": "REJECT",
+    "reason_code": "RECEIPT_MANDATORY_BREACH",
+    "reason_text": "Claim contains line items exceeding threshold without valid receipt substantiation.",
+    "rule_id": "EX-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 685.22, \"total_amount_base\": 685.22, \"currency\": \"USD\", \"line_count\": 5, \"has_missing_receipt\": true, \"approver_depth\": 2}",
+    "timestamp": "2026-10-11T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001047",
+    "subject_id": "EXP-2026-000048",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 500.49, \"total_amount_base\": 500.49, \"currency\": \"USD\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-06-16T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001048",
+    "subject_id": "EXP-2026-000049",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 372.16, \"total_amount_base\": 372.16, \"currency\": \"USD\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-08-14T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001049",
+    "subject_id": "EXP-2026-000050",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 59.63, \"total_amount_base\": 59.63, \"currency\": \"USD\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 1}",
+    "timestamp": "2026-04-07T16:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001050",
+    "subject_id": "EXP-2026-000051",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 38393.33, \"total_amount_base\": 460.72, \"currency\": \"INR\", \"line_count\": 3, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-04-17T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001051",
+    "subject_id": "EXP-2026-000052",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 2133.27, \"total_amount_base\": 2133.27, \"currency\": \"USD\", \"line_count\": 9, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-09-16T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001052",
+    "subject_id": "EXP-2026-000053",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 143218.33, \"total_amount_base\": 1718.62, \"currency\": \"INR\", \"line_count\": 5, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-08-28T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001053",
+    "subject_id": "EXP-2026-000054",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 206.33, \"total_amount_base\": 206.33, \"currency\": \"USD\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-09-14T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001054",
+    "subject_id": "EXP-2026-000055",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 771.08, \"total_amount_base\": 771.08, \"currency\": \"USD\", \"line_count\": 5, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-01-03T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001055",
+    "subject_id": "EXP-2026-000056",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 1654.2, \"total_amount_base\": 1654.2, \"currency\": \"USD\", \"line_count\": 4, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-09-15T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001056",
+    "subject_id": "EXP-2026-000057",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 3556.67, \"total_amount_base\": 42.68, \"currency\": \"INR\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 1}",
+    "timestamp": "2026-09-21T16:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001057",
+    "subject_id": "EXP-2026-000058",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 97575.83, \"total_amount_base\": 1170.91, \"currency\": \"INR\", \"line_count\": 4, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-07-24T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001058",
+    "subject_id": "EXP-2026-000059",
+    "decision": "REJECT",
+    "reason_code": "RECEIPT_MANDATORY_BREACH",
+    "reason_text": "Claim contains line items exceeding threshold without valid receipt substantiation.",
+    "rule_id": "EX-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 442.42, \"total_amount_base\": 442.42, \"currency\": \"USD\", \"line_count\": 3, \"has_missing_receipt\": true, \"approver_depth\": 2}",
+    "timestamp": "2026-03-15T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001059",
+    "subject_id": "EXP-2026-000060",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 15000.0, \"total_amount_base\": 180.0, \"currency\": \"INR\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-07-26T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001060",
+    "subject_id": "EXP-2026-000061",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 781.39, \"total_amount_base\": 781.39, \"currency\": \"USD\", \"line_count\": 3, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-10-17T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001061",
+    "subject_id": "EXP-2026-000062",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 32.06, \"total_amount_base\": 32.06, \"currency\": \"USD\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 1}",
+    "timestamp": "2026-07-14T16:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001062",
+    "subject_id": "EXP-2026-000063",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 594.27, \"total_amount_base\": 594.27, \"currency\": \"USD\", \"line_count\": 3, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-08-04T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001063",
+    "subject_id": "EXP-2026-000064",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 760.03, \"total_amount_base\": 760.03, \"currency\": \"USD\", \"line_count\": 4, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-04-26T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001064",
+    "subject_id": "EXP-2026-000065",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 1020.45, \"total_amount_base\": 1020.45, \"currency\": \"USD\", \"line_count\": 6, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-03-01T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001065",
+    "subject_id": "EXP-2026-000066",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 440.11, \"total_amount_base\": 440.11, \"currency\": \"USD\", \"line_count\": 3, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-06-07T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001066",
+    "subject_id": "EXP-2026-000067",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 41666.66, \"total_amount_base\": 500.0, \"currency\": \"INR\", \"line_count\": 2, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-10-18T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001067",
+    "subject_id": "EXP-2026-000068",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 801.19, \"total_amount_base\": 801.19, \"currency\": \"USD\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-09-19T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001068",
+    "subject_id": "EXP-2026-000069",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 1925.31, \"total_amount_base\": 1925.31, \"currency\": \"USD\", \"line_count\": 10, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-01-07T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001069",
+    "subject_id": "EXP-2026-000070",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 207.5, \"total_amount_base\": 224.1, \"currency\": \"EUR\", \"line_count\": 2, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-02-07T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001070",
+    "subject_id": "EXP-2026-000071",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 658.02, \"total_amount_base\": 658.02, \"currency\": \"USD\", \"line_count\": 2, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-04-26T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001071",
+    "subject_id": "EXP-2026-000072",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 95576.66, \"total_amount_base\": 1146.92, \"currency\": \"INR\", \"line_count\": 7, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-04-27T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001072",
+    "subject_id": "EXP-2026-000073",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 15219.17, \"total_amount_base\": 182.63, \"currency\": \"INR\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-04-21T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001073",
+    "subject_id": "EXP-2026-000074",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 29139.16, \"total_amount_base\": 349.67, \"currency\": \"INR\", \"line_count\": 2, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-09-15T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001074",
+    "subject_id": "EXP-2026-000075",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 956.18, \"total_amount_base\": 956.18, \"currency\": \"USD\", \"line_count\": 5, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-05-16T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001075",
+    "subject_id": "EXP-2026-000076",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 19637.5, \"total_amount_base\": 235.65, \"currency\": \"INR\", \"line_count\": 2, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-06-26T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001076",
+    "subject_id": "EXP-2026-000077",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 791.28, \"total_amount_base\": 791.28, \"currency\": \"USD\", \"line_count\": 2, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-08-22T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001077",
+    "subject_id": "EXP-2026-000078",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 2031.67, \"total_amount_base\": 24.38, \"currency\": \"INR\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 1}",
+    "timestamp": "2026-07-14T16:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001078",
+    "subject_id": "EXP-2026-000079",
+    "decision": "REJECT",
+    "reason_code": "RECEIPT_MANDATORY_BREACH",
+    "reason_text": "Claim contains line items exceeding threshold without valid receipt substantiation.",
+    "rule_id": "EX-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 5306.02, \"total_amount_base\": 5306.02, \"currency\": \"USD\", \"line_count\": 5, \"has_missing_receipt\": true, \"approver_depth\": 4}",
+    "timestamp": "2026-05-20T04:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001079",
+    "subject_id": "EXP-2026-000080",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 7263.34, \"total_amount_base\": 87.16, \"currency\": \"INR\", \"line_count\": 2, \"has_missing_receipt\": false, \"approver_depth\": 1}",
+    "timestamp": "2026-06-20T16:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001080",
+    "subject_id": "EXP-2026-000081",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 73775.0, \"total_amount_base\": 885.3, \"currency\": \"INR\", \"line_count\": 3, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-02-27T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001081",
+    "subject_id": "EXP-2026-000082",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 481.38, \"total_amount_base\": 481.38, \"currency\": \"USD\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-01-23T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001082",
+    "subject_id": "EXP-2026-000083",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 18.03, \"total_amount_base\": 18.03, \"currency\": \"USD\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 1}",
+    "timestamp": "2026-08-27T16:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001083",
+    "subject_id": "EXP-2026-000084",
+    "decision": "REJECT",
+    "reason_code": "RECEIPT_MANDATORY_BREACH",
+    "reason_text": "Claim contains line items exceeding threshold without valid receipt substantiation.",
+    "rule_id": "EX-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 48398.33, \"total_amount_base\": 580.78, \"currency\": \"INR\", \"line_count\": 2, \"has_missing_receipt\": true, \"approver_depth\": 2}",
+    "timestamp": "2026-07-16T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001084",
+    "subject_id": "EXP-2026-000085",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 9708.33, \"total_amount_base\": 116.5, \"currency\": \"INR\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-03-10T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001085",
+    "subject_id": "EXP-2026-000086",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 180.0, \"total_amount_base\": 180.0, \"currency\": \"USD\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-10-09T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001086",
+    "subject_id": "EXP-2026-000087",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 42571.67, \"total_amount_base\": 510.86, \"currency\": \"INR\", \"line_count\": 2, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-02-19T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001087",
+    "subject_id": "EXP-2026-000088",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 585.21, \"total_amount_base\": 585.21, \"currency\": \"USD\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-03-14T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001088",
+    "subject_id": "EXP-2026-000089",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 458.22, \"total_amount_base\": 458.22, \"currency\": \"USD\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-06-07T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001089",
+    "subject_id": "EXP-2026-000090",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 2377.74, \"total_amount_base\": 2377.74, \"currency\": \"USD\", \"line_count\": 8, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-03-19T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001090",
+    "subject_id": "EXP-2026-000091",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 71406.66, \"total_amount_base\": 856.88, \"currency\": \"INR\", \"line_count\": 4, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-02-27T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001091",
+    "subject_id": "EXP-2026-000092",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 121.13, \"total_amount_base\": 121.13, \"currency\": \"USD\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-09-05T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001092",
+    "subject_id": "EXP-2026-000093",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 207.12, \"total_amount_base\": 207.12, \"currency\": \"USD\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-01-13T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001093",
+    "subject_id": "EXP-2026-000094",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 59.96, \"total_amount_base\": 59.96, \"currency\": \"USD\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 1}",
+    "timestamp": "2026-01-19T16:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001094",
+    "subject_id": "EXP-2026-000095",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 137471.67, \"total_amount_base\": 1649.66, \"currency\": \"INR\", \"line_count\": 7, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-06-18T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001095",
+    "subject_id": "EXP-2026-000096",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 101.57, \"total_amount_base\": 101.57, \"currency\": \"USD\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-05-24T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001096",
+    "subject_id": "EXP-2026-000097",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 22189.16, \"total_amount_base\": 266.27, \"currency\": \"INR\", \"line_count\": 4, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-06-04T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001097",
+    "subject_id": "EXP-2026-000098",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 150.0, \"total_amount_base\": 150.0, \"currency\": \"USD\", \"line_count\": 1, \"has_missing_receipt\": false, \"approver_depth\": 2}",
+    "timestamp": "2026-09-27T20:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001098",
+    "subject_id": "EXP-2026-000099",
+    "decision": "REJECT",
+    "reason_code": "RECEIPT_MANDATORY_BREACH",
+    "reason_text": "Claim contains line items exceeding threshold without valid receipt substantiation.",
+    "rule_id": "EX-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 133066.67, \"total_amount_base\": 1596.8, \"currency\": \"INR\", \"line_count\": 5, \"has_missing_receipt\": true, \"approver_depth\": 3}",
+    "timestamp": "2026-07-12T00:05:00Z"
+  },
+  {
+    "decision_id": "DEC-001099",
+    "subject_id": "EXP-2026-000100",
+    "decision": "APPROVE",
+    "reason_code": "POLICY_COMPLIANT_APPROVED",
+    "reason_text": "Claim adheres to expense policy guidelines and receipts verified.",
+    "rule_id": "AP-001",
+    "inputs_snapshot_json": "{\"total_amount_local\": 282.31, \"total_amount_base\": 282.31, \"currency\": \"USD\", \"line_count\": 2, \"has_missing_receipt\": false, \"approver_depth\": 3}",
+    "timestamp": "2026-10-15T00:05:00Z"
+  }
+]

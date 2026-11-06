@@ -1,0 +1,158 @@
+{
+  "macro_f1": 0.9966,
+  "micro_f1": 0.9993,
+  "overall_precision": 1.0,
+  "overall_recall": 0.9987,
+  "decision_accuracy": 0.9458,
+  "approval_path_accuracy": 1.0,
+  "reimbursement_eligibility_accuracy": 1.0,
+  "metrics_per_type": [
+    {
+      "issue_type": "APPROVAL_BY_REQUESTER",
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 15
+    },
+    {
+      "issue_type": "DUPLICATE_REIMBURSEMENT",
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 15
+    },
+    {
+      "issue_type": "EXPENSE_DATE_OUTSIDE_EMPLOYMENT",
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 15
+    },
+    {
+      "issue_type": "INSUFFICIENT_BALANCE",
+      "tp": 24,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 24
+    },
+    {
+      "issue_type": "MISSING_COST_CENTER",
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 15
+    },
+    {
+      "issue_type": "MISSING_RECEIPT",
+      "tp": 94,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 94
+    },
+    {
+      "issue_type": "NEGATIVE_LEAVE_BALANCE",
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 15
+    },
+    {
+      "issue_type": "OVERLAPPING_APPROVED_LEAVE",
+      "tp": 14,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9333,
+      "f1": 0.9655,
+      "support": 15
+    },
+    {
+      "issue_type": "SPLIT_CLAIM_THRESHOLD_EVASION",
+      "tp": 30,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 30
+    },
+    {
+      "issue_type": "WEEKEND_HOLIDAY_SPAN",
+      "tp": 531,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 531
+    }
+  ],
+  "operational_metrics": {
+    "p50_turnaround_hours_by_level": {
+      "4": 11.0,
+      "5": 14.5,
+      "3": 7.5,
+      "6": 15.0
+    },
+    "p90_turnaround_hours_by_level": {
+      "4": 11.0,
+      "5": 14.5,
+      "3": 7.5,
+      "6": 15.0
+    },
+    "rejection_rate_by_country": {
+      "UK": 0.1165,
+      "DE": 0.1091,
+      "IN": 0.1031,
+      "US": 0.0627,
+      "SG": 0.0778
+    },
+    "rejection_rate_by_category": {
+      "CLIENT_ENTERTAINMENT": 0.1585,
+      "EQUIPMENT": 0.1208,
+      "LODGING": 0.1639,
+      "MEALS": 0.1257,
+      "MISC": 0.1351,
+      "SOFTWARE": 0.1296,
+      "TRAINING": 0.1132,
+      "TRAVEL": 0.15
+    },
+    "routing_depth_distribution": {
+      "2": 360,
+      "3": 483,
+      "1": 157,
+      "4": 30
+    },
+    "missing_receipt_percentage": 3.02,
+    "leave_utilization_pct_by_policy": {
+      "LPOL-01": 4.3,
+      "LPOL-02": 1.53,
+      "LPOL-03": 1.22,
+      "LPOL-04": 0.0,
+      "LPOL-05": 0.0,
+      "LPOL-06": 0.0
+    },
+    "total_disbursed_usd": 24137146.79
+  }
+}

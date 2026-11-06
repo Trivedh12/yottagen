@@ -1,0 +1,82 @@
+[
+  {
+    "rule_category_id": "ARC-000001",
+    "rule_id": "ARUL-01",
+    "category": "ALL"
+  },
+  {
+    "rule_category_id": "ARC-000002",
+    "rule_id": "ARUL-02",
+    "category": "ALL"
+  },
+  {
+    "rule_category_id": "ARC-000003",
+    "rule_id": "ARUL-03",
+    "category": "ALL"
+  },
+  {
+    "rule_category_id": "ARC-000004",
+    "rule_id": "ARUL-04",
+    "category": "ALL"
+  },
+  {
+    "rule_category_id": "ARC-000005",
+    "rule_id": "ARUL-05",
+    "category": "ALL"
+  },
+  {
+    "rule_category_id": "ARC-000006",
+    "rule_id": "ARUL-06",
+    "category": "ALL"
+  },
+  {
+    "rule_category_id": "ARC-000007",
+    "rule_id": "ARUL-07",
+    "category": "ALL"
+  },
+  {
+    "rule_category_id": "ARC-000008",
+    "rule_id": "ARUL-08",
+    "category": "LODGING"
+  },
+  {
+    "rule_category_id": "ARC-000009",
+    "rule_id": "ARUL-09",
+    "category": "LODGING"
+  },
+  {
+    "rule_category_id": "ARC-000010",
+    "rule_id": "ARUL-10",
+    "category": "EQUIPMENT"
+  },
+  {
+    "rule_category_id": "ARC-000011",
+    "rule_id": "ARUL-11",
+    "category": "ALL"
+  },
+  {
+    "rule_category_id": "ARC-000012",
+    "rule_id": "ARUL-12",
+    "category": "ALL"
+  },
+  {
+    "rule_category_id": "ARC-000013",
+    "rule_id": "ARUL-13",
+    "category": "ALL"
+  },
+  {
+    "rule_category_id": "ARC-000014",
+    "rule_id": "ARUL-14",
+    "category": "ALL"
+  },
+  {
+    "rule_category_id": "ARC-000015",
+    "rule_id": "ARUL-15",
+    "category": "ALL"
+  },
+  {
+    "rule_category_id": "ARC-000016",
+    "rule_id": "ARUL-16",
+    "category": "ALL"
+  }
+]

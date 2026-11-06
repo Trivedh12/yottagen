@@ -1,0 +1,82 @@
+[
+  {
+    "rule_country_id": "ARCTRY-000001",
+    "rule_id": "ARUL-01",
+    "country": "ALL"
+  },
+  {
+    "rule_country_id": "ARCTRY-000002",
+    "rule_id": "ARUL-02",
+    "country": "ALL"
+  },
+  {
+    "rule_country_id": "ARCTRY-000003",
+    "rule_id": "ARUL-03",
+    "country": "ALL"
+  },
+  {
+    "rule_country_id": "ARCTRY-000004",
+    "rule_id": "ARUL-04",
+    "country": "ALL"
+  },
+  {
+    "rule_country_id": "ARCTRY-000005",
+    "rule_id": "ARUL-05",
+    "country": "ALL"
+  },
+  {
+    "rule_country_id": "ARCTRY-000006",
+    "rule_id": "ARUL-06",
+    "country": "ALL"
+  },
+  {
+    "rule_country_id": "ARCTRY-000007",
+    "rule_id": "ARUL-07",
+    "country": "ALL"
+  },
+  {
+    "rule_country_id": "ARCTRY-000008",
+    "rule_id": "ARUL-08",
+    "country": "DE"
+  },
+  {
+    "rule_country_id": "ARCTRY-000009",
+    "rule_id": "ARUL-09",
+    "country": "IN"
+  },
+  {
+    "rule_country_id": "ARCTRY-000010",
+    "rule_id": "ARUL-10",
+    "country": "ALL"
+  },
+  {
+    "rule_country_id": "ARCTRY-000011",
+    "rule_id": "ARUL-11",
+    "country": "ALL"
+  },
+  {
+    "rule_country_id": "ARCTRY-000012",
+    "rule_id": "ARUL-12",
+    "country": "ALL"
+  },
+  {
+    "rule_country_id": "ARCTRY-000013",
+    "rule_id": "ARUL-13",
+    "country": "ALL"
+  },
+  {
+    "rule_country_id": "ARCTRY-000014",
+    "rule_id": "ARUL-14",
+    "country": "ALL"
+  },
+  {
+    "rule_country_id": "ARCTRY-000015",
+    "rule_id": "ARUL-15",
+    "country": "ALL"
+  },
+  {
+    "rule_country_id": "ARCTRY-000016",
+    "rule_id": "ARUL-16",
+    "country": "ALL"
+  }
+]

@@ -1,0 +1,770 @@
+gt_id,issue_type,entity_type,entity_id,related_entity_ids,expected_decision,expected_approval_path,expected_reason_code,severity,injected,injection_note
+GT-000001,NEGATIVE_LEAVE_BALANCE,leave_balance,LBAL-000001,"EMP-000001,LPOL-01",FLAG,N/A,LV-001_NEGATIVE_BALANCE,HIGH,1,Injected negative closing balance (-7.36 days) via unauthorized ledger adjustment.
+GT-000002,NEGATIVE_LEAVE_BALANCE,leave_balance,LBAL-000002,"EMP-000001,LPOL-02",FLAG,N/A,LV-001_NEGATIVE_BALANCE,HIGH,1,Injected negative closing balance (-5.5 days) via unauthorized ledger adjustment.
+GT-000003,NEGATIVE_LEAVE_BALANCE,leave_balance,LBAL-000007,"EMP-000002,LPOL-01",FLAG,N/A,LV-001_NEGATIVE_BALANCE,HIGH,1,Injected negative closing balance (-3.17 days) via unauthorized ledger adjustment.
+GT-000004,NEGATIVE_LEAVE_BALANCE,leave_balance,LBAL-000008,"EMP-000002,LPOL-02",FLAG,N/A,LV-001_NEGATIVE_BALANCE,HIGH,1,Injected negative closing balance (-3.22 days) via unauthorized ledger adjustment.
+GT-000005,NEGATIVE_LEAVE_BALANCE,leave_balance,LBAL-000013,"EMP-000003,LPOL-01",FLAG,N/A,LV-001_NEGATIVE_BALANCE,HIGH,1,Injected negative closing balance (-7.25 days) via unauthorized ledger adjustment.
+GT-000006,NEGATIVE_LEAVE_BALANCE,leave_balance,LBAL-000014,"EMP-000003,LPOL-02",FLAG,N/A,LV-001_NEGATIVE_BALANCE,HIGH,1,Injected negative closing balance (-6.66 days) via unauthorized ledger adjustment.
+GT-000007,NEGATIVE_LEAVE_BALANCE,leave_balance,LBAL-000019,"EMP-000004,LPOL-01",FLAG,N/A,LV-001_NEGATIVE_BALANCE,HIGH,1,Injected negative closing balance (-5.8 days) via unauthorized ledger adjustment.
+GT-000008,NEGATIVE_LEAVE_BALANCE,leave_balance,LBAL-000020,"EMP-000004,LPOL-02",FLAG,N/A,LV-001_NEGATIVE_BALANCE,HIGH,1,Injected negative closing balance (-6.41 days) via unauthorized ledger adjustment.
+GT-000009,NEGATIVE_LEAVE_BALANCE,leave_balance,LBAL-000025,"EMP-000005,LPOL-01",FLAG,N/A,LV-001_NEGATIVE_BALANCE,HIGH,1,Injected negative closing balance (-7.06 days) via unauthorized ledger adjustment.
+GT-000010,NEGATIVE_LEAVE_BALANCE,leave_balance,LBAL-000026,"EMP-000005,LPOL-02",FLAG,N/A,LV-001_NEGATIVE_BALANCE,HIGH,1,Injected negative closing balance (-5.86 days) via unauthorized ledger adjustment.
+GT-000011,NEGATIVE_LEAVE_BALANCE,leave_balance,LBAL-000031,"EMP-000006,LPOL-01",FLAG,N/A,LV-001_NEGATIVE_BALANCE,HIGH,1,Injected negative closing balance (-5.74 days) via unauthorized ledger adjustment.
+GT-000012,NEGATIVE_LEAVE_BALANCE,leave_balance,LBAL-000032,"EMP-000006,LPOL-02",FLAG,N/A,LV-001_NEGATIVE_BALANCE,HIGH,1,Injected negative closing balance (-7.2 days) via unauthorized ledger adjustment.
+GT-000013,NEGATIVE_LEAVE_BALANCE,leave_balance,LBAL-000037,"EMP-000007,LPOL-01",FLAG,N/A,LV-001_NEGATIVE_BALANCE,HIGH,1,Injected negative closing balance (-6.69 days) via unauthorized ledger adjustment.
+GT-000014,NEGATIVE_LEAVE_BALANCE,leave_balance,LBAL-000038,"EMP-000007,LPOL-02",FLAG,N/A,LV-001_NEGATIVE_BALANCE,HIGH,1,Injected negative closing balance (-4.85 days) via unauthorized ledger adjustment.
+GT-000015,NEGATIVE_LEAVE_BALANCE,leave_balance,LBAL-000043,"EMP-000008,LPOL-01",FLAG,N/A,LV-001_NEGATIVE_BALANCE,HIGH,1,Injected negative closing balance (-5.37 days) via unauthorized ledger adjustment.
+GT-000016,OVERLAPPING_APPROVED_LEAVE,leave_request,LVE-2026-000801,LVE-2026-000001,REJECT,MANAGER,LV-002_OVERLAPPING_LEAVE,CRITICAL,1,Injected approved leave LVE-2026-000801 overlapping with approved leave LVE-2026-000001.
+GT-000017,OVERLAPPING_APPROVED_LEAVE,leave_request,LVE-2026-000802,LVE-2026-000002,REJECT,MANAGER,LV-002_OVERLAPPING_LEAVE,CRITICAL,1,Injected approved leave LVE-2026-000802 overlapping with approved leave LVE-2026-000002.
+GT-000018,OVERLAPPING_APPROVED_LEAVE,leave_request,LVE-2026-000803,LVE-2026-000003,REJECT,MANAGER,LV-002_OVERLAPPING_LEAVE,CRITICAL,1,Injected approved leave LVE-2026-000803 overlapping with approved leave LVE-2026-000003.
+GT-000019,OVERLAPPING_APPROVED_LEAVE,leave_request,LVE-2026-000804,LVE-2026-000004,REJECT,MANAGER,LV-002_OVERLAPPING_LEAVE,CRITICAL,1,Injected approved leave LVE-2026-000804 overlapping with approved leave LVE-2026-000004.
+GT-000020,OVERLAPPING_APPROVED_LEAVE,leave_request,LVE-2026-000805,LVE-2026-000005,REJECT,MANAGER,LV-002_OVERLAPPING_LEAVE,CRITICAL,1,Injected approved leave LVE-2026-000805 overlapping with approved leave LVE-2026-000005.
+GT-000021,OVERLAPPING_APPROVED_LEAVE,leave_request,LVE-2026-000806,LVE-2026-000006,REJECT,MANAGER,LV-002_OVERLAPPING_LEAVE,CRITICAL,1,Injected approved leave LVE-2026-000806 overlapping with approved leave LVE-2026-000006.
+GT-000022,OVERLAPPING_APPROVED_LEAVE,leave_request,LVE-2026-000807,LVE-2026-000007,REJECT,MANAGER,LV-002_OVERLAPPING_LEAVE,CRITICAL,1,Injected approved leave LVE-2026-000807 overlapping with approved leave LVE-2026-000007.
+GT-000023,OVERLAPPING_APPROVED_LEAVE,leave_request,LVE-2026-000808,LVE-2026-000008,REJECT,MANAGER,LV-002_OVERLAPPING_LEAVE,CRITICAL,1,Injected approved leave LVE-2026-000808 overlapping with approved leave LVE-2026-000008.
+GT-000024,OVERLAPPING_APPROVED_LEAVE,leave_request,LVE-2026-000809,LVE-2026-000009,REJECT,MANAGER,LV-002_OVERLAPPING_LEAVE,CRITICAL,1,Injected approved leave LVE-2026-000809 overlapping with approved leave LVE-2026-000009.
+GT-000025,OVERLAPPING_APPROVED_LEAVE,leave_request,LVE-2026-000810,LVE-2026-000010,REJECT,MANAGER,LV-002_OVERLAPPING_LEAVE,CRITICAL,1,Injected approved leave LVE-2026-000810 overlapping with approved leave LVE-2026-000010.
+GT-000026,OVERLAPPING_APPROVED_LEAVE,leave_request,LVE-2026-000811,LVE-2026-000011,REJECT,MANAGER,LV-002_OVERLAPPING_LEAVE,CRITICAL,1,Injected approved leave LVE-2026-000811 overlapping with approved leave LVE-2026-000011.
+GT-000027,OVERLAPPING_APPROVED_LEAVE,leave_request,LVE-2026-000812,LVE-2026-000012,REJECT,MANAGER,LV-002_OVERLAPPING_LEAVE,CRITICAL,1,Injected approved leave LVE-2026-000812 overlapping with approved leave LVE-2026-000012.
+GT-000028,OVERLAPPING_APPROVED_LEAVE,leave_request,LVE-2026-000813,LVE-2026-000013,REJECT,MANAGER,LV-002_OVERLAPPING_LEAVE,CRITICAL,1,Injected approved leave LVE-2026-000813 overlapping with approved leave LVE-2026-000013.
+GT-000029,OVERLAPPING_APPROVED_LEAVE,leave_request,LVE-2026-000814,LVE-2026-000014,REJECT,MANAGER,LV-002_OVERLAPPING_LEAVE,CRITICAL,1,Injected approved leave LVE-2026-000814 overlapping with approved leave LVE-2026-000014.
+GT-000030,OVERLAPPING_APPROVED_LEAVE,leave_request,LVE-2026-000815,LVE-2026-000015,REJECT,MANAGER,LV-002_OVERLAPPING_LEAVE,CRITICAL,1,Injected approved leave LVE-2026-000815 overlapping with approved leave LVE-2026-000015.
+GT-000031,EXPENSE_DATE_OUTSIDE_EMPLOYMENT,expense_claim,EXP-2026-000001,EMP-000071,REJECT,MANAGER,EX-004_DATE_OUTSIDE_EMPLOYMENT,HIGH,1,Incurred expense date (2020-11-24) precedes employee hire date (2020-12-27).
+GT-000032,EXPENSE_DATE_OUTSIDE_EMPLOYMENT,expense_claim,EXP-2026-000002,EMP-000239,REJECT,MANAGER,EX-004_DATE_OUTSIDE_EMPLOYMENT,HIGH,1,Incurred expense date (2024-01-03) precedes employee hire date (2024-03-10).
+GT-000033,EXPENSE_DATE_OUTSIDE_EMPLOYMENT,expense_claim,EXP-2026-000003,EMP-000169,REJECT,MANAGER,EX-004_DATE_OUTSIDE_EMPLOYMENT,HIGH,1,Incurred expense date (2023-05-23) precedes employee hire date (2023-06-28).
+GT-000034,EXPENSE_DATE_OUTSIDE_EMPLOYMENT,expense_claim,EXP-2026-000004,EMP-000367,REJECT,MANAGER,EX-004_DATE_OUTSIDE_EMPLOYMENT,HIGH,1,Incurred expense date (2024-10-10) precedes employee hire date (2024-12-05).
+GT-000035,EXPENSE_DATE_OUTSIDE_EMPLOYMENT,expense_claim,EXP-2026-000005,EMP-000253,REJECT,MANAGER,EX-004_DATE_OUTSIDE_EMPLOYMENT,HIGH,1,Incurred expense date (2026-05-02) precedes employee hire date (2026-07-31).
+GT-000036,EXPENSE_DATE_OUTSIDE_EMPLOYMENT,expense_claim,EXP-2026-000007,EMP-000190,REJECT,MANAGER,EX-004_DATE_OUTSIDE_EMPLOYMENT,HIGH,1,Incurred expense date (2023-03-13) precedes employee hire date (2023-05-25).
+GT-000037,EXPENSE_DATE_OUTSIDE_EMPLOYMENT,expense_claim,EXP-2026-000008,EMP-000107,REJECT,MANAGER,EX-004_DATE_OUTSIDE_EMPLOYMENT,HIGH,1,Incurred expense date (2024-01-03) precedes employee hire date (2024-03-05).
+GT-000038,EXPENSE_DATE_OUTSIDE_EMPLOYMENT,expense_claim,EXP-2026-000009,EMP-000281,REJECT,MANAGER,EX-004_DATE_OUTSIDE_EMPLOYMENT,HIGH,1,Incurred expense date (2024-09-15) precedes employee hire date (2024-10-21).
+GT-000039,EXPENSE_DATE_OUTSIDE_EMPLOYMENT,expense_claim,EXP-2026-000010,EMP-000377,REJECT,MANAGER,EX-004_DATE_OUTSIDE_EMPLOYMENT,HIGH,1,Incurred expense date (2023-12-18) precedes employee hire date (2024-02-20).
+GT-000040,EXPENSE_DATE_OUTSIDE_EMPLOYMENT,expense_claim,EXP-2026-000011,EMP-000126,REJECT,MANAGER,EX-004_DATE_OUTSIDE_EMPLOYMENT,HIGH,1,Incurred expense date (2022-08-12) precedes employee hire date (2022-09-25).
+GT-000041,EXPENSE_DATE_OUTSIDE_EMPLOYMENT,expense_claim,EXP-2026-000012,EMP-000084,REJECT,MANAGER,EX-004_DATE_OUTSIDE_EMPLOYMENT,HIGH,1,Incurred expense date (2022-07-23) precedes employee hire date (2022-09-08).
+GT-000042,EXPENSE_DATE_OUTSIDE_EMPLOYMENT,expense_claim,EXP-2026-000013,EMP-000204,REJECT,MANAGER,EX-004_DATE_OUTSIDE_EMPLOYMENT,HIGH,1,Incurred expense date (2024-01-01) precedes employee hire date (2024-02-17).
+GT-000043,EXPENSE_DATE_OUTSIDE_EMPLOYMENT,expense_claim,EXP-2026-000015,EMP-000238,REJECT,MANAGER,EX-004_DATE_OUTSIDE_EMPLOYMENT,HIGH,1,Incurred expense date (2025-03-05) precedes employee hire date (2025-05-15).
+GT-000044,EXPENSE_DATE_OUTSIDE_EMPLOYMENT,expense_claim,EXP-2026-000016,EMP-000202,REJECT,MANAGER,EX-004_DATE_OUTSIDE_EMPLOYMENT,HIGH,1,Incurred expense date (2024-06-03) precedes employee hire date (2024-07-05).
+GT-000045,EXPENSE_DATE_OUTSIDE_EMPLOYMENT,expense_claim,EXP-2026-000017,EMP-000396,REJECT,MANAGER,EX-004_DATE_OUTSIDE_EMPLOYMENT,HIGH,1,Incurred expense date (2023-04-20) precedes employee hire date (2023-06-11).
+GT-000046,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001001,EXP-2026-001002,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000047,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001002,EXP-2026-001001,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000048,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001003,EXP-2026-001004,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000049,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001004,EXP-2026-001003,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000050,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001005,EXP-2026-001006,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000051,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001006,EXP-2026-001005,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000052,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001007,EXP-2026-001008,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000053,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001008,EXP-2026-001007,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000054,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001009,EXP-2026-001010,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000055,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001010,EXP-2026-001009,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000056,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001011,EXP-2026-001012,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000057,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001012,EXP-2026-001011,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000058,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001013,EXP-2026-001014,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000059,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001014,EXP-2026-001013,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000060,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001015,EXP-2026-001016,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000061,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001016,EXP-2026-001015,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000062,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001017,EXP-2026-001018,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000063,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001018,EXP-2026-001017,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000064,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001019,EXP-2026-001020,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000065,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001020,EXP-2026-001019,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000066,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001021,EXP-2026-001022,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000067,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001022,EXP-2026-001021,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000068,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001023,EXP-2026-001024,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000069,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001024,EXP-2026-001023,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000070,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001025,EXP-2026-001026,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000071,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001026,EXP-2026-001025,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000072,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001027,EXP-2026-001028,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000073,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001028,EXP-2026-001027,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000074,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001029,EXP-2026-001030,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000075,SPLIT_CLAIM_THRESHOLD_EVASION,expense_claim,EXP-2026-001030,EXP-2026-001029,ESCALATE,MANAGER+DIRECTOR,EX-005_SPLIT_CLAIM_EVASION,MEDIUM,1,"Split claim evasion: 2 claims of $92.00 within 2 days sum to $184.00, evading Tier 2 approval."
+GT-000076,MISSING_COST_CENTER,expense_claim,EXP-2026-000018,EMP-000053,REJECT,N/A,CC-001_MISSING_COST_CENTER,HIGH,1,Claim EXP-2026-000018 lacks required cost center allocation (was CC-107).
+GT-000077,MISSING_COST_CENTER,expense_claim,EXP-2026-000019,EMP-000087,REJECT,N/A,CC-001_MISSING_COST_CENTER,HIGH,1,Claim EXP-2026-000019 lacks required cost center allocation (was CC-104).
+GT-000078,MISSING_COST_CENTER,expense_claim,EXP-2026-000020,EMP-000013,REJECT,N/A,CC-001_MISSING_COST_CENTER,HIGH,1,Claim EXP-2026-000020 lacks required cost center allocation (was CC-104).
+GT-000079,MISSING_COST_CENTER,expense_claim,EXP-2026-000022,EMP-000091,REJECT,N/A,CC-001_MISSING_COST_CENTER,HIGH,1,Claim EXP-2026-000022 lacks required cost center allocation (was CC-100).
+GT-000080,MISSING_COST_CENTER,expense_claim,EXP-2026-000023,EMP-000299,REJECT,N/A,CC-001_MISSING_COST_CENTER,HIGH,1,Claim EXP-2026-000023 lacks required cost center allocation (was CC-106).
+GT-000081,MISSING_COST_CENTER,expense_claim,EXP-2026-000025,EMP-000053,REJECT,N/A,CC-001_MISSING_COST_CENTER,HIGH,1,Claim EXP-2026-000025 lacks required cost center allocation (was CC-107).
+GT-000082,MISSING_COST_CENTER,expense_claim,EXP-2026-000026,EMP-000141,REJECT,N/A,CC-001_MISSING_COST_CENTER,HIGH,1,Claim EXP-2026-000026 lacks required cost center allocation (was CC-104).
+GT-000083,MISSING_COST_CENTER,expense_claim,EXP-2026-000027,EMP-000119,REJECT,N/A,CC-001_MISSING_COST_CENTER,HIGH,1,Claim EXP-2026-000027 lacks required cost center allocation (was CC-104).
+GT-000084,MISSING_COST_CENTER,expense_claim,EXP-2026-000028,EMP-000283,REJECT,N/A,CC-001_MISSING_COST_CENTER,HIGH,1,Claim EXP-2026-000028 lacks required cost center allocation (was CC-100).
+GT-000085,MISSING_COST_CENTER,expense_claim,EXP-2026-000029,EMP-000007,REJECT,N/A,CC-001_MISSING_COST_CENTER,HIGH,1,Claim EXP-2026-000029 lacks required cost center allocation (was CC-105).
+GT-000086,MISSING_COST_CENTER,expense_claim,EXP-2026-000030,EMP-000109,REJECT,N/A,CC-001_MISSING_COST_CENTER,HIGH,1,Claim EXP-2026-000030 lacks required cost center allocation (was CC-106).
+GT-000087,MISSING_COST_CENTER,expense_claim,EXP-2026-000031,EMP-000069,REJECT,N/A,CC-001_MISSING_COST_CENTER,HIGH,1,Claim EXP-2026-000031 lacks required cost center allocation (was CC-105).
+GT-000088,MISSING_COST_CENTER,expense_claim,EXP-2026-000032,EMP-000344,REJECT,N/A,CC-001_MISSING_COST_CENTER,HIGH,1,Claim EXP-2026-000032 lacks required cost center allocation (was CC-101).
+GT-000089,MISSING_COST_CENTER,expense_claim,EXP-2026-000033,EMP-000240,REJECT,N/A,CC-001_MISSING_COST_CENTER,HIGH,1,Claim EXP-2026-000033 lacks required cost center allocation (was CC-106).
+GT-000090,MISSING_COST_CENTER,expense_claim,EXP-2026-000034,EMP-000385,REJECT,N/A,CC-001_MISSING_COST_CENTER,HIGH,1,Claim EXP-2026-000034 lacks required cost center allocation (was CC-100).
+GT-000091,APPROVAL_BY_REQUESTER,approval_step,APR-EXP-2026-000001-01,EXP-2026-000001,REJECT,INDEPENDENT_MANAGER,AP-002_SELF_APPROVAL_PROHIBITED,CRITICAL,1,Approver EMP-000071 matches claimant EMP-000071 on step APR-EXP-2026-000001-01.
+GT-000092,APPROVAL_BY_REQUESTER,approval_step,APR-EXP-2026-000002-01,EXP-2026-000002,REJECT,INDEPENDENT_MANAGER,AP-002_SELF_APPROVAL_PROHIBITED,CRITICAL,1,Approver EMP-000239 matches claimant EMP-000239 on step APR-EXP-2026-000002-01.
+GT-000093,APPROVAL_BY_REQUESTER,approval_step,APR-EXP-2026-000003-01,EXP-2026-000003,REJECT,INDEPENDENT_MANAGER,AP-002_SELF_APPROVAL_PROHIBITED,CRITICAL,1,Approver EMP-000169 matches claimant EMP-000169 on step APR-EXP-2026-000003-01.
+GT-000094,APPROVAL_BY_REQUESTER,approval_step,APR-EXP-2026-000004-01,EXP-2026-000004,REJECT,INDEPENDENT_MANAGER,AP-002_SELF_APPROVAL_PROHIBITED,CRITICAL,1,Approver EMP-000367 matches claimant EMP-000367 on step APR-EXP-2026-000004-01.
+GT-000095,APPROVAL_BY_REQUESTER,approval_step,APR-EXP-2026-000005-01,EXP-2026-000005,REJECT,INDEPENDENT_MANAGER,AP-002_SELF_APPROVAL_PROHIBITED,CRITICAL,1,Approver EMP-000253 matches claimant EMP-000253 on step APR-EXP-2026-000005-01.
+GT-000096,APPROVAL_BY_REQUESTER,approval_step,APR-EXP-2026-000007-01,EXP-2026-000007,REJECT,INDEPENDENT_MANAGER,AP-002_SELF_APPROVAL_PROHIBITED,CRITICAL,1,Approver EMP-000190 matches claimant EMP-000190 on step APR-EXP-2026-000007-01.
+GT-000097,APPROVAL_BY_REQUESTER,approval_step,APR-EXP-2026-000008-01,EXP-2026-000008,REJECT,INDEPENDENT_MANAGER,AP-002_SELF_APPROVAL_PROHIBITED,CRITICAL,1,Approver EMP-000107 matches claimant EMP-000107 on step APR-EXP-2026-000008-01.
+GT-000098,APPROVAL_BY_REQUESTER,approval_step,APR-EXP-2026-000009-01,EXP-2026-000009,REJECT,INDEPENDENT_MANAGER,AP-002_SELF_APPROVAL_PROHIBITED,CRITICAL,1,Approver EMP-000281 matches claimant EMP-000281 on step APR-EXP-2026-000009-01.
+GT-000099,APPROVAL_BY_REQUESTER,approval_step,APR-EXP-2026-000010-01,EXP-2026-000010,REJECT,INDEPENDENT_MANAGER,AP-002_SELF_APPROVAL_PROHIBITED,CRITICAL,1,Approver EMP-000377 matches claimant EMP-000377 on step APR-EXP-2026-000010-01.
+GT-000100,APPROVAL_BY_REQUESTER,approval_step,APR-EXP-2026-000011-01,EXP-2026-000011,REJECT,INDEPENDENT_MANAGER,AP-002_SELF_APPROVAL_PROHIBITED,CRITICAL,1,Approver EMP-000126 matches claimant EMP-000126 on step APR-EXP-2026-000011-01.
+GT-000101,APPROVAL_BY_REQUESTER,approval_step,APR-EXP-2026-000012-01,EXP-2026-000012,REJECT,INDEPENDENT_MANAGER,AP-002_SELF_APPROVAL_PROHIBITED,CRITICAL,1,Approver EMP-000084 matches claimant EMP-000084 on step APR-EXP-2026-000012-01.
+GT-000102,APPROVAL_BY_REQUESTER,approval_step,APR-EXP-2026-000013-01,EXP-2026-000013,REJECT,INDEPENDENT_MANAGER,AP-002_SELF_APPROVAL_PROHIBITED,CRITICAL,1,Approver EMP-000204 matches claimant EMP-000204 on step APR-EXP-2026-000013-01.
+GT-000103,APPROVAL_BY_REQUESTER,approval_step,APR-EXP-2026-000015-01,EXP-2026-000015,REJECT,INDEPENDENT_MANAGER,AP-002_SELF_APPROVAL_PROHIBITED,CRITICAL,1,Approver EMP-000238 matches claimant EMP-000238 on step APR-EXP-2026-000015-01.
+GT-000104,APPROVAL_BY_REQUESTER,approval_step,APR-EXP-2026-000016-01,EXP-2026-000016,REJECT,INDEPENDENT_MANAGER,AP-002_SELF_APPROVAL_PROHIBITED,CRITICAL,1,Approver EMP-000202 matches claimant EMP-000202 on step APR-EXP-2026-000016-01.
+GT-000105,APPROVAL_BY_REQUESTER,approval_step,APR-EXP-2026-000017-01,EXP-2026-000017,REJECT,INDEPENDENT_MANAGER,AP-002_SELF_APPROVAL_PROHIBITED,CRITICAL,1,Approver EMP-000396 matches claimant EMP-000396 on step APR-EXP-2026-000017-01.
+GT-000106,DUPLICATE_REIMBURSEMENT,reimbursement,RMB-2026-000906,RMB-2026-000001,REJECT,N/A,RB-002_DUPLICATE_REIMBURSEMENT,CRITICAL,1,Duplicate reimbursement RMB-2026-000906 issued for claim EXP-2026-000001 already paid under RMB-2026-000001.
+GT-000107,DUPLICATE_REIMBURSEMENT,reimbursement,RMB-2026-000907,RMB-2026-000002,REJECT,N/A,RB-002_DUPLICATE_REIMBURSEMENT,CRITICAL,1,Duplicate reimbursement RMB-2026-000907 issued for claim EXP-2026-000002 already paid under RMB-2026-000002.
+GT-000108,DUPLICATE_REIMBURSEMENT,reimbursement,RMB-2026-000908,RMB-2026-000003,REJECT,N/A,RB-002_DUPLICATE_REIMBURSEMENT,CRITICAL,1,Duplicate reimbursement RMB-2026-000908 issued for claim EXP-2026-000003 already paid under RMB-2026-000003.
+GT-000109,DUPLICATE_REIMBURSEMENT,reimbursement,RMB-2026-000909,RMB-2026-000004,REJECT,N/A,RB-002_DUPLICATE_REIMBURSEMENT,CRITICAL,1,Duplicate reimbursement RMB-2026-000909 issued for claim EXP-2026-000004 already paid under RMB-2026-000004.
+GT-000110,DUPLICATE_REIMBURSEMENT,reimbursement,RMB-2026-000910,RMB-2026-000005,REJECT,N/A,RB-002_DUPLICATE_REIMBURSEMENT,CRITICAL,1,Duplicate reimbursement RMB-2026-000910 issued for claim EXP-2026-000005 already paid under RMB-2026-000005.
+GT-000111,DUPLICATE_REIMBURSEMENT,reimbursement,RMB-2026-000911,RMB-2026-000006,REJECT,N/A,RB-002_DUPLICATE_REIMBURSEMENT,CRITICAL,1,Duplicate reimbursement RMB-2026-000911 issued for claim EXP-2026-000007 already paid under RMB-2026-000006.
+GT-000112,DUPLICATE_REIMBURSEMENT,reimbursement,RMB-2026-000912,RMB-2026-000007,REJECT,N/A,RB-002_DUPLICATE_REIMBURSEMENT,CRITICAL,1,Duplicate reimbursement RMB-2026-000912 issued for claim EXP-2026-000008 already paid under RMB-2026-000007.
+GT-000113,DUPLICATE_REIMBURSEMENT,reimbursement,RMB-2026-000913,RMB-2026-000008,REJECT,N/A,RB-002_DUPLICATE_REIMBURSEMENT,CRITICAL,1,Duplicate reimbursement RMB-2026-000913 issued for claim EXP-2026-000009 already paid under RMB-2026-000008.
+GT-000114,DUPLICATE_REIMBURSEMENT,reimbursement,RMB-2026-000914,RMB-2026-000009,REJECT,N/A,RB-002_DUPLICATE_REIMBURSEMENT,CRITICAL,1,Duplicate reimbursement RMB-2026-000914 issued for claim EXP-2026-000010 already paid under RMB-2026-000009.
+GT-000115,DUPLICATE_REIMBURSEMENT,reimbursement,RMB-2026-000915,RMB-2026-000010,REJECT,N/A,RB-002_DUPLICATE_REIMBURSEMENT,CRITICAL,1,Duplicate reimbursement RMB-2026-000915 issued for claim EXP-2026-000011 already paid under RMB-2026-000010.
+GT-000116,DUPLICATE_REIMBURSEMENT,reimbursement,RMB-2026-000916,RMB-2026-000011,REJECT,N/A,RB-002_DUPLICATE_REIMBURSEMENT,CRITICAL,1,Duplicate reimbursement RMB-2026-000916 issued for claim EXP-2026-000012 already paid under RMB-2026-000011.
+GT-000117,DUPLICATE_REIMBURSEMENT,reimbursement,RMB-2026-000917,RMB-2026-000012,REJECT,N/A,RB-002_DUPLICATE_REIMBURSEMENT,CRITICAL,1,Duplicate reimbursement RMB-2026-000917 issued for claim EXP-2026-000013 already paid under RMB-2026-000012.
+GT-000118,DUPLICATE_REIMBURSEMENT,reimbursement,RMB-2026-000918,RMB-2026-000013,REJECT,N/A,RB-002_DUPLICATE_REIMBURSEMENT,CRITICAL,1,Duplicate reimbursement RMB-2026-000918 issued for claim EXP-2026-000015 already paid under RMB-2026-000013.
+GT-000119,DUPLICATE_REIMBURSEMENT,reimbursement,RMB-2026-000919,RMB-2026-000014,REJECT,N/A,RB-002_DUPLICATE_REIMBURSEMENT,CRITICAL,1,Duplicate reimbursement RMB-2026-000919 issued for claim EXP-2026-000016 already paid under RMB-2026-000014.
+GT-000120,DUPLICATE_REIMBURSEMENT,reimbursement,RMB-2026-000920,RMB-2026-000015,REJECT,N/A,RB-002_DUPLICATE_REIMBURSEMENT,CRITICAL,1,Duplicate reimbursement RMB-2026-000920 issued for claim EXP-2026-000017 already paid under RMB-2026-000015.
+GT-000121,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000051,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000122,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000054,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000123,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000124,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000124,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000181,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000125,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000190,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000126,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000222,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000127,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000241,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000128,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000243,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000129,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000320,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000130,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000340,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000131,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000376,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000132,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000387,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000133,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000417,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000134,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000420,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000135,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000452,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000136,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000521,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000137,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000549,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000138,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000626,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000139,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000654,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000140,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000677,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000141,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000680,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000142,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000708,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000143,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000718,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000144,INSUFFICIENT_BALANCE,leave_request,LVE-2026-000794,,REJECT,N/A,LV-001_INSUFFICIENT_BALANCE,MEDIUM,0,Natural baseline rejection: leave duration exceeded available balance.
+GT-000145,MISSING_RECEIPT,expense_claim,EXP-2026-000006,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000146,MISSING_RECEIPT,expense_claim,EXP-2026-000014,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000147,MISSING_RECEIPT,expense_claim,EXP-2026-000021,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000148,MISSING_RECEIPT,expense_claim,EXP-2026-000024,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000149,MISSING_RECEIPT,expense_claim,EXP-2026-000035,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000150,MISSING_RECEIPT,expense_claim,EXP-2026-000043,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000151,MISSING_RECEIPT,expense_claim,EXP-2026-000111,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000152,MISSING_RECEIPT,expense_claim,EXP-2026-000120,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000153,MISSING_RECEIPT,expense_claim,EXP-2026-000145,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000154,MISSING_RECEIPT,expense_claim,EXP-2026-000162,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000155,MISSING_RECEIPT,expense_claim,EXP-2026-000168,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000156,MISSING_RECEIPT,expense_claim,EXP-2026-000169,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000157,MISSING_RECEIPT,expense_claim,EXP-2026-000174,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000158,MISSING_RECEIPT,expense_claim,EXP-2026-000178,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000159,MISSING_RECEIPT,expense_claim,EXP-2026-000182,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000160,MISSING_RECEIPT,expense_claim,EXP-2026-000191,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000161,MISSING_RECEIPT,expense_claim,EXP-2026-000198,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000162,MISSING_RECEIPT,expense_claim,EXP-2026-000200,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000163,MISSING_RECEIPT,expense_claim,EXP-2026-000226,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000164,MISSING_RECEIPT,expense_claim,EXP-2026-000240,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000165,MISSING_RECEIPT,expense_claim,EXP-2026-000257,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000166,MISSING_RECEIPT,expense_claim,EXP-2026-000271,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000167,MISSING_RECEIPT,expense_claim,EXP-2026-000274,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000168,MISSING_RECEIPT,expense_claim,EXP-2026-000290,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000169,MISSING_RECEIPT,expense_claim,EXP-2026-000314,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000170,MISSING_RECEIPT,expense_claim,EXP-2026-000318,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000171,MISSING_RECEIPT,expense_claim,EXP-2026-000323,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000172,MISSING_RECEIPT,expense_claim,EXP-2026-000337,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000173,MISSING_RECEIPT,expense_claim,EXP-2026-000338,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000174,MISSING_RECEIPT,expense_claim,EXP-2026-000385,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000175,MISSING_RECEIPT,expense_claim,EXP-2026-000390,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000176,MISSING_RECEIPT,expense_claim,EXP-2026-000405,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000177,MISSING_RECEIPT,expense_claim,EXP-2026-000408,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000178,MISSING_RECEIPT,expense_claim,EXP-2026-000410,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000179,MISSING_RECEIPT,expense_claim,EXP-2026-000421,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000180,MISSING_RECEIPT,expense_claim,EXP-2026-000430,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000181,MISSING_RECEIPT,expense_claim,EXP-2026-000432,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000182,MISSING_RECEIPT,expense_claim,EXP-2026-000471,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000183,MISSING_RECEIPT,expense_claim,EXP-2026-000495,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000184,MISSING_RECEIPT,expense_claim,EXP-2026-000502,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000185,MISSING_RECEIPT,expense_claim,EXP-2026-000513,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000186,MISSING_RECEIPT,expense_claim,EXP-2026-000544,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000187,MISSING_RECEIPT,expense_claim,EXP-2026-000545,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000188,MISSING_RECEIPT,expense_claim,EXP-2026-000547,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000189,MISSING_RECEIPT,expense_claim,EXP-2026-000567,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000190,MISSING_RECEIPT,expense_claim,EXP-2026-000585,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000191,MISSING_RECEIPT,expense_claim,EXP-2026-000588,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000192,MISSING_RECEIPT,expense_claim,EXP-2026-000594,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000193,MISSING_RECEIPT,expense_claim,EXP-2026-000620,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000194,MISSING_RECEIPT,expense_claim,EXP-2026-000621,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000195,MISSING_RECEIPT,expense_claim,EXP-2026-000625,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000196,MISSING_RECEIPT,expense_claim,EXP-2026-000640,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000197,MISSING_RECEIPT,expense_claim,EXP-2026-000645,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000198,MISSING_RECEIPT,expense_claim,EXP-2026-000665,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000199,MISSING_RECEIPT,expense_claim,EXP-2026-000671,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000200,MISSING_RECEIPT,expense_claim,EXP-2026-000685,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000201,MISSING_RECEIPT,expense_claim,EXP-2026-000691,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000202,MISSING_RECEIPT,expense_claim,EXP-2026-000696,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000203,MISSING_RECEIPT,expense_claim,EXP-2026-000699,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000204,MISSING_RECEIPT,expense_claim,EXP-2026-000700,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000205,MISSING_RECEIPT,expense_claim,EXP-2026-000712,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000206,MISSING_RECEIPT,expense_claim,EXP-2026-000720,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000207,MISSING_RECEIPT,expense_claim,EXP-2026-000744,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000208,MISSING_RECEIPT,expense_claim,EXP-2026-000761,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000209,MISSING_RECEIPT,expense_claim,EXP-2026-000777,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000210,MISSING_RECEIPT,expense_claim,EXP-2026-000780,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000211,MISSING_RECEIPT,expense_claim,EXP-2026-000788,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000212,MISSING_RECEIPT,expense_claim,EXP-2026-000789,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000213,MISSING_RECEIPT,expense_claim,EXP-2026-000791,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000214,MISSING_RECEIPT,expense_claim,EXP-2026-000799,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000215,MISSING_RECEIPT,expense_claim,EXP-2026-000809,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000216,MISSING_RECEIPT,expense_claim,EXP-2026-000819,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000217,MISSING_RECEIPT,expense_claim,EXP-2026-000847,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000218,MISSING_RECEIPT,expense_claim,EXP-2026-000848,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000219,MISSING_RECEIPT,expense_claim,EXP-2026-000849,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000220,MISSING_RECEIPT,expense_claim,EXP-2026-000853,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000221,MISSING_RECEIPT,expense_claim,EXP-2026-000865,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000222,MISSING_RECEIPT,expense_claim,EXP-2026-000869,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000223,MISSING_RECEIPT,expense_claim,EXP-2026-000871,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000224,MISSING_RECEIPT,expense_claim,EXP-2026-000884,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000225,MISSING_RECEIPT,expense_claim,EXP-2026-000891,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000226,MISSING_RECEIPT,expense_claim,EXP-2026-000893,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000227,MISSING_RECEIPT,expense_claim,EXP-2026-000904,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000228,MISSING_RECEIPT,expense_claim,EXP-2026-000906,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000229,MISSING_RECEIPT,expense_claim,EXP-2026-000907,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000230,MISSING_RECEIPT,expense_claim,EXP-2026-000908,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000231,MISSING_RECEIPT,expense_claim,EXP-2026-000912,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000232,MISSING_RECEIPT,expense_claim,EXP-2026-000934,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000233,MISSING_RECEIPT,expense_claim,EXP-2026-000947,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000234,MISSING_RECEIPT,expense_claim,EXP-2026-000953,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000235,MISSING_RECEIPT,expense_claim,EXP-2026-000967,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000236,MISSING_RECEIPT,expense_claim,EXP-2026-000969,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000237,MISSING_RECEIPT,expense_claim,EXP-2026-000976,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000238,MISSING_RECEIPT,expense_claim,EXP-2026-000984,,REJECT,N/A,EX-001_MISSING_RECEIPT,HIGH,0,Natural baseline rejection: mandatory receipt substantiation missing above $25.
+GT-000239,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000002,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000240,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000003,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 0 weekend and 1 statutory holiday days.
+GT-000241,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000004,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000242,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000005,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000243,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000006,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000244,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000007,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000245,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000008,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000246,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000009,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000247,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000010,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000248,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000011,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000249,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000013,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000250,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000014,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000251,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000015,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000252,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000016,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000253,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000017,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000254,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000018,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000255,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000019,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000256,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000021,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000257,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000022,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000258,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000023,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000259,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000024,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000260,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000025,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000261,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000027,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000262,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000029,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 22 weekend and 0 statutory holiday days.
+GT-000263,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000030,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 22 weekend and 2 statutory holiday days.
+GT-000264,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000031,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 0 weekend and 1 statutory holiday days.
+GT-000265,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000032,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000266,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000033,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000267,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000035,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000268,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000036,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000269,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000037,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000270,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000039,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000271,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000040,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000272,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000043,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000273,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000044,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 17 weekend and 0 statutory holiday days.
+GT-000274,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000045,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000275,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000048,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 20 weekend and 0 statutory holiday days.
+GT-000276,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000049,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000277,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000051,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000278,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000052,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000279,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000053,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 17 weekend and 0 statutory holiday days.
+GT-000280,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000054,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000281,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000056,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 1 statutory holiday days.
+GT-000282,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000057,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000283,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000058,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000284,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000059,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 10 weekend and 0 statutory holiday days.
+GT-000285,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000062,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000286,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000063,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000287,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000068,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000288,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000069,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000289,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000071,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 23 weekend and 0 statutory holiday days.
+GT-000290,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000073,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000291,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000075,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000292,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000076,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 18 weekend and 0 statutory holiday days.
+GT-000293,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000078,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 1 statutory holiday days.
+GT-000294,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000080,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000295,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000081,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000296,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000083,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000297,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000084,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000298,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000087,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000299,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000090,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000300,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000091,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000301,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000092,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000302,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000093,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000303,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000096,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000304,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000097,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000305,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000098,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 9 weekend and 0 statutory holiday days.
+GT-000306,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000100,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 12 weekend and 0 statutory holiday days.
+GT-000307,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000102,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000308,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000103,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000309,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000105,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000310,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000108,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000311,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000112,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000312,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000114,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000313,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000115,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 5 weekend and 0 statutory holiday days.
+GT-000314,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000116,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000315,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000117,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000316,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000118,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 17 weekend and 0 statutory holiday days.
+GT-000317,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000119,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000318,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000120,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000319,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000121,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 18 weekend and 0 statutory holiday days.
+GT-000320,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000122,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000321,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000123,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000322,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000125,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000323,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000127,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000324,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000128,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 16 weekend and 0 statutory holiday days.
+GT-000325,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000130,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000326,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000131,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000327,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000132,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000328,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000133,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000329,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000134,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000330,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000135,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 1 statutory holiday days.
+GT-000331,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000138,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000332,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000139,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000333,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000140,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000334,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000142,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000335,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000144,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000336,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000145,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000337,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000147,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000338,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000155,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000339,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000156,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 13 weekend and 2 statutory holiday days.
+GT-000340,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000157,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000341,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000159,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000342,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000160,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000343,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000162,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000344,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000164,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000345,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000165,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000346,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000166,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000347,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000168,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000348,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000169,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 24 weekend and 0 statutory holiday days.
+GT-000349,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000170,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000350,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000171,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000351,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000172,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000352,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000173,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000353,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000174,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000354,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000175,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000355,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000176,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000356,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000178,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000357,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000181,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000358,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000183,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000359,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000184,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000360,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000185,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000361,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000187,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 18 weekend and 0 statutory holiday days.
+GT-000362,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000189,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000363,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000190,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000364,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000191,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000365,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000192,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 1 statutory holiday days.
+GT-000366,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000196,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000367,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000197,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000368,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000198,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000369,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000199,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000370,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000202,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000371,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000204,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 1 statutory holiday days.
+GT-000372,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000205,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000373,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000206,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000374,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000207,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000375,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000208,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 12 weekend and 0 statutory holiday days.
+GT-000376,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000209,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000377,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000210,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000378,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000211,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000379,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000214,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000380,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000215,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000381,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000216,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000382,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000217,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 5 weekend and 0 statutory holiday days.
+GT-000383,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000218,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000384,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000219,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000385,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000220,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000386,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000223,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000387,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000225,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000388,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000227,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000389,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000228,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000390,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000230,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 20 weekend and 4 statutory holiday days.
+GT-000391,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000232,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000392,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000233,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000393,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000234,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000394,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000237,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000395,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000238,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000396,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000239,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000397,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000241,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000398,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000245,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000399,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000246,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000400,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000248,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000401,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000249,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000402,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000251,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000403,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000252,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000404,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000254,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000405,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000255,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000406,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000256,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000407,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000257,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000408,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000258,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000409,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000259,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000410,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000260,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000411,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000261,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000412,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000262,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000413,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000263,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000414,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000264,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000415,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000265,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000416,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000266,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000417,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000267,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 1 statutory holiday days.
+GT-000418,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000268,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000419,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000269,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000420,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000271,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000421,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000272,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000422,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000273,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000423,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000274,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000424,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000275,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000425,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000276,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 0 weekend and 1 statutory holiday days.
+GT-000426,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000277,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000427,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000278,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000428,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000279,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000429,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000280,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000430,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000281,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000431,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000285,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000432,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000286,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000433,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000287,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000434,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000290,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000435,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000292,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000436,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000293,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000437,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000295,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 25 weekend and 2 statutory holiday days.
+GT-000438,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000297,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000439,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000298,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000440,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000301,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000441,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000303,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 15 weekend and 1 statutory holiday days.
+GT-000442,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000308,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000443,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000310,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000444,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000311,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000445,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000312,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000446,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000314,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000447,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000315,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000448,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000316,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 5 weekend and 0 statutory holiday days.
+GT-000449,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000317,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000450,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000318,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 16 weekend and 1 statutory holiday days.
+GT-000451,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000320,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000452,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000324,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000453,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000325,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000454,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000326,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 25 weekend and 1 statutory holiday days.
+GT-000455,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000327,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000456,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000328,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000457,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000329,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000458,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000330,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000459,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000331,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 20 weekend and 1 statutory holiday days.
+GT-000460,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000332,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000461,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000333,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000462,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000337,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 1 statutory holiday days.
+GT-000463,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000338,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000464,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000339,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000465,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000340,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000466,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000341,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000467,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000343,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000468,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000344,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000469,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000346,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000470,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000347,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 1 statutory holiday days.
+GT-000471,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000348,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000472,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000349,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000473,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000350,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000474,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000352,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 1 statutory holiday days.
+GT-000475,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000353,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 6 weekend and 0 statutory holiday days.
+GT-000476,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000357,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000477,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000358,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000478,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000361,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000479,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000362,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 9 weekend and 1 statutory holiday days.
+GT-000480,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000363,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000481,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000364,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000482,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000365,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000483,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000368,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000484,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000369,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000485,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000372,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000486,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000373,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000487,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000374,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000488,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000375,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000489,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000376,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000490,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000377,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000491,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000381,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000492,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000382,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000493,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000384,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000494,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000388,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000495,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000389,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 18 weekend and 0 statutory holiday days.
+GT-000496,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000390,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000497,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000392,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000498,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000393,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000499,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000395,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000500,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000396,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 10 weekend and 1 statutory holiday days.
+GT-000501,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000397,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000502,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000402,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000503,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000403,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000504,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000406,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000505,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000407,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000506,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000408,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 1 statutory holiday days.
+GT-000507,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000410,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000508,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000411,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 16 weekend and 0 statutory holiday days.
+GT-000509,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000412,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000510,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000415,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 1 statutory holiday days.
+GT-000511,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000416,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000512,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000417,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000513,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000418,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 22 weekend and 0 statutory holiday days.
+GT-000514,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000422,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000515,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000423,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000516,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000424,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000517,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000426,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000518,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000427,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000519,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000430,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000520,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000431,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000521,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000433,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 6 weekend and 0 statutory holiday days.
+GT-000522,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000434,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000523,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000436,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000524,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000437,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000525,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000438,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 1 statutory holiday days.
+GT-000526,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000439,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000527,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000440,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000528,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000442,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000529,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000444,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000530,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000445,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000531,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000447,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000532,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000449,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000533,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000450,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 1 statutory holiday days.
+GT-000534,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000451,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 1 statutory holiday days.
+GT-000535,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000453,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000536,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000454,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 2 statutory holiday days.
+GT-000537,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000457,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000538,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000458,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000539,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000459,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000540,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000460,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000541,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000462,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 1 statutory holiday days.
+GT-000542,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000464,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 5 weekend and 1 statutory holiday days.
+GT-000543,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000467,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000544,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000468,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000545,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000470,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000546,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000472,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000547,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000473,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000548,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000474,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000549,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000475,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000550,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000477,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000551,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000478,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000552,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000479,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000553,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000480,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000554,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000481,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000555,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000482,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000556,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000483,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000557,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000484,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 1 statutory holiday days.
+GT-000558,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000485,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 24 weekend and 0 statutory holiday days.
+GT-000559,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000486,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000560,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000487,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 26 weekend and 0 statutory holiday days.
+GT-000561,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000488,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000562,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000489,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000563,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000491,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000564,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000492,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000565,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000493,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000566,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000495,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 16 weekend and 0 statutory holiday days.
+GT-000567,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000497,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000568,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000500,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000569,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000501,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000570,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000502,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000571,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000506,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000572,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000507,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000573,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000508,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000574,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000509,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000575,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000510,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000576,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000511,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000577,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000512,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000578,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000514,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 22 weekend and 1 statutory holiday days.
+GT-000579,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000516,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000580,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000517,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000581,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000518,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 8 weekend and 0 statutory holiday days.
+GT-000582,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000519,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000583,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000521,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 24 weekend and 0 statutory holiday days.
+GT-000584,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000523,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 12 weekend and 0 statutory holiday days.
+GT-000585,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000525,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000586,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000526,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000587,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000527,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 5 weekend and 0 statutory holiday days.
+GT-000588,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000528,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000589,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000530,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000590,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000531,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000591,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000535,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000592,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000536,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000593,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000537,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000594,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000538,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000595,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000541,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000596,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000543,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 1 statutory holiday days.
+GT-000597,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000544,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000598,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000545,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000599,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000546,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000600,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000548,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000601,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000549,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 1 statutory holiday days.
+GT-000602,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000550,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000603,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000551,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000604,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000556,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000605,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000557,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000606,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000558,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000607,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000559,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 20 weekend and 2 statutory holiday days.
+GT-000608,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000561,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000609,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000563,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000610,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000564,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 20 weekend and 2 statutory holiday days.
+GT-000611,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000566,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000612,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000567,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000613,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000568,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000614,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000571,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000615,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000573,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000616,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000574,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000617,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000576,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000618,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000577,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000619,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000578,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000620,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000579,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000621,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000580,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000622,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000581,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 12 weekend and 2 statutory holiday days.
+GT-000623,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000582,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000624,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000585,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000625,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000586,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000626,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000587,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000627,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000588,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000628,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000590,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000629,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000591,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000630,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000592,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000631,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000593,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 11 weekend and 1 statutory holiday days.
+GT-000632,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000594,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000633,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000595,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000634,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000596,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000635,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000597,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000636,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000600,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000637,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000601,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 3 weekend and 0 statutory holiday days.
+GT-000638,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000602,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000639,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000603,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000640,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000604,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000641,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000605,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000642,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000606,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000643,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000608,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000644,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000612,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 1 statutory holiday days.
+GT-000645,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000613,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000646,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000615,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000647,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000616,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000648,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000618,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000649,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000620,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000650,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000622,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000651,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000624,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 16 weekend and 1 statutory holiday days.
+GT-000652,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000625,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000653,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000626,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000654,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000627,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000655,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000629,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000656,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000630,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 1 statutory holiday days.
+GT-000657,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000631,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000658,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000635,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000659,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000636,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000660,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000637,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000661,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000640,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000662,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000641,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 12 weekend and 0 statutory holiday days.
+GT-000663,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000644,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000664,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000647,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000665,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000648,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000666,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000652,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000667,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000653,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000668,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000654,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000669,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000655,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000670,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000656,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000671,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000658,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000672,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000659,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000673,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000660,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000674,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000661,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000675,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000662,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000676,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000663,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000677,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000669,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000678,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000670,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 0 weekend and 1 statutory holiday days.
+GT-000679,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000671,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000680,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000672,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000681,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000675,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 1 statutory holiday days.
+GT-000682,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000676,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000683,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000679,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000684,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000680,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000685,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000683,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000686,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000684,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000687,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000685,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000688,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000687,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000689,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000688,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000690,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000689,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000691,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000690,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000692,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000691,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000693,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000692,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000694,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000693,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000695,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000694,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000696,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000695,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000697,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000697,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000698,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000698,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000699,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000699,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000700,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000702,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 26 weekend and 2 statutory holiday days.
+GT-000701,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000703,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000702,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000704,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000703,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000706,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000704,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000708,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 24 weekend and 1 statutory holiday days.
+GT-000705,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000710,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000706,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000713,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000707,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000715,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 5 weekend and 0 statutory holiday days.
+GT-000708,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000716,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 15 weekend and 0 statutory holiday days.
+GT-000709,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000717,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 1 statutory holiday days.
+GT-000710,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000718,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000711,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000720,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000712,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000721,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000713,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000723,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000714,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000724,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000715,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000725,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000716,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000728,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000717,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000729,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000718,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000730,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000719,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000735,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000720,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000737,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000721,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000739,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000722,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000740,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000723,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000743,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000724,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000745,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 1 statutory holiday days.
+GT-000725,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000746,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000726,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000748,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 0 weekend and 1 statutory holiday days.
+GT-000727,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000751,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000728,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000752,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000729,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000753,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000730,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000754,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000731,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000755,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000732,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000757,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000733,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000758,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 12 weekend and 0 statutory holiday days.
+GT-000734,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000759,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000735,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000761,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000736,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000762,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000737,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000763,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000738,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000765,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000739,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000766,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000740,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000768,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000741,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000769,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 24 weekend and 2 statutory holiday days.
+GT-000742,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000770,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000743,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000771,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 18 weekend and 2 statutory holiday days.
+GT-000744,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000773,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000745,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000775,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 1 statutory holiday days.
+GT-000746,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000776,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000747,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000777,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000748,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000779,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000749,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000787,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 1 statutory holiday days.
+GT-000750,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000790,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000751,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000791,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000752,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000792,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000753,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000793,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000754,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000794,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000755,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000798,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000756,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000799,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 1 statutory holiday days.
+GT-000757,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000802,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000758,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000803,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 0 weekend and 1 statutory holiday days.
+GT-000759,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000804,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000760,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000805,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000761,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000806,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000762,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000807,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000763,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000808,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000764,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000809,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000765,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000810,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000766,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000811,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 4 weekend and 0 statutory holiday days.
+GT-000767,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000813,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 2 weekend and 0 statutory holiday days.
+GT-000768,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000814,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.
+GT-000769,WEEKEND_HOLIDAY_SPAN,leave_request,LVE-2026-000815,,FLAG,CALENDAR_EXCLUSION,CAL-001_SPAN_CONTAINS_NON_WORKING_DAYS,LOW,0,Leave interval spans 1 weekend and 0 statutory holiday days.

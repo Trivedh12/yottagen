@@ -1,0 +1,17 @@
+rule_id,rule_code,name,entity_type,min_amount,max_amount,min_duration_days,max_duration_days,required_role,min_approver_level,step_number,description
+ARUL-01,APR-EXP-TIER1,Expense <= $100 Direct Manager Review,EXPENSE,0.0,100.0,0,0,MANAGER,3,1,Standard expense claims under $100 require immediate line manager approval.
+ARUL-02,APR-EXP-TIER2-MGR,Expense $100-$1000 Step 1 Manager Review,EXPENSE,100.0,1000.0,0,0,MANAGER,3,1,"Claims between $100 and $1,000 require manager approval as step 1."
+ARUL-03,APR-EXP-TIER2-HEAD,Expense $100-$1000 Step 2 Department Head Review,EXPENSE,100.0,1000.0,0,0,DIRECTOR,4,2,"Claims between $100 and $1,000 require department head signoff as step 2."
+ARUL-04,APR-EXP-TIER3-MGR,Expense $1000-$5000 Step 1 Manager,EXPENSE,1000.0,5000.0,0,0,MANAGER,3,1,High value claims require manager signoff.
+ARUL-05,APR-EXP-TIER3-DIR,Expense $1000-$5000 Step 2 Director,EXPENSE,1000.0,5000.0,0,0,DIRECTOR,4,2,High value claims require director concurrence.
+ARUL-06,APR-EXP-TIER3-FIN,Expense $1000-$5000 Step 3 Finance Review,EXPENSE,1000.0,5000.0,0,0,FINANCE,3,3,High value claims require corporate finance audit.
+ARUL-07,APR-EXP-TIER4-EXEC,Expense > $5000 Executive VP / CFO Approval,EXPENSE,5000.0,999999.0,0,0,VP,5,4,Executive signoff for large expenditures.
+ARUL-08,APR-EXP-DE-LODGING,Germany Lodging Above Cap Finance Review,EXPENSE,180.0,999999.0,0,0,FINANCE,3,2,DE hotel rates exceeding 180 USD daily cap require finance audit.
+ARUL-09,APR-EXP-IN-LODGING,India Lodging Above Cap Finance Review,EXPENSE,150.0,999999.0,0,0,FINANCE,3,2,India hotel rates exceeding 150 USD daily cap require finance audit.
+ARUL-10,APR-EXP-EQUIP-FIN,Equipment > $250 Finance Signoff,EXPENSE,250.0,999999.0,0,0,FINANCE,3,2,IT equipment exceeding $250 requires IT/Finance signoff.
+ARUL-11,APR-LVE-STANDARD,Leave <= 5 Days Direct Manager Review,LEAVE,0.0,0.0,1,5,MANAGER,3,1,Short leave up to 5 business days approved by direct manager.
+ARUL-12,APR-LVE-EXT-MGR,Leave 6-15 Days Step 1 Manager Review,LEAVE,0.0,0.0,6,15,MANAGER,3,1,Extended leave step 1 manager approval.
+ARUL-13,APR-LVE-EXT-HR,Leave 6-15 Days Step 2 HR Review,LEAVE,0.0,0.0,6,15,HR,3,2,Extended leave step 2 HR compliance verification.
+ARUL-14,APR-LVE-PAR-MGR,Leave > 15 Days Step 1 Manager Review,LEAVE,0.0,0.0,16,365,MANAGER,3,1,Extended / parental leave step 1 manager approval.
+ARUL-15,APR-LVE-PAR-HR,Leave > 15 Days Step 2 HR Review,LEAVE,0.0,0.0,16,365,HR,3,2,Extended / parental leave step 2 HR review.
+ARUL-16,APR-LVE-PAR-DIR,Leave > 15 Days Step 3 Director Review,LEAVE,0.0,0.0,16,365,DIRECTOR,4,3,Extended / parental leave step 3 department director approval.

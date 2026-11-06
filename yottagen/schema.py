@@ -269,7 +269,7 @@ SCHEMA_TABLES: List[TableDef] = [
         fields=[
             FieldDef("claim_id", "string", "VARCHAR(32)", True, True, None, None, None, True, "Regex ^EXP-2026-\\d{6}$", "Unique expense claim header identifier."),
             FieldDef("employee_id", "string", "VARCHAR(32)", True, False, "employee.employee_id", None, None, False, "FK to Employee", "Claimant employee ID."),
-            FieldDef("cost_center_id", "string", "VARCHAR(32)", True, False, "cost_center.cost_center_id", None, None, False, "FK to CostCenter", "Chargeable cost center."),
+            FieldDef("cost_center_id", "string", "VARCHAR(32)", False, False, "cost_center.cost_center_id", None, None, False, "FK to CostCenter", "Chargeable cost center."),
             FieldDef("policy_id", "string", "VARCHAR(16)", True, False, "expense_policy.policy_id", None, None, False, "FK to ExpensePolicy", "Governing expense policy."),
             FieldDef("claim_date", "date", "DATE", True, False, None, None, "YYYY-MM-DD", False, "claim_date <= submit_date", "Date claim was assembled."),
             FieldDef("submit_date", "date", "DATE", True, False, None, None, "YYYY-MM-DD", False, "submit_date <= as_of_date", "Submission date for approval."),

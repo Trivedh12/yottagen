@@ -1,0 +1,2277 @@
+[
+  {
+    "holiday_id": "HOL-000001",
+    "country": "DE",
+    "holiday_date": "2015-01-01",
+    "holiday_name": "Neujahr",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000002",
+    "country": "DE",
+    "holiday_date": "2015-05-01",
+    "holiday_name": "Tag der Arbeit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000003",
+    "country": "DE",
+    "holiday_date": "2015-10-03",
+    "holiday_name": "Tag der Deutschen Einheit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000004",
+    "country": "DE",
+    "holiday_date": "2015-12-25",
+    "holiday_name": "1. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000005",
+    "country": "DE",
+    "holiday_date": "2015-12-26",
+    "holiday_name": "2. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000006",
+    "country": "DE",
+    "holiday_date": "2016-01-01",
+    "holiday_name": "Neujahr",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000007",
+    "country": "DE",
+    "holiday_date": "2016-05-01",
+    "holiday_name": "Tag der Arbeit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000008",
+    "country": "DE",
+    "holiday_date": "2016-10-03",
+    "holiday_name": "Tag der Deutschen Einheit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000009",
+    "country": "DE",
+    "holiday_date": "2016-12-25",
+    "holiday_name": "1. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000010",
+    "country": "DE",
+    "holiday_date": "2016-12-26",
+    "holiday_name": "2. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000011",
+    "country": "DE",
+    "holiday_date": "2017-01-01",
+    "holiday_name": "Neujahr",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000012",
+    "country": "DE",
+    "holiday_date": "2017-05-01",
+    "holiday_name": "Tag der Arbeit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000013",
+    "country": "DE",
+    "holiday_date": "2017-10-03",
+    "holiday_name": "Tag der Deutschen Einheit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000014",
+    "country": "DE",
+    "holiday_date": "2017-12-25",
+    "holiday_name": "1. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000015",
+    "country": "DE",
+    "holiday_date": "2017-12-26",
+    "holiday_name": "2. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000016",
+    "country": "DE",
+    "holiday_date": "2018-01-01",
+    "holiday_name": "Neujahr",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000017",
+    "country": "DE",
+    "holiday_date": "2018-05-01",
+    "holiday_name": "Tag der Arbeit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000018",
+    "country": "DE",
+    "holiday_date": "2018-10-03",
+    "holiday_name": "Tag der Deutschen Einheit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000019",
+    "country": "DE",
+    "holiday_date": "2018-12-25",
+    "holiday_name": "1. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000020",
+    "country": "DE",
+    "holiday_date": "2018-12-26",
+    "holiday_name": "2. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000021",
+    "country": "DE",
+    "holiday_date": "2019-01-01",
+    "holiday_name": "Neujahr",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000022",
+    "country": "DE",
+    "holiday_date": "2019-05-01",
+    "holiday_name": "Tag der Arbeit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000023",
+    "country": "DE",
+    "holiday_date": "2019-10-03",
+    "holiday_name": "Tag der Deutschen Einheit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000024",
+    "country": "DE",
+    "holiday_date": "2019-12-25",
+    "holiday_name": "1. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000025",
+    "country": "DE",
+    "holiday_date": "2019-12-26",
+    "holiday_name": "2. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000026",
+    "country": "DE",
+    "holiday_date": "2020-01-01",
+    "holiday_name": "Neujahr",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000027",
+    "country": "DE",
+    "holiday_date": "2020-05-01",
+    "holiday_name": "Tag der Arbeit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000028",
+    "country": "DE",
+    "holiday_date": "2020-10-03",
+    "holiday_name": "Tag der Deutschen Einheit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000029",
+    "country": "DE",
+    "holiday_date": "2020-12-25",
+    "holiday_name": "1. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000030",
+    "country": "DE",
+    "holiday_date": "2020-12-26",
+    "holiday_name": "2. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000031",
+    "country": "DE",
+    "holiday_date": "2021-01-01",
+    "holiday_name": "Neujahr",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000032",
+    "country": "DE",
+    "holiday_date": "2021-05-01",
+    "holiday_name": "Tag der Arbeit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000033",
+    "country": "DE",
+    "holiday_date": "2021-10-03",
+    "holiday_name": "Tag der Deutschen Einheit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000034",
+    "country": "DE",
+    "holiday_date": "2021-12-25",
+    "holiday_name": "1. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000035",
+    "country": "DE",
+    "holiday_date": "2021-12-26",
+    "holiday_name": "2. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000036",
+    "country": "DE",
+    "holiday_date": "2022-01-01",
+    "holiday_name": "Neujahr",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000037",
+    "country": "DE",
+    "holiday_date": "2022-05-01",
+    "holiday_name": "Tag der Arbeit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000038",
+    "country": "DE",
+    "holiday_date": "2022-10-03",
+    "holiday_name": "Tag der Deutschen Einheit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000039",
+    "country": "DE",
+    "holiday_date": "2022-12-25",
+    "holiday_name": "1. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000040",
+    "country": "DE",
+    "holiday_date": "2022-12-26",
+    "holiday_name": "2. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000041",
+    "country": "DE",
+    "holiday_date": "2023-01-01",
+    "holiday_name": "Neujahr",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000042",
+    "country": "DE",
+    "holiday_date": "2023-05-01",
+    "holiday_name": "Tag der Arbeit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000043",
+    "country": "DE",
+    "holiday_date": "2023-10-03",
+    "holiday_name": "Tag der Deutschen Einheit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000044",
+    "country": "DE",
+    "holiday_date": "2023-12-25",
+    "holiday_name": "1. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000045",
+    "country": "DE",
+    "holiday_date": "2023-12-26",
+    "holiday_name": "2. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000046",
+    "country": "DE",
+    "holiday_date": "2024-01-01",
+    "holiday_name": "Neujahr",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000047",
+    "country": "DE",
+    "holiday_date": "2024-05-01",
+    "holiday_name": "Tag der Arbeit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000048",
+    "country": "DE",
+    "holiday_date": "2024-10-03",
+    "holiday_name": "Tag der Deutschen Einheit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000049",
+    "country": "DE",
+    "holiday_date": "2024-12-25",
+    "holiday_name": "1. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000050",
+    "country": "DE",
+    "holiday_date": "2024-12-26",
+    "holiday_name": "2. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000051",
+    "country": "DE",
+    "holiday_date": "2025-01-01",
+    "holiday_name": "Neujahr",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000052",
+    "country": "DE",
+    "holiday_date": "2025-05-01",
+    "holiday_name": "Tag der Arbeit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000053",
+    "country": "DE",
+    "holiday_date": "2025-10-03",
+    "holiday_name": "Tag der Deutschen Einheit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000054",
+    "country": "DE",
+    "holiday_date": "2025-12-25",
+    "holiday_name": "1. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000055",
+    "country": "DE",
+    "holiday_date": "2025-12-26",
+    "holiday_name": "2. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000056",
+    "country": "DE",
+    "holiday_date": "2026-01-01",
+    "holiday_name": "Neujahr",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000057",
+    "country": "DE",
+    "holiday_date": "2026-05-01",
+    "holiday_name": "Tag der Arbeit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000058",
+    "country": "DE",
+    "holiday_date": "2026-10-03",
+    "holiday_name": "Tag der Deutschen Einheit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000059",
+    "country": "DE",
+    "holiday_date": "2026-12-25",
+    "holiday_name": "1. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000060",
+    "country": "DE",
+    "holiday_date": "2026-12-26",
+    "holiday_name": "2. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000061",
+    "country": "DE",
+    "holiday_date": "2027-01-01",
+    "holiday_name": "Neujahr",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000062",
+    "country": "DE",
+    "holiday_date": "2027-05-01",
+    "holiday_name": "Tag der Arbeit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000063",
+    "country": "DE",
+    "holiday_date": "2027-10-03",
+    "holiday_name": "Tag der Deutschen Einheit",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000064",
+    "country": "DE",
+    "holiday_date": "2027-12-25",
+    "holiday_name": "1. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000065",
+    "country": "DE",
+    "holiday_date": "2027-12-26",
+    "holiday_name": "2. Weihnachtstag",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000066",
+    "country": "IN",
+    "holiday_date": "2015-01-26",
+    "holiday_name": "Republic Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000067",
+    "country": "IN",
+    "holiday_date": "2015-05-01",
+    "holiday_name": "May Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000068",
+    "country": "IN",
+    "holiday_date": "2015-08-15",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000069",
+    "country": "IN",
+    "holiday_date": "2015-10-02",
+    "holiday_name": "Gandhi Jayanti",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000070",
+    "country": "IN",
+    "holiday_date": "2015-11-01",
+    "holiday_name": "Diwali Festival",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000071",
+    "country": "IN",
+    "holiday_date": "2015-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000072",
+    "country": "IN",
+    "holiday_date": "2016-01-26",
+    "holiday_name": "Republic Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000073",
+    "country": "IN",
+    "holiday_date": "2016-05-01",
+    "holiday_name": "May Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000074",
+    "country": "IN",
+    "holiday_date": "2016-08-15",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000075",
+    "country": "IN",
+    "holiday_date": "2016-10-02",
+    "holiday_name": "Gandhi Jayanti",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000076",
+    "country": "IN",
+    "holiday_date": "2016-11-01",
+    "holiday_name": "Diwali Festival",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000077",
+    "country": "IN",
+    "holiday_date": "2016-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000078",
+    "country": "IN",
+    "holiday_date": "2017-01-26",
+    "holiday_name": "Republic Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000079",
+    "country": "IN",
+    "holiday_date": "2017-05-01",
+    "holiday_name": "May Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000080",
+    "country": "IN",
+    "holiday_date": "2017-08-15",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000081",
+    "country": "IN",
+    "holiday_date": "2017-10-02",
+    "holiday_name": "Gandhi Jayanti",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000082",
+    "country": "IN",
+    "holiday_date": "2017-11-01",
+    "holiday_name": "Diwali Festival",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000083",
+    "country": "IN",
+    "holiday_date": "2017-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000084",
+    "country": "IN",
+    "holiday_date": "2018-01-26",
+    "holiday_name": "Republic Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000085",
+    "country": "IN",
+    "holiday_date": "2018-05-01",
+    "holiday_name": "May Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000086",
+    "country": "IN",
+    "holiday_date": "2018-08-15",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000087",
+    "country": "IN",
+    "holiday_date": "2018-10-02",
+    "holiday_name": "Gandhi Jayanti",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000088",
+    "country": "IN",
+    "holiday_date": "2018-11-01",
+    "holiday_name": "Diwali Festival",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000089",
+    "country": "IN",
+    "holiday_date": "2018-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000090",
+    "country": "IN",
+    "holiday_date": "2019-01-26",
+    "holiday_name": "Republic Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000091",
+    "country": "IN",
+    "holiday_date": "2019-05-01",
+    "holiday_name": "May Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000092",
+    "country": "IN",
+    "holiday_date": "2019-08-15",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000093",
+    "country": "IN",
+    "holiday_date": "2019-10-02",
+    "holiday_name": "Gandhi Jayanti",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000094",
+    "country": "IN",
+    "holiday_date": "2019-11-01",
+    "holiday_name": "Diwali Festival",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000095",
+    "country": "IN",
+    "holiday_date": "2019-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000096",
+    "country": "IN",
+    "holiday_date": "2020-01-26",
+    "holiday_name": "Republic Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000097",
+    "country": "IN",
+    "holiday_date": "2020-05-01",
+    "holiday_name": "May Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000098",
+    "country": "IN",
+    "holiday_date": "2020-08-15",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000099",
+    "country": "IN",
+    "holiday_date": "2020-10-02",
+    "holiday_name": "Gandhi Jayanti",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000100",
+    "country": "IN",
+    "holiday_date": "2020-11-01",
+    "holiday_name": "Diwali Festival",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000101",
+    "country": "IN",
+    "holiday_date": "2020-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000102",
+    "country": "IN",
+    "holiday_date": "2021-01-26",
+    "holiday_name": "Republic Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000103",
+    "country": "IN",
+    "holiday_date": "2021-05-01",
+    "holiday_name": "May Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000104",
+    "country": "IN",
+    "holiday_date": "2021-08-15",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000105",
+    "country": "IN",
+    "holiday_date": "2021-10-02",
+    "holiday_name": "Gandhi Jayanti",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000106",
+    "country": "IN",
+    "holiday_date": "2021-11-01",
+    "holiday_name": "Diwali Festival",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000107",
+    "country": "IN",
+    "holiday_date": "2021-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000108",
+    "country": "IN",
+    "holiday_date": "2022-01-26",
+    "holiday_name": "Republic Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000109",
+    "country": "IN",
+    "holiday_date": "2022-05-01",
+    "holiday_name": "May Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000110",
+    "country": "IN",
+    "holiday_date": "2022-08-15",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000111",
+    "country": "IN",
+    "holiday_date": "2022-10-02",
+    "holiday_name": "Gandhi Jayanti",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000112",
+    "country": "IN",
+    "holiday_date": "2022-11-01",
+    "holiday_name": "Diwali Festival",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000113",
+    "country": "IN",
+    "holiday_date": "2022-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000114",
+    "country": "IN",
+    "holiday_date": "2023-01-26",
+    "holiday_name": "Republic Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000115",
+    "country": "IN",
+    "holiday_date": "2023-05-01",
+    "holiday_name": "May Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000116",
+    "country": "IN",
+    "holiday_date": "2023-08-15",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000117",
+    "country": "IN",
+    "holiday_date": "2023-10-02",
+    "holiday_name": "Gandhi Jayanti",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000118",
+    "country": "IN",
+    "holiday_date": "2023-11-01",
+    "holiday_name": "Diwali Festival",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000119",
+    "country": "IN",
+    "holiday_date": "2023-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000120",
+    "country": "IN",
+    "holiday_date": "2024-01-26",
+    "holiday_name": "Republic Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000121",
+    "country": "IN",
+    "holiday_date": "2024-05-01",
+    "holiday_name": "May Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000122",
+    "country": "IN",
+    "holiday_date": "2024-08-15",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000123",
+    "country": "IN",
+    "holiday_date": "2024-10-02",
+    "holiday_name": "Gandhi Jayanti",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000124",
+    "country": "IN",
+    "holiday_date": "2024-11-01",
+    "holiday_name": "Diwali Festival",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000125",
+    "country": "IN",
+    "holiday_date": "2024-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000126",
+    "country": "IN",
+    "holiday_date": "2025-01-26",
+    "holiday_name": "Republic Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000127",
+    "country": "IN",
+    "holiday_date": "2025-05-01",
+    "holiday_name": "May Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000128",
+    "country": "IN",
+    "holiday_date": "2025-08-15",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000129",
+    "country": "IN",
+    "holiday_date": "2025-10-02",
+    "holiday_name": "Gandhi Jayanti",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000130",
+    "country": "IN",
+    "holiday_date": "2025-11-01",
+    "holiday_name": "Diwali Festival",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000131",
+    "country": "IN",
+    "holiday_date": "2025-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000132",
+    "country": "IN",
+    "holiday_date": "2026-01-26",
+    "holiday_name": "Republic Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000133",
+    "country": "IN",
+    "holiday_date": "2026-05-01",
+    "holiday_name": "May Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000134",
+    "country": "IN",
+    "holiday_date": "2026-08-15",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000135",
+    "country": "IN",
+    "holiday_date": "2026-10-02",
+    "holiday_name": "Gandhi Jayanti",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000136",
+    "country": "IN",
+    "holiday_date": "2026-11-01",
+    "holiday_name": "Diwali Festival",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000137",
+    "country": "IN",
+    "holiday_date": "2026-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000138",
+    "country": "IN",
+    "holiday_date": "2027-01-26",
+    "holiday_name": "Republic Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000139",
+    "country": "IN",
+    "holiday_date": "2027-05-01",
+    "holiday_name": "May Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000140",
+    "country": "IN",
+    "holiday_date": "2027-08-15",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000141",
+    "country": "IN",
+    "holiday_date": "2027-10-02",
+    "holiday_name": "Gandhi Jayanti",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000142",
+    "country": "IN",
+    "holiday_date": "2027-11-01",
+    "holiday_name": "Diwali Festival",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000143",
+    "country": "IN",
+    "holiday_date": "2027-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000144",
+    "country": "SG",
+    "holiday_date": "2015-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000145",
+    "country": "SG",
+    "holiday_date": "2015-05-01",
+    "holiday_name": "Labour Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000146",
+    "country": "SG",
+    "holiday_date": "2015-08-09",
+    "holiday_name": "National Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000147",
+    "country": "SG",
+    "holiday_date": "2015-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000148",
+    "country": "SG",
+    "holiday_date": "2016-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000149",
+    "country": "SG",
+    "holiday_date": "2016-05-01",
+    "holiday_name": "Labour Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000150",
+    "country": "SG",
+    "holiday_date": "2016-08-09",
+    "holiday_name": "National Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000151",
+    "country": "SG",
+    "holiday_date": "2016-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000152",
+    "country": "SG",
+    "holiday_date": "2017-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000153",
+    "country": "SG",
+    "holiday_date": "2017-05-01",
+    "holiday_name": "Labour Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000154",
+    "country": "SG",
+    "holiday_date": "2017-08-09",
+    "holiday_name": "National Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000155",
+    "country": "SG",
+    "holiday_date": "2017-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000156",
+    "country": "SG",
+    "holiday_date": "2018-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000157",
+    "country": "SG",
+    "holiday_date": "2018-05-01",
+    "holiday_name": "Labour Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000158",
+    "country": "SG",
+    "holiday_date": "2018-08-09",
+    "holiday_name": "National Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000159",
+    "country": "SG",
+    "holiday_date": "2018-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000160",
+    "country": "SG",
+    "holiday_date": "2019-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000161",
+    "country": "SG",
+    "holiday_date": "2019-05-01",
+    "holiday_name": "Labour Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000162",
+    "country": "SG",
+    "holiday_date": "2019-08-09",
+    "holiday_name": "National Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000163",
+    "country": "SG",
+    "holiday_date": "2019-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000164",
+    "country": "SG",
+    "holiday_date": "2020-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000165",
+    "country": "SG",
+    "holiday_date": "2020-05-01",
+    "holiday_name": "Labour Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000166",
+    "country": "SG",
+    "holiday_date": "2020-08-09",
+    "holiday_name": "National Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000167",
+    "country": "SG",
+    "holiday_date": "2020-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000168",
+    "country": "SG",
+    "holiday_date": "2021-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000169",
+    "country": "SG",
+    "holiday_date": "2021-05-01",
+    "holiday_name": "Labour Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000170",
+    "country": "SG",
+    "holiday_date": "2021-08-09",
+    "holiday_name": "National Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000171",
+    "country": "SG",
+    "holiday_date": "2021-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000172",
+    "country": "SG",
+    "holiday_date": "2022-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000173",
+    "country": "SG",
+    "holiday_date": "2022-05-01",
+    "holiday_name": "Labour Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000174",
+    "country": "SG",
+    "holiday_date": "2022-08-09",
+    "holiday_name": "National Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000175",
+    "country": "SG",
+    "holiday_date": "2022-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000176",
+    "country": "SG",
+    "holiday_date": "2023-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000177",
+    "country": "SG",
+    "holiday_date": "2023-05-01",
+    "holiday_name": "Labour Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000178",
+    "country": "SG",
+    "holiday_date": "2023-08-09",
+    "holiday_name": "National Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000179",
+    "country": "SG",
+    "holiday_date": "2023-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000180",
+    "country": "SG",
+    "holiday_date": "2024-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000181",
+    "country": "SG",
+    "holiday_date": "2024-05-01",
+    "holiday_name": "Labour Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000182",
+    "country": "SG",
+    "holiday_date": "2024-08-09",
+    "holiday_name": "National Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000183",
+    "country": "SG",
+    "holiday_date": "2024-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000184",
+    "country": "SG",
+    "holiday_date": "2025-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000185",
+    "country": "SG",
+    "holiday_date": "2025-05-01",
+    "holiday_name": "Labour Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000186",
+    "country": "SG",
+    "holiday_date": "2025-08-09",
+    "holiday_name": "National Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000187",
+    "country": "SG",
+    "holiday_date": "2025-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000188",
+    "country": "SG",
+    "holiday_date": "2026-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000189",
+    "country": "SG",
+    "holiday_date": "2026-05-01",
+    "holiday_name": "Labour Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000190",
+    "country": "SG",
+    "holiday_date": "2026-08-09",
+    "holiday_name": "National Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000191",
+    "country": "SG",
+    "holiday_date": "2026-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000192",
+    "country": "SG",
+    "holiday_date": "2027-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000193",
+    "country": "SG",
+    "holiday_date": "2027-05-01",
+    "holiday_name": "Labour Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000194",
+    "country": "SG",
+    "holiday_date": "2027-08-09",
+    "holiday_name": "National Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000195",
+    "country": "SG",
+    "holiday_date": "2027-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000196",
+    "country": "UK",
+    "holiday_date": "2015-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000197",
+    "country": "UK",
+    "holiday_date": "2015-05-01",
+    "holiday_name": "Early May Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000198",
+    "country": "UK",
+    "holiday_date": "2015-08-25",
+    "holiday_name": "Summer Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000199",
+    "country": "UK",
+    "holiday_date": "2015-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000200",
+    "country": "UK",
+    "holiday_date": "2015-12-26",
+    "holiday_name": "Boxing Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000201",
+    "country": "UK",
+    "holiday_date": "2016-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000202",
+    "country": "UK",
+    "holiday_date": "2016-05-01",
+    "holiday_name": "Early May Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000203",
+    "country": "UK",
+    "holiday_date": "2016-08-25",
+    "holiday_name": "Summer Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000204",
+    "country": "UK",
+    "holiday_date": "2016-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000205",
+    "country": "UK",
+    "holiday_date": "2016-12-26",
+    "holiday_name": "Boxing Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000206",
+    "country": "UK",
+    "holiday_date": "2017-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000207",
+    "country": "UK",
+    "holiday_date": "2017-05-01",
+    "holiday_name": "Early May Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000208",
+    "country": "UK",
+    "holiday_date": "2017-08-25",
+    "holiday_name": "Summer Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000209",
+    "country": "UK",
+    "holiday_date": "2017-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000210",
+    "country": "UK",
+    "holiday_date": "2017-12-26",
+    "holiday_name": "Boxing Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000211",
+    "country": "UK",
+    "holiday_date": "2018-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000212",
+    "country": "UK",
+    "holiday_date": "2018-05-01",
+    "holiday_name": "Early May Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000213",
+    "country": "UK",
+    "holiday_date": "2018-08-25",
+    "holiday_name": "Summer Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000214",
+    "country": "UK",
+    "holiday_date": "2018-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000215",
+    "country": "UK",
+    "holiday_date": "2018-12-26",
+    "holiday_name": "Boxing Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000216",
+    "country": "UK",
+    "holiday_date": "2019-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000217",
+    "country": "UK",
+    "holiday_date": "2019-05-01",
+    "holiday_name": "Early May Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000218",
+    "country": "UK",
+    "holiday_date": "2019-08-25",
+    "holiday_name": "Summer Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000219",
+    "country": "UK",
+    "holiday_date": "2019-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000220",
+    "country": "UK",
+    "holiday_date": "2019-12-26",
+    "holiday_name": "Boxing Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000221",
+    "country": "UK",
+    "holiday_date": "2020-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000222",
+    "country": "UK",
+    "holiday_date": "2020-05-01",
+    "holiday_name": "Early May Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000223",
+    "country": "UK",
+    "holiday_date": "2020-08-25",
+    "holiday_name": "Summer Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000224",
+    "country": "UK",
+    "holiday_date": "2020-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000225",
+    "country": "UK",
+    "holiday_date": "2020-12-26",
+    "holiday_name": "Boxing Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000226",
+    "country": "UK",
+    "holiday_date": "2021-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000227",
+    "country": "UK",
+    "holiday_date": "2021-05-01",
+    "holiday_name": "Early May Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000228",
+    "country": "UK",
+    "holiday_date": "2021-08-25",
+    "holiday_name": "Summer Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000229",
+    "country": "UK",
+    "holiday_date": "2021-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000230",
+    "country": "UK",
+    "holiday_date": "2021-12-26",
+    "holiday_name": "Boxing Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000231",
+    "country": "UK",
+    "holiday_date": "2022-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000232",
+    "country": "UK",
+    "holiday_date": "2022-05-01",
+    "holiday_name": "Early May Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000233",
+    "country": "UK",
+    "holiday_date": "2022-08-25",
+    "holiday_name": "Summer Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000234",
+    "country": "UK",
+    "holiday_date": "2022-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000235",
+    "country": "UK",
+    "holiday_date": "2022-12-26",
+    "holiday_name": "Boxing Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000236",
+    "country": "UK",
+    "holiday_date": "2023-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000237",
+    "country": "UK",
+    "holiday_date": "2023-05-01",
+    "holiday_name": "Early May Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000238",
+    "country": "UK",
+    "holiday_date": "2023-08-25",
+    "holiday_name": "Summer Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000239",
+    "country": "UK",
+    "holiday_date": "2023-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000240",
+    "country": "UK",
+    "holiday_date": "2023-12-26",
+    "holiday_name": "Boxing Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000241",
+    "country": "UK",
+    "holiday_date": "2024-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000242",
+    "country": "UK",
+    "holiday_date": "2024-05-01",
+    "holiday_name": "Early May Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000243",
+    "country": "UK",
+    "holiday_date": "2024-08-25",
+    "holiday_name": "Summer Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000244",
+    "country": "UK",
+    "holiday_date": "2024-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000245",
+    "country": "UK",
+    "holiday_date": "2024-12-26",
+    "holiday_name": "Boxing Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000246",
+    "country": "UK",
+    "holiday_date": "2025-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000247",
+    "country": "UK",
+    "holiday_date": "2025-05-01",
+    "holiday_name": "Early May Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000248",
+    "country": "UK",
+    "holiday_date": "2025-08-25",
+    "holiday_name": "Summer Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000249",
+    "country": "UK",
+    "holiday_date": "2025-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000250",
+    "country": "UK",
+    "holiday_date": "2025-12-26",
+    "holiday_name": "Boxing Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000251",
+    "country": "UK",
+    "holiday_date": "2026-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000252",
+    "country": "UK",
+    "holiday_date": "2026-05-01",
+    "holiday_name": "Early May Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000253",
+    "country": "UK",
+    "holiday_date": "2026-08-25",
+    "holiday_name": "Summer Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000254",
+    "country": "UK",
+    "holiday_date": "2026-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000255",
+    "country": "UK",
+    "holiday_date": "2026-12-26",
+    "holiday_name": "Boxing Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000256",
+    "country": "UK",
+    "holiday_date": "2027-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000257",
+    "country": "UK",
+    "holiday_date": "2027-05-01",
+    "holiday_name": "Early May Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000258",
+    "country": "UK",
+    "holiday_date": "2027-08-25",
+    "holiday_name": "Summer Bank Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000259",
+    "country": "UK",
+    "holiday_date": "2027-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000260",
+    "country": "UK",
+    "holiday_date": "2027-12-26",
+    "holiday_name": "Boxing Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000261",
+    "country": "US",
+    "holiday_date": "2015-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000262",
+    "country": "US",
+    "holiday_date": "2015-07-04",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000263",
+    "country": "US",
+    "holiday_date": "2015-11-11",
+    "holiday_name": "Veterans Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000264",
+    "country": "US",
+    "holiday_date": "2015-11-26",
+    "holiday_name": "Thanksgiving Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000265",
+    "country": "US",
+    "holiday_date": "2015-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000266",
+    "country": "US",
+    "holiday_date": "2016-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000267",
+    "country": "US",
+    "holiday_date": "2016-07-04",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000268",
+    "country": "US",
+    "holiday_date": "2016-11-11",
+    "holiday_name": "Veterans Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000269",
+    "country": "US",
+    "holiday_date": "2016-11-26",
+    "holiday_name": "Thanksgiving Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000270",
+    "country": "US",
+    "holiday_date": "2016-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000271",
+    "country": "US",
+    "holiday_date": "2017-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000272",
+    "country": "US",
+    "holiday_date": "2017-07-04",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000273",
+    "country": "US",
+    "holiday_date": "2017-11-11",
+    "holiday_name": "Veterans Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000274",
+    "country": "US",
+    "holiday_date": "2017-11-26",
+    "holiday_name": "Thanksgiving Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000275",
+    "country": "US",
+    "holiday_date": "2017-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000276",
+    "country": "US",
+    "holiday_date": "2018-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000277",
+    "country": "US",
+    "holiday_date": "2018-07-04",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000278",
+    "country": "US",
+    "holiday_date": "2018-11-11",
+    "holiday_name": "Veterans Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000279",
+    "country": "US",
+    "holiday_date": "2018-11-26",
+    "holiday_name": "Thanksgiving Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000280",
+    "country": "US",
+    "holiday_date": "2018-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000281",
+    "country": "US",
+    "holiday_date": "2019-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000282",
+    "country": "US",
+    "holiday_date": "2019-07-04",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000283",
+    "country": "US",
+    "holiday_date": "2019-11-11",
+    "holiday_name": "Veterans Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000284",
+    "country": "US",
+    "holiday_date": "2019-11-26",
+    "holiday_name": "Thanksgiving Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000285",
+    "country": "US",
+    "holiday_date": "2019-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000286",
+    "country": "US",
+    "holiday_date": "2020-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000287",
+    "country": "US",
+    "holiday_date": "2020-07-04",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000288",
+    "country": "US",
+    "holiday_date": "2020-11-11",
+    "holiday_name": "Veterans Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000289",
+    "country": "US",
+    "holiday_date": "2020-11-26",
+    "holiday_name": "Thanksgiving Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000290",
+    "country": "US",
+    "holiday_date": "2020-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000291",
+    "country": "US",
+    "holiday_date": "2021-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000292",
+    "country": "US",
+    "holiday_date": "2021-07-04",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000293",
+    "country": "US",
+    "holiday_date": "2021-11-11",
+    "holiday_name": "Veterans Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000294",
+    "country": "US",
+    "holiday_date": "2021-11-26",
+    "holiday_name": "Thanksgiving Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000295",
+    "country": "US",
+    "holiday_date": "2021-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000296",
+    "country": "US",
+    "holiday_date": "2022-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000297",
+    "country": "US",
+    "holiday_date": "2022-07-04",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000298",
+    "country": "US",
+    "holiday_date": "2022-11-11",
+    "holiday_name": "Veterans Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000299",
+    "country": "US",
+    "holiday_date": "2022-11-26",
+    "holiday_name": "Thanksgiving Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000300",
+    "country": "US",
+    "holiday_date": "2022-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000301",
+    "country": "US",
+    "holiday_date": "2023-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000302",
+    "country": "US",
+    "holiday_date": "2023-07-04",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000303",
+    "country": "US",
+    "holiday_date": "2023-11-11",
+    "holiday_name": "Veterans Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000304",
+    "country": "US",
+    "holiday_date": "2023-11-26",
+    "holiday_name": "Thanksgiving Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000305",
+    "country": "US",
+    "holiday_date": "2023-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000306",
+    "country": "US",
+    "holiday_date": "2024-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000307",
+    "country": "US",
+    "holiday_date": "2024-07-04",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000308",
+    "country": "US",
+    "holiday_date": "2024-11-11",
+    "holiday_name": "Veterans Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000309",
+    "country": "US",
+    "holiday_date": "2024-11-26",
+    "holiday_name": "Thanksgiving Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000310",
+    "country": "US",
+    "holiday_date": "2024-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000311",
+    "country": "US",
+    "holiday_date": "2025-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000312",
+    "country": "US",
+    "holiday_date": "2025-07-04",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000313",
+    "country": "US",
+    "holiday_date": "2025-11-11",
+    "holiday_name": "Veterans Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000314",
+    "country": "US",
+    "holiday_date": "2025-11-26",
+    "holiday_name": "Thanksgiving Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000315",
+    "country": "US",
+    "holiday_date": "2025-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000316",
+    "country": "US",
+    "holiday_date": "2026-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000317",
+    "country": "US",
+    "holiday_date": "2026-07-04",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000318",
+    "country": "US",
+    "holiday_date": "2026-11-11",
+    "holiday_name": "Veterans Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000319",
+    "country": "US",
+    "holiday_date": "2026-11-26",
+    "holiday_name": "Thanksgiving Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000320",
+    "country": "US",
+    "holiday_date": "2026-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000321",
+    "country": "US",
+    "holiday_date": "2027-01-01",
+    "holiday_name": "New Year's Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000322",
+    "country": "US",
+    "holiday_date": "2027-07-04",
+    "holiday_name": "Independence Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000323",
+    "country": "US",
+    "holiday_date": "2027-11-11",
+    "holiday_name": "Veterans Day",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000324",
+    "country": "US",
+    "holiday_date": "2027-11-26",
+    "holiday_name": "Thanksgiving Holiday",
+    "is_half_day": 0
+  },
+  {
+    "holiday_id": "HOL-000325",
+    "country": "US",
+    "holiday_date": "2027-12-25",
+    "holiday_name": "Christmas Day",
+    "is_half_day": 0
+  }
+]
